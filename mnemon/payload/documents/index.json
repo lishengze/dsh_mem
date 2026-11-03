@@ -1,4 +1,28 @@
 {
   "version": 1,
-  "documents": []
+  "documents": [
+    {
+      "id": "27e439e6-262d-4c7b-82ee-669d9e65375a",
+      "title": "otcsrc SVN 改动审阅与提交基线（2026-11 实战沉淀）",
+      "description": "审阅 otcsrc 未提交改动、做提交前判定时复用的基线：环境命令、关键路径、已确认缺陷模式（分页 offset / 411830 qryflag / 411535 表不存在 / Kafka 转发时机）、提交前四查、旧系统回源位置。",
+      "status": "active",
+      "filename": "otcsrc-svn-2026-11-27e439e6.md",
+      "relativePath": "documents/active/otcsrc-svn-2026-11-27e439e6.md",
+      "sourcePaths": [
+        "task/svn_conflict/svn_status_20261103.md",
+        "task/task_rule.md",
+        "work_log/20261103.md"
+      ],
+      "sessionIds": [
+        "ac8ad2f9-969e-4b99-ae01-beb479b9dfee"
+      ],
+      "createdAt": "2026-11-03T06:02:34.881Z",
+      "updatedAt": "2026-11-03T06:02:34.881Z",
+      "lastAccessedAt": "2026-11-03T06:51:37.085Z",
+      "revision": 1,
+      "contentHash": "416c9a4ab511ef8726f59c2f2bd6ca66d7e337cfc007abc04492e3cf5504ad5e",
+      "sizeBytes": 6545,
+      "memoryBodyIds": []
+    }
+  ]
 }
