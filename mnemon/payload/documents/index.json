@@ -23,6 +23,32 @@
       "contentHash": "416c9a4ab511ef8726f59c2f2bd6ca66d7e337cfc007abc04492e3cf5504ad5e",
       "sizeBytes": 6545,
       "memoryBodyIds": []
+    },
+    {
+      "id": "ac5aee7f-793f-41d9-a598-0e8950cccb73",
+      "title": "gt_svn 本地复测：登录与委托链路排障基线（2026-11-03）",
+      "description": "gt_svn FTE 本地复测的可复用基线：编译宏与 key 归一化改动、CheckError 错误码判读、组件同源约束、委托超时已排除项、远程性能基线与 --fuzzy 取数要求。",
+      "status": "active",
+      "filename": "gt-svn-2026-11-03-ac5aee7f.md",
+      "relativePath": "documents/active/gt-svn-2026-11-03-ac5aee7f.md",
+      "sourcePaths": [
+        "DYS-FRAMEWORK/fte/include/common/ute_types.h",
+        "DYS-FRAMEWORK/fte/src/business/uplink_biz_processor.cpp",
+        "DYS-FRAMEWORK/fte/fte/CMakeLists.txt",
+        "svn_work/34_控制台交互优化复盘_20261103.md",
+        "svn_work/35_gt_svn本地复测_进行中_20261103.md",
+        "svn_work/36_gt_svn登录打通与委托排查_20261103.md"
+      ],
+      "sessionIds": [
+        "fdccfaab-ad30-46ea-852a-3ea7a6fd6a3e"
+      ],
+      "createdAt": "2026-11-03T14:50:49.670Z",
+      "updatedAt": "2026-11-03T14:50:49.670Z",
+      "lastAccessedAt": "2026-11-03T14:50:49.670Z",
+      "revision": 1,
+      "contentHash": "b5919f75832af65af73d7edfb307f2b83807fc5e63b5b6a842712201576ff77c",
+      "sizeBytes": 6623,
+      "memoryBodyIds": []
     }
   ]
 }
