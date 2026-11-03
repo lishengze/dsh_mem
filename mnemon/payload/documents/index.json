@@ -18,7 +18,7 @@
       ],
       "createdAt": "2026-11-03T06:02:34.881Z",
       "updatedAt": "2026-11-03T06:02:34.881Z",
-      "lastAccessedAt": "2026-11-03T14:00:07.256Z",
+      "lastAccessedAt": "2026-11-03T16:00:37.663Z",
       "revision": 1,
       "contentHash": "416c9a4ab511ef8726f59c2f2bd6ca66d7e337cfc007abc04492e3cf5504ad5e",
       "sizeBytes": 6545,
@@ -44,10 +44,36 @@
       ],
       "createdAt": "2026-11-03T14:50:49.670Z",
       "updatedAt": "2026-11-03T14:50:49.670Z",
-      "lastAccessedAt": "2026-11-03T14:50:49.670Z",
+      "lastAccessedAt": "2026-11-03T16:00:37.663Z",
       "revision": 1,
       "contentHash": "b5919f75832af65af73d7edfb307f2b83807fc5e63b5b6a842712201576ff77c",
       "sizeBytes": 6623,
+      "memoryBodyIds": []
+    },
+    {
+      "id": "9e861d20-7da8-4980-a9c5-34e5fcbae404",
+      "title": "gt_svn 本地复测最终结论：ETF 能力缺失与性能 341 硬上限（2026-11-03）",
+      "description": "gt_svn 复测收尾的可复用结论：ETF msgid 1010/1007 导致 14 个用例失败、性能样本恒 341 且已排除对象池/日志/风控/抓包四条、CLIENT_CPUS 环境坑、沙箱改动清单与远程复核命令。",
+      "status": "active",
+      "filename": "gt-svn-etf-341-2026-11-03-9e861d20.md",
+      "relativePath": "documents/active/gt-svn-etf-341-2026-11-03-9e861d20.md",
+      "sourcePaths": [
+        "svn_work/38_gt_svn本地复测最终报告_20261103.md",
+        "DYS-FRAMEWORK/fte/src/data_manager/account_share_manager.cpp",
+        "DYS-FRAMEWORK/fte/include/tech/unbound_object_pool.h",
+        "DYS-FRAMEWORK/fte/src/business/quant_risk_ctrl_manager.cpp",
+        "DYS-FRAMEWORK/fte/ftedatainit/src/ftedata_init.cpp",
+        "DYS-FRAMEWORK/fte/fte/CMakeLists.txt"
+      ],
+      "sessionIds": [
+        "7523a643-3e1f-41ef-b775-b438ae1b36b9"
+      ],
+      "createdAt": "2026-11-03T16:00:55.390Z",
+      "updatedAt": "2026-11-03T16:00:55.390Z",
+      "lastAccessedAt": "2026-11-03T16:00:55.390Z",
+      "revision": 1,
+      "contentHash": "88fcb943ac08dd0dbf8f6fc49e6ef389c06fecfffc6a7ba2d117e10e650b5462",
+      "sizeBytes": 5982,
       "memoryBodyIds": []
     }
   ]
