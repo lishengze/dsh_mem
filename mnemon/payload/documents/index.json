@@ -44,7 +44,7 @@
       ],
       "createdAt": "2026-11-03T14:50:49.670Z",
       "updatedAt": "2026-11-03T14:50:49.670Z",
-      "lastAccessedAt": "2026-11-03T16:00:37.663Z",
+      "lastAccessedAt": "2026-11-03T23:15:31.800Z",
       "revision": 1,
       "contentHash": "b5919f75832af65af73d7edfb307f2b83807fc5e63b5b6a842712201576ff77c",
       "sizeBytes": 6623,
@@ -70,10 +70,34 @@
       ],
       "createdAt": "2026-11-03T16:00:55.390Z",
       "updatedAt": "2026-11-03T16:00:55.390Z",
-      "lastAccessedAt": "2026-11-03T16:00:55.390Z",
+      "lastAccessedAt": "2026-11-03T23:15:31.800Z",
       "revision": 1,
       "contentHash": "88fcb943ac08dd0dbf8f6fc49e6ef389c06fecfffc6a7ba2d117e10e650b5462",
       "sizeBytes": 5982,
+      "memoryBodyIds": []
+    },
+    {
+      "id": "b2d3cf84-f7c9-4ab9-af5b-36af0dd745ea",
+      "title": "gt_svn 341 硬上限根因（FTE 停读交易所 socket）与 ETF 结论修正（2026-11-04）",
+      "description": "修正此前“GT_SVN 无 ETF 分支”的误判：ETF 分支存在于函数前置 if（msgid 1007 vs 工具链 1010）；性能样本恒 341 的根因是 FTE 压测中停止读取交易所 socket（Recv-Q=1100）；并记录 flush_on(info)、Debug 日志、39142 端口、对象池四条排除项与两代 API 并存导致的 ETF 阻塞。",
+      "status": "active",
+      "filename": "gt-svn-341-fte-socket-etf-2026-11-04-b2d3cf84.md",
+      "relativePath": "documents/active/gt-svn-341-fte-socket-etf-2026-11-04-b2d3cf84.md",
+      "sourcePaths": [
+        "svn_work/39_gt_svn深度排查_341机制与ETF报文号_20261104.md",
+        "svn_work/40_gt_svn_ETF复测结论与阻塞_20261104.md",
+        "study/knowledge_base_system/14_线上代码复测与问题定位.md",
+        "api/gw_api_boost/ute_mock_client/api_net_time_common.h"
+      ],
+      "sessionIds": [
+        "cf3808e4-20bf-4756-b7ce-73eea72ff35f"
+      ],
+      "createdAt": "2026-11-03T23:15:50.558Z",
+      "updatedAt": "2026-11-03T23:15:50.558Z",
+      "lastAccessedAt": "2026-11-03T23:15:50.558Z",
+      "revision": 1,
+      "contentHash": "25e2d7e5c9f1a651cdaf3c9d1d7f75013fd53025e9ae290e15f549943a1a9439",
+      "sizeBytes": 6754,
       "memoryBodyIds": []
     }
   ]
