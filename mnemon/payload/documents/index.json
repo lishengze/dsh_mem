@@ -18,7 +18,7 @@
       ],
       "createdAt": "2026-11-03T06:02:34.881Z",
       "updatedAt": "2026-11-03T06:02:34.881Z",
-      "lastAccessedAt": "2026-11-04T10:09:00.871Z",
+      "lastAccessedAt": "2026-11-04T04:22:26.899Z",
       "revision": 1,
       "contentHash": "416c9a4ab511ef8726f59c2f2bd6ca66d7e337cfc007abc04492e3cf5504ad5e",
       "sizeBytes": 6545,
@@ -44,7 +44,7 @@
       ],
       "createdAt": "2026-11-03T14:50:49.670Z",
       "updatedAt": "2026-11-03T14:50:49.670Z",
-      "lastAccessedAt": "2026-11-04T05:37:55.406Z",
+      "lastAccessedAt": "2026-11-03T23:15:31.800Z",
       "revision": 1,
       "contentHash": "b5919f75832af65af73d7edfb307f2b83807fc5e63b5b6a842712201576ff77c",
       "sizeBytes": 6623,
@@ -70,7 +70,7 @@
       ],
       "createdAt": "2026-11-03T16:00:55.390Z",
       "updatedAt": "2026-11-03T16:00:55.390Z",
-      "lastAccessedAt": "2026-11-04T02:23:30.917Z",
+      "lastAccessedAt": "2026-11-03T23:15:31.800Z",
       "revision": 1,
       "contentHash": "88fcb943ac08dd0dbf8f6fc49e6ef389c06fecfffc6a7ba2d117e10e650b5462",
       "sizeBytes": 5982,
@@ -94,10 +94,32 @@
       ],
       "createdAt": "2026-11-03T23:15:50.558Z",
       "updatedAt": "2026-11-03T23:15:50.558Z",
-      "lastAccessedAt": "2026-11-04T02:23:30.917Z",
+      "lastAccessedAt": "2026-11-03T23:15:50.558Z",
       "revision": 1,
       "contentHash": "25e2d7e5c9f1a651cdaf3c9d1d7f75013fd53025e9ae290e15f549943a1a9439",
       "sizeBytes": 6754,
+      "memoryBodyIds": []
+    },
+    {
+      "id": "ff632d4e-d340-4c5c-9b3b-d0ab4b9efcf1",
+      "title": "每日工作规划模板（work_task）：结构、内联样式约束与验证流程",
+      "description": "work_task 每日规划模板 v1 的存放约定、四段结构、13 时段/6 列/下拉控件基线，以及 Markdown 预览内联样式约束、无头浏览器验证流程与已知局限。",
+      "status": "active",
+      "filename": "work-task-ff632d4e.md",
+      "relativePath": "documents/active/work-task-ff632d4e.md",
+      "sourcePaths": [
+        "work_task/template.txt",
+        "work_task/2026/11/20261104.md"
+      ],
+      "sessionIds": [
+        "deda77ac-6d65-4669-af9c-77ff114d4bd8"
+      ],
+      "createdAt": "2026-11-04T02:48:38.249Z",
+      "updatedAt": "2026-11-04T02:48:38.249Z",
+      "lastAccessedAt": "2026-11-04T07:58:34.486Z",
+      "revision": 1,
+      "contentHash": "313c52e461e9a8d4232685b6d4e63d26a9d0a94ad5af6b370b5e33f489cd38f9",
+      "sizeBytes": 4714,
       "memoryBodyIds": []
     },
     {
@@ -126,32 +148,32 @@
       ],
       "createdAt": "2026-11-04T02:23:55.552Z",
       "updatedAt": "2026-11-04T02:23:55.552Z",
-      "lastAccessedAt": "2026-11-04T05:37:55.406Z",
+      "lastAccessedAt": "2026-11-04T02:23:55.552Z",
       "revision": 1,
       "contentHash": "9657351e13f13e5fcb89daddc1607c7f05f3163070ed084f4452c9fd59e455ea",
       "sizeBytes": 7354,
       "memoryBodyIds": []
     },
     {
-      "id": "ff632d4e-d340-4c5c-9b3b-d0ab4b9efcf1",
-      "title": "每日工作规划模板（work_task）：结构、内联样式约束与验证流程",
-      "description": "work_task 每日规划模板 v1 的存放约定、四段结构、13 时段/6 列/下拉控件基线，以及 Markdown 预览内联样式约束、无头浏览器验证流程与已知局限。",
+      "id": "f1f9cdd2-bb6c-4145-9448-01e620a11d26",
+      "title": "每日工作规划模板（work_task）纯 Markdown 简化版：7 段两小时结构与列宽取舍",
+      "description": "从 v1 内联控件版演进到纯 Markdown 可编辑版的最终结构（四段、7 个两小时时段、6 列）、放弃 HTML 下拉框的理由、Markdown 靠表头长度分配列宽的做法与验证清单。",
       "status": "active",
-      "filename": "work-task-ff632d4e.md",
-      "relativePath": "documents/active/work-task-ff632d4e.md",
+      "filename": "work-task-markdown-7-f1f9cdd2.md",
+      "relativePath": "documents/active/work-task-markdown-7-f1f9cdd2.md",
       "sourcePaths": [
-        "work_task/template.txt",
-        "work_task/2026/11/20261104.md"
+        "work_task/2026/11/20261104.md",
+        "work_task/template.txt"
       ],
       "sessionIds": [
-        "deda77ac-6d65-4669-af9c-77ff114d4bd8"
+        "2f67435a-5ab5-4e14-bf36-476aee1eefb1"
       ],
-      "createdAt": "2026-11-04T02:48:38.249Z",
-      "updatedAt": "2026-11-04T02:48:38.249Z",
-      "lastAccessedAt": "2026-11-04T02:48:38.249Z",
+      "createdAt": "2026-11-04T04:09:41.982Z",
+      "updatedAt": "2026-11-04T04:09:41.982Z",
+      "lastAccessedAt": "2026-11-04T07:58:34.486Z",
       "revision": 1,
-      "contentHash": "313c52e461e9a8d4232685b6d4e63d26a9d0a94ad5af6b370b5e33f489cd38f9",
-      "sizeBytes": 4714,
+      "contentHash": "8cfbd4d3bf24cdb321be9e5aef73967217566a5efc7f93b5becbfbdffb1ebb13",
+      "sizeBytes": 4597,
       "memoryBodyIds": []
     },
     {
@@ -176,7 +198,7 @@
       ],
       "createdAt": "2026-11-04T04:08:46.173Z",
       "updatedAt": "2026-11-04T04:08:46.173Z",
-      "lastAccessedAt": "2026-11-04T05:37:55.406Z",
+      "lastAccessedAt": "2026-11-04T04:28:59.571Z",
       "revision": 1,
       "contentHash": "15ad6674620accbd4d82d05c09440ca9b272e4e52ca76bfadd4b292aa229db40",
       "sizeBytes": 5899,
@@ -210,25 +232,24 @@
       "memoryBodyIds": []
     },
     {
-      "id": "f1f9cdd2-bb6c-4145-9448-01e620a11d26",
-      "title": "每日工作规划模板（work_task）纯 Markdown 简化版：7 段两小时结构与列宽取舍",
-      "description": "从 v1 内联控件版演进到纯 Markdown 可编辑版的最终结构（四段、7 个两小时时段、6 列）、放弃 HTML 下拉框的理由、Markdown 靠表头长度分配列宽的做法与验证清单。",
+      "id": "94bebf7a-7f7d-408a-b83f-6f03ac64df7f",
+      "title": "每日工作规划（work_task）v3 定稿：四象限开头、5 列两小时时间表、文末 CSS 调宽高",
+      "description": "work_task 每日规划文件 2026-11-04 定稿结构（五部分、四象限纯文本标题、7 段两小时 5 列表格、&nbsp; 占位符删除、<style> 宽度/行高做法及其编辑器局限与验证清单。",
       "status": "active",
-      "filename": "work-task-markdown-7-f1f9cdd2.md",
-      "relativePath": "documents/active/work-task-markdown-7-f1f9cdd2.md",
+      "filename": "work-task-v3-5-css-94bebf7a.md",
+      "relativePath": "documents/active/work-task-v3-5-css-94bebf7a.md",
       "sourcePaths": [
-        "work_task/2026/11/20261104.md",
-        "work_task/template.txt"
+        "work_task/2026/11/20261104.md"
       ],
       "sessionIds": [
-        "2f67435a-5ab5-4e14-bf36-476aee1eefb1"
+        "a674f7da-1918-48c1-824c-f185cd16a6aa"
       ],
-      "createdAt": "2026-11-04T04:09:41.982Z",
-      "updatedAt": "2026-11-04T04:09:41.982Z",
-      "lastAccessedAt": "2026-11-04T04:22:26.899Z",
+      "createdAt": "2026-11-04T07:58:53.190Z",
+      "updatedAt": "2026-11-04T07:58:53.190Z",
+      "lastAccessedAt": "2026-11-04T07:58:53.190Z",
       "revision": 1,
-      "contentHash": "8cfbd4d3bf24cdb321be9e5aef73967217566a5efc7f93b5becbfbdffb1ebb13",
-      "sizeBytes": 4597,
+      "contentHash": "4f385e3b3197cbf1fe2c45f536e00ec3a0bd254411fa01fcef914f57a5c28aeb",
+      "sizeBytes": 5702,
       "memoryBodyIds": []
     },
     {
@@ -253,27 +274,6 @@
       "revision": 1,
       "contentHash": "1a43adfe42b1cd1cbb32331bda9499a160f067c7c242b7d9166e2eb1a963057a",
       "sizeBytes": 5235,
-      "memoryBodyIds": []
-    },
-    {
-      "id": "94bebf7a-7f7d-408a-b83f-6f03ac64df7f",
-      "title": "每日工作规划（work_task）v3 定稿：四象限开头、5 列两小时时间表、文末 CSS 调宽高",
-      "description": "work_task 每日规划文件 2026-11-04 定稿结构（五部分、四象限纯文本标题、7 段两小时 5 列表格、&nbsp; 占位符删除、<style> 宽度/行高做法及其编辑器局限与验证清单。",
-      "status": "active",
-      "filename": "work-task-v3-5-css-94bebf7a.md",
-      "relativePath": "documents/active/work-task-v3-5-css-94bebf7a.md",
-      "sourcePaths": [
-        "work_task/2026/11/20261104.md"
-      ],
-      "sessionIds": [
-        "a674f7da-1918-48c1-824c-f185cd16a6aa"
-      ],
-      "createdAt": "2026-11-04T07:58:53.190Z",
-      "updatedAt": "2026-11-04T07:58:53.190Z",
-      "lastAccessedAt": "2026-11-04T07:58:53.190Z",
-      "revision": 1,
-      "contentHash": "4f385e3b3197cbf1fe2c45f536e00ec3a0bd254411fa01fcef914f57a5c28aeb",
-      "sizeBytes": 5702,
       "memoryBodyIds": []
     }
   ]
