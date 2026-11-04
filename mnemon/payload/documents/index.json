@@ -18,7 +18,7 @@
       ],
       "createdAt": "2026-11-03T06:02:34.881Z",
       "updatedAt": "2026-11-03T06:02:34.881Z",
-      "lastAccessedAt": "2026-11-03T16:00:37.663Z",
+      "lastAccessedAt": "2026-11-04T02:23:30.917Z",
       "revision": 1,
       "contentHash": "416c9a4ab511ef8726f59c2f2bd6ca66d7e337cfc007abc04492e3cf5504ad5e",
       "sizeBytes": 6545,
@@ -44,7 +44,7 @@
       ],
       "createdAt": "2026-11-03T14:50:49.670Z",
       "updatedAt": "2026-11-03T14:50:49.670Z",
-      "lastAccessedAt": "2026-11-03T23:15:31.800Z",
+      "lastAccessedAt": "2026-11-04T04:28:59.571Z",
       "revision": 1,
       "contentHash": "b5919f75832af65af73d7edfb307f2b83807fc5e63b5b6a842712201576ff77c",
       "sizeBytes": 6623,
@@ -70,7 +70,7 @@
       ],
       "createdAt": "2026-11-03T16:00:55.390Z",
       "updatedAt": "2026-11-03T16:00:55.390Z",
-      "lastAccessedAt": "2026-11-03T23:15:31.800Z",
+      "lastAccessedAt": "2026-11-04T02:23:30.917Z",
       "revision": 1,
       "contentHash": "88fcb943ac08dd0dbf8f6fc49e6ef389c06fecfffc6a7ba2d117e10e650b5462",
       "sizeBytes": 5982,
@@ -94,32 +94,10 @@
       ],
       "createdAt": "2026-11-03T23:15:50.558Z",
       "updatedAt": "2026-11-03T23:15:50.558Z",
-      "lastAccessedAt": "2026-11-03T23:15:50.558Z",
+      "lastAccessedAt": "2026-11-04T02:23:30.917Z",
       "revision": 1,
       "contentHash": "25e2d7e5c9f1a651cdaf3c9d1d7f75013fd53025e9ae290e15f549943a1a9439",
       "sizeBytes": 6754,
-      "memoryBodyIds": []
-    },
-    {
-      "id": "ff632d4e-d340-4c5c-9b3b-d0ab4b9efcf1",
-      "title": "每日工作规划模板（work_task）：结构、内联样式约束与验证流程",
-      "description": "work_task 每日规划模板 v1 的存放约定、四段结构、13 时段/6 列/下拉控件基线，以及 Markdown 预览内联样式约束、无头浏览器验证流程与已知局限。",
-      "status": "active",
-      "filename": "work-task-ff632d4e.md",
-      "relativePath": "documents/active/work-task-ff632d4e.md",
-      "sourcePaths": [
-        "work_task/template.txt",
-        "work_task/2026/11/20261104.md"
-      ],
-      "sessionIds": [
-        "deda77ac-6d65-4669-af9c-77ff114d4bd8"
-      ],
-      "createdAt": "2026-11-04T02:48:38.249Z",
-      "updatedAt": "2026-11-04T02:48:38.249Z",
-      "lastAccessedAt": "2026-11-04T02:48:38.249Z",
-      "revision": 1,
-      "contentHash": "313c52e461e9a8d4232685b6d4e63d26a9d0a94ad5af6b370b5e33f489cd38f9",
-      "sizeBytes": 4714,
       "memoryBodyIds": []
     },
     {
@@ -148,10 +126,60 @@
       ],
       "createdAt": "2026-11-04T02:23:55.552Z",
       "updatedAt": "2026-11-04T02:23:55.552Z",
-      "lastAccessedAt": "2026-11-04T02:23:55.552Z",
+      "lastAccessedAt": "2026-11-04T04:28:59.571Z",
       "revision": 1,
       "contentHash": "9657351e13f13e5fcb89daddc1607c7f05f3163070ed084f4452c9fd59e455ea",
       "sizeBytes": 7354,
+      "memoryBodyIds": []
+    },
+    {
+      "id": "ff632d4e-d340-4c5c-9b3b-d0ab4b9efcf1",
+      "title": "每日工作规划模板（work_task）：结构、内联样式约束与验证流程",
+      "description": "work_task 每日规划模板 v1 的存放约定、四段结构、13 时段/6 列/下拉控件基线，以及 Markdown 预览内联样式约束、无头浏览器验证流程与已知局限。",
+      "status": "active",
+      "filename": "work-task-ff632d4e.md",
+      "relativePath": "documents/active/work-task-ff632d4e.md",
+      "sourcePaths": [
+        "work_task/template.txt",
+        "work_task/2026/11/20261104.md"
+      ],
+      "sessionIds": [
+        "deda77ac-6d65-4669-af9c-77ff114d4bd8"
+      ],
+      "createdAt": "2026-11-04T02:48:38.249Z",
+      "updatedAt": "2026-11-04T02:48:38.249Z",
+      "lastAccessedAt": "2026-11-04T02:48:38.249Z",
+      "revision": 1,
+      "contentHash": "313c52e461e9a8d4232685b6d4e63d26a9d0a94ad5af6b370b5e33f489cd38f9",
+      "sizeBytes": 4714,
+      "memoryBodyIds": []
+    },
+    {
+      "id": "9e1f4404-a8b7-40d4-998b-2bd609d02782",
+      "title": "FTE 控制台 WebUI：亮/暗主题与全站自适应实现（2026-11-04）",
+      "description": "gt_trunk DYS-FRAMEWORK/fte/test_all/webui 前端的主题系统（CSS 变量 + theme.js 首帧无闪白 + localStorage + ?theme= 深链 + canvas 重绘事件）与自适应断点方案、四个前端坑、验证手法与提交记录；衔接既有控制台部署文档。",
+      "status": "active",
+      "filename": "fte-webui-2026-11-04-9e1f4404.md",
+      "relativePath": "documents/active/fte-webui-2026-11-04-9e1f4404.md",
+      "sourcePaths": [
+        "DYS-FRAMEWORK/fte/test_all/webui/static/theme.js",
+        "DYS-FRAMEWORK/fte/test_all/webui/static/style.css",
+        "DYS-FRAMEWORK/fte/test_all/webui/static/perf.js",
+        "DYS-FRAMEWORK/fte/test_all/webui/static/index.html",
+        "DYS-FRAMEWORK/fte/test_all/webui/static/func.html",
+        "DYS-FRAMEWORK/fte/test_all/webui/static/perf.html",
+        "DYS-FRAMEWORK/fte/test_all/webui/static/vcs.html",
+        "DYS-FRAMEWORK/fte/test_all/webui/MANUAL.md"
+      ],
+      "sessionIds": [
+        "b3117cc8-f3fc-4b6a-9caa-528947140daf"
+      ],
+      "createdAt": "2026-11-04T04:08:46.173Z",
+      "updatedAt": "2026-11-04T04:08:46.173Z",
+      "lastAccessedAt": "2026-11-04T04:28:59.571Z",
+      "revision": 1,
+      "contentHash": "15ad6674620accbd4d82d05c09440ca9b272e4e52ca76bfadd4b292aa229db40",
+      "sizeBytes": 5899,
       "memoryBodyIds": []
     }
   ]
