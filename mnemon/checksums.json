@@ -4,13 +4,13 @@
     "payload/runtime/memories.json": "7c1051f6e2bc3943b7c1dbe4da229694455681b8875a346c99279e555edb733f",
     "payload/runtime/USER.md": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
     "payload/runtime/MEMORY.md": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
-    "payload/documents/index.json": "11d7b89e624a41cdd3ab0ccdfee54678010d06a97cb8526fb1c6d12df0a94da0",
+    "payload/documents/index.json": "1f4891285808683a93565c3715c0053769e2bbf3ac95e2b641f9a015b752f9b3",
     "payload/documents/active/otcsrc-svn-2026-11-27e439e6.md": "309afafc841c76ed07bd180a1ca0f4c457c344a8e3ea68402d64d88694559d32",
     "payload/documents/active/gt-svn-2026-11-03-ac5aee7f.md": "b75ce495900bde26a2d1ab7b265fbda815cab855491c02c5c5a013d6fcb2ca75",
     "payload/documents/active/gt-svn-etf-341-2026-11-03-9e861d20.md": "b6ae7bfe5b9aa0b1ae1a101e296335bfc74efbf7f79357c0047a58c0cf455a74",
     "payload/documents/active/gt-svn-341-fte-socket-etf-2026-11-04-b2d3cf84.md": "3a58c30b6b67a862a9047bd4e3e8956dd9eb2f5a14feb8a6fb20cd5474ddeebf",
-    "payload/documents/active/fte-gt-trunk-2026-11-04-3477111d.md": "a0d9af06d3fbe646ea789315ff4f39767b7e3dee61286af6fe0d7a403c41b844",
     "payload/documents/active/work-task-ff632d4e.md": "bc2ab25e0e32e12098e8fadcf03604efb8c17170b749ee64df648916e8607e3f",
+    "payload/documents/active/fte-gt-trunk-2026-11-04-3477111d.md": "a0d9af06d3fbe646ea789315ff4f39767b7e3dee61286af6fe0d7a403c41b844",
     "payload/data/.dsh-memory-bodies.json": "dc6020b75bab2ed6109193aea9c3427c22d9d2b6edd223c4c8c6cd87ad0c67dd"
   }
 }
