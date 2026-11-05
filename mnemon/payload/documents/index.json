@@ -18,7 +18,7 @@
       ],
       "createdAt": "2026-11-03T06:02:34.881Z",
       "updatedAt": "2026-11-03T06:02:34.881Z",
-      "lastAccessedAt": "2026-11-05T07:30:35.115Z",
+      "lastAccessedAt": "2026-11-04T10:09:00.871Z",
       "revision": 1,
       "contentHash": "416c9a4ab511ef8726f59c2f2bd6ca66d7e337cfc007abc04492e3cf5504ad5e",
       "sizeBytes": 6545,
@@ -44,7 +44,7 @@
       ],
       "createdAt": "2026-11-03T14:50:49.670Z",
       "updatedAt": "2026-11-03T14:50:49.670Z",
-      "lastAccessedAt": "2026-11-05T00:54:24.867Z",
+      "lastAccessedAt": "2026-11-05T08:22:11.811Z",
       "revision": 1,
       "contentHash": "b5919f75832af65af73d7edfb307f2b83807fc5e63b5b6a842712201576ff77c",
       "sizeBytes": 6623,
@@ -70,7 +70,7 @@
       ],
       "createdAt": "2026-11-03T16:00:55.390Z",
       "updatedAt": "2026-11-03T16:00:55.390Z",
-      "lastAccessedAt": "2026-11-04T23:06:25.381Z",
+      "lastAccessedAt": "2026-11-05T08:37:35.725Z",
       "revision": 1,
       "contentHash": "88fcb943ac08dd0dbf8f6fc49e6ef389c06fecfffc6a7ba2d117e10e650b5462",
       "sizeBytes": 5982,
@@ -94,32 +94,10 @@
       ],
       "createdAt": "2026-11-03T23:15:50.558Z",
       "updatedAt": "2026-11-03T23:15:50.558Z",
-      "lastAccessedAt": "2026-11-05T06:06:09.244Z",
+      "lastAccessedAt": "2026-11-04T02:23:30.917Z",
       "revision": 1,
       "contentHash": "25e2d7e5c9f1a651cdaf3c9d1d7f75013fd53025e9ae290e15f549943a1a9439",
       "sizeBytes": 6754,
-      "memoryBodyIds": []
-    },
-    {
-      "id": "ff632d4e-d340-4c5c-9b3b-d0ab4b9efcf1",
-      "title": "每日工作规划模板（work_task）：结构、内联样式约束与验证流程",
-      "description": "work_task 每日规划模板 v1 的存放约定、四段结构、13 时段/6 列/下拉控件基线，以及 Markdown 预览内联样式约束、无头浏览器验证流程与已知局限。",
-      "status": "active",
-      "filename": "work-task-ff632d4e.md",
-      "relativePath": "documents/active/work-task-ff632d4e.md",
-      "sourcePaths": [
-        "work_task/template.txt",
-        "work_task/2026/11/20261104.md"
-      ],
-      "sessionIds": [
-        "deda77ac-6d65-4669-af9c-77ff114d4bd8"
-      ],
-      "createdAt": "2026-11-04T02:48:38.249Z",
-      "updatedAt": "2026-11-04T02:48:38.249Z",
-      "lastAccessedAt": "2026-11-05T06:01:46.071Z",
-      "revision": 1,
-      "contentHash": "313c52e461e9a8d4232685b6d4e63d26a9d0a94ad5af6b370b5e33f489cd38f9",
-      "sizeBytes": 4714,
       "memoryBodyIds": []
     },
     {
@@ -148,32 +126,32 @@
       ],
       "createdAt": "2026-11-04T02:23:55.552Z",
       "updatedAt": "2026-11-04T02:23:55.552Z",
-      "lastAccessedAt": "2026-11-05T04:24:52.681Z",
+      "lastAccessedAt": "2026-11-04T05:37:55.406Z",
       "revision": 1,
       "contentHash": "9657351e13f13e5fcb89daddc1607c7f05f3163070ed084f4452c9fd59e455ea",
       "sizeBytes": 7354,
       "memoryBodyIds": []
     },
     {
-      "id": "f1f9cdd2-bb6c-4145-9448-01e620a11d26",
-      "title": "每日工作规划模板（work_task）纯 Markdown 简化版：7 段两小时结构与列宽取舍",
-      "description": "从 v1 内联控件版演进到纯 Markdown 可编辑版的最终结构（四段、7 个两小时时段、6 列）、放弃 HTML 下拉框的理由、Markdown 靠表头长度分配列宽的做法与验证清单。",
+      "id": "ff632d4e-d340-4c5c-9b3b-d0ab4b9efcf1",
+      "title": "每日工作规划模板（work_task）：结构、内联样式约束与验证流程",
+      "description": "work_task 每日规划模板 v1 的存放约定、四段结构、13 时段/6 列/下拉控件基线，以及 Markdown 预览内联样式约束、无头浏览器验证流程与已知局限。",
       "status": "active",
-      "filename": "work-task-markdown-7-f1f9cdd2.md",
-      "relativePath": "documents/active/work-task-markdown-7-f1f9cdd2.md",
+      "filename": "work-task-ff632d4e.md",
+      "relativePath": "documents/active/work-task-ff632d4e.md",
       "sourcePaths": [
-        "work_task/2026/11/20261104.md",
-        "work_task/template.txt"
+        "work_task/template.txt",
+        "work_task/2026/11/20261104.md"
       ],
       "sessionIds": [
-        "2f67435a-5ab5-4e14-bf36-476aee1eefb1"
+        "deda77ac-6d65-4669-af9c-77ff114d4bd8"
       ],
-      "createdAt": "2026-11-04T04:09:41.982Z",
-      "updatedAt": "2026-11-04T04:09:41.982Z",
-      "lastAccessedAt": "2026-11-04T07:58:34.486Z",
+      "createdAt": "2026-11-04T02:48:38.249Z",
+      "updatedAt": "2026-11-04T02:48:38.249Z",
+      "lastAccessedAt": "2026-11-04T02:48:38.249Z",
       "revision": 1,
-      "contentHash": "8cfbd4d3bf24cdb321be9e5aef73967217566a5efc7f93b5becbfbdffb1ebb13",
-      "sizeBytes": 4597,
+      "contentHash": "313c52e461e9a8d4232685b6d4e63d26a9d0a94ad5af6b370b5e33f489cd38f9",
+      "sizeBytes": 4714,
       "memoryBodyIds": []
     },
     {
@@ -198,7 +176,7 @@
       ],
       "createdAt": "2026-11-04T04:08:46.173Z",
       "updatedAt": "2026-11-04T04:08:46.173Z",
-      "lastAccessedAt": "2026-11-05T06:03:41.149Z",
+      "lastAccessedAt": "2026-11-04T05:37:55.406Z",
       "revision": 1,
       "contentHash": "15ad6674620accbd4d82d05c09440ca9b272e4e52ca76bfadd4b292aa229db40",
       "sizeBytes": 5899,
@@ -225,10 +203,56 @@
       ],
       "createdAt": "2026-11-04T05:38:22.469Z",
       "updatedAt": "2026-11-04T05:38:22.469Z",
-      "lastAccessedAt": "2026-11-05T07:30:35.115Z",
+      "lastAccessedAt": "2026-11-05T06:09:32.629Z",
       "revision": 1,
       "contentHash": "7d5a98675aa89dca415d2edeb03771564a8890d98036e5d7f1b17886cf75e771",
       "sizeBytes": 6648,
+      "memoryBodyIds": []
+    },
+    {
+      "id": "f1f9cdd2-bb6c-4145-9448-01e620a11d26",
+      "title": "每日工作规划模板（work_task）纯 Markdown 简化版：7 段两小时结构与列宽取舍",
+      "description": "从 v1 内联控件版演进到纯 Markdown 可编辑版的最终结构（四段、7 个两小时时段、6 列）、放弃 HTML 下拉框的理由、Markdown 靠表头长度分配列宽的做法与验证清单。",
+      "status": "active",
+      "filename": "work-task-markdown-7-f1f9cdd2.md",
+      "relativePath": "documents/active/work-task-markdown-7-f1f9cdd2.md",
+      "sourcePaths": [
+        "work_task/2026/11/20261104.md",
+        "work_task/template.txt"
+      ],
+      "sessionIds": [
+        "2f67435a-5ab5-4e14-bf36-476aee1eefb1"
+      ],
+      "createdAt": "2026-11-04T04:09:41.982Z",
+      "updatedAt": "2026-11-04T04:09:41.982Z",
+      "lastAccessedAt": "2026-11-04T04:22:26.899Z",
+      "revision": 1,
+      "contentHash": "8cfbd4d3bf24cdb321be9e5aef73967217566a5efc7f93b5becbfbdffb1ebb13",
+      "sizeBytes": 4597,
+      "memoryBodyIds": []
+    },
+    {
+      "id": "5fd12a90-6def-44fc-b708-443d1642bc8b",
+      "title": "JSTP 错误信息统计口径（参数对比「阶段四」，2026-11 沉淀）",
+      "description": "做 otcsrc 业务「错误信息统计」章节时的复用口径：JSTPAtomRaiseException 四参映射、必查三类来源（主实现/Atom 层/公共校验）、排除项（被注释抛错、8000xxxx 框架码）、表格模板与机器校验清单、已知遗留缺口（412232 无 testcase_num）。",
+      "status": "active",
+      "filename": "jstp-2026-11-5fd12a90.md",
+      "relativePath": "documents/active/jstp-2026-11-5fd12a90.md",
+      "sourcePaths": [
+        "task/mock_client/param_com.md",
+        "study/412232_建议型投顾组合权限开通查询/412232_测试案例.md",
+        "study/410553_分类查询客户资产YHZX/410553_参数对比.md",
+        "work_log/20261104.md"
+      ],
+      "sessionIds": [
+        "e371ac58-f644-41e6-a3c9-0b1f538937b8"
+      ],
+      "createdAt": "2026-11-04T10:09:15.314Z",
+      "updatedAt": "2026-11-04T10:09:15.314Z",
+      "lastAccessedAt": "2026-11-05T08:37:35.725Z",
+      "revision": 1,
+      "contentHash": "1a43adfe42b1cd1cbb32331bda9499a160f067c7c242b7d9166e2eb1a963057a",
+      "sizeBytes": 5235,
       "memoryBodyIds": []
     },
     {
@@ -250,30 +274,6 @@
       "revision": 1,
       "contentHash": "4f385e3b3197cbf1fe2c45f536e00ec3a0bd254411fa01fcef914f57a5c28aeb",
       "sizeBytes": 5702,
-      "memoryBodyIds": []
-    },
-    {
-      "id": "5fd12a90-6def-44fc-b708-443d1642bc8b",
-      "title": "JSTP 错误信息统计口径（参数对比「阶段四」，2026-11 沉淀）",
-      "description": "做 otcsrc 业务「错误信息统计」章节时的复用口径：JSTPAtomRaiseException 四参映射、必查三类来源（主实现/Atom 层/公共校验）、排除项（被注释抛错、8000xxxx 框架码）、表格模板与机器校验清单、已知遗留缺口（412232 无 testcase_num）。",
-      "status": "active",
-      "filename": "jstp-2026-11-5fd12a90.md",
-      "relativePath": "documents/active/jstp-2026-11-5fd12a90.md",
-      "sourcePaths": [
-        "task/mock_client/param_com.md",
-        "study/412232_建议型投顾组合权限开通查询/412232_测试案例.md",
-        "study/410553_分类查询客户资产YHZX/410553_参数对比.md",
-        "work_log/20261104.md"
-      ],
-      "sessionIds": [
-        "e371ac58-f644-41e6-a3c9-0b1f538937b8"
-      ],
-      "createdAt": "2026-11-04T10:09:15.314Z",
-      "updatedAt": "2026-11-04T10:09:15.314Z",
-      "lastAccessedAt": "2026-11-04T10:09:15.314Z",
-      "revision": 1,
-      "contentHash": "1a43adfe42b1cd1cbb32331bda9499a160f067c7c242b7d9166e2eb1a963057a",
-      "sizeBytes": 5235,
       "memoryBodyIds": []
     },
     {
@@ -334,7 +334,7 @@
       ],
       "createdAt": "2026-11-04T15:21:34.671Z",
       "updatedAt": "2026-11-04T15:21:34.671Z",
-      "lastAccessedAt": "2026-11-05T07:30:35.115Z",
+      "lastAccessedAt": "2026-11-05T06:11:37.768Z",
       "revision": 1,
       "contentHash": "74d3498f9fb8d04db29eaf5779230b377466d835cf2b19a8ee8e314dd6a300c6",
       "sizeBytes": 7588,
@@ -355,7 +355,7 @@
       ],
       "createdAt": "2026-11-04T23:06:46.948Z",
       "updatedAt": "2026-11-04T23:06:46.948Z",
-      "lastAccessedAt": "2026-11-05T06:01:46.071Z",
+      "lastAccessedAt": "2026-11-05T08:22:11.811Z",
       "revision": 1,
       "contentHash": "54cb729faa5b3d8eaf2c901ab42fbe1eb6e04f7f85dc35808fc8f97eb029c115",
       "sizeBytes": 5239,
@@ -384,7 +384,7 @@
       ],
       "createdAt": "2026-11-04T23:53:58.910Z",
       "updatedAt": "2026-11-04T23:53:58.910Z",
-      "lastAccessedAt": "2026-11-05T06:21:38.404Z",
+      "lastAccessedAt": "2026-11-05T00:54:24.867Z",
       "revision": 1,
       "contentHash": "96fc95cee8e6dd0451ab2bc5d5d0a1c4991894d40c91aa83232de61f9795cacc",
       "sizeBytes": 7452,
@@ -411,7 +411,7 @@
       ],
       "createdAt": "2026-11-05T00:54:42.583Z",
       "updatedAt": "2026-11-05T00:54:42.583Z",
-      "lastAccessedAt": "2026-11-05T06:21:38.404Z",
+      "lastAccessedAt": "2026-11-05T08:22:11.811Z",
       "revision": 1,
       "contentHash": "bd8d39fba52772335835cad83d0936d44202c3decc6e5dd26ee40f7bea273d22",
       "sizeBytes": 7171,
@@ -437,7 +437,7 @@
       ],
       "createdAt": "2026-11-05T01:20:04.827Z",
       "updatedAt": "2026-11-05T01:20:04.827Z",
-      "lastAccessedAt": "2026-11-05T06:21:38.404Z",
+      "lastAccessedAt": "2026-11-05T06:11:37.768Z",
       "revision": 1,
       "contentHash": "3277cb296f895d291641f183b183570dc5b90dc265f6c95543e8335b1dba506b",
       "sizeBytes": 5318,
@@ -465,7 +465,7 @@
       ],
       "createdAt": "2026-11-05T01:36:46.012Z",
       "updatedAt": "2026-11-05T01:36:46.012Z",
-      "lastAccessedAt": "2026-11-05T06:21:38.404Z",
+      "lastAccessedAt": "2026-11-05T01:53:07.699Z",
       "revision": 1,
       "contentHash": "0c03eb7f296de840554131367be758a57388d4c1c0e75b87ccf9c451710199ce",
       "sizeBytes": 6577,
@@ -496,7 +496,7 @@
       ],
       "createdAt": "2026-11-05T06:11:59.493Z",
       "updatedAt": "2026-11-05T06:11:59.493Z",
-      "lastAccessedAt": "2026-11-05T06:19:15.545Z",
+      "lastAccessedAt": "2026-11-05T08:37:35.725Z",
       "revision": 1,
       "contentHash": "f0b49d789668448882f82a217d9059c0c8b86741d6432301368ce7b1507f3765",
       "sizeBytes": 8040,
