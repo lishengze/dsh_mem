@@ -4,7 +4,7 @@
     "payload/runtime/memories.json": "2fc2fa6c823acc44220e03cf62831577ecfd86a8521dfc80e036185903ab9886",
     "payload/runtime/USER.md": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
     "payload/runtime/MEMORY.md": "f583597a0d23e2e975583e2b5ce5d26f9c1243e504f24296d6bd796c04d0c232",
-    "payload/documents/index.json": "b83906d5659b91688c001a0c144bdf736029651f7913b50a6fe347c3d011eb28",
+    "payload/documents/index.json": "ff2797c84e6783cff46caa9b8f19a633e18ef9bee0145a079eda14f96ae9a806",
     "payload/documents/active/otcsrc-svn-2026-11-27e439e6.md": "309afafc841c76ed07bd180a1ca0f4c457c344a8e3ea68402d64d88694559d32",
     "payload/documents/active/gt-svn-2026-11-03-ac5aee7f.md": "b75ce495900bde26a2d1ab7b265fbda815cab855491c02c5c5a013d6fcb2ca75",
     "payload/documents/active/gt-svn-etf-341-2026-11-03-9e861d20.md": "b6ae7bfe5b9aa0b1ae1a101e296335bfc74efbf7f79357c0047a58c0cf455a74",
@@ -27,6 +27,7 @@
     "payload/documents/active/check-doc-refs-sh-gt-trunk-2026-11-05-edcf9318.md": "95140643a3fd0bf2535956220d38e09a54feb5a65ebde9d6e5170919d53737c8",
     "payload/documents/active/kgbp-start-sh-rm-kmdb-sh-2026-11-05-7c35f3c6.md": "c75a18a4441c0e37d06c07ce88e560a27b47295f9aca5aa4f56c232ddbb62288",
     "payload/documents/active/inserttrans-kafka-2026-11-05-598a8376.md": "b4809e747ccfd73c212f780070b4d9f7c25f4fd0232adcdb18c541e4f63e5988",
+    "payload/documents/active/inserttrans-kafka-ret-2-lbm-2026-11-05-2619fe5d.md": "0bc31ccfe23acf6cef1f071eea975181d3fce5d7b6f535738907d0cacc9b9c06",
     "payload/data/.dsh-memory-bodies.json": "dc6020b75bab2ed6109193aea9c3427c22d9d2b6edd223c4c8c6cd87ad0c67dd"
   }
 }

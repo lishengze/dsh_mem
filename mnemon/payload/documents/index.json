@@ -18,7 +18,7 @@
       ],
       "createdAt": "2026-11-03T06:02:34.881Z",
       "updatedAt": "2026-11-03T06:02:34.881Z",
-      "lastAccessedAt": "2026-11-05T08:31:34.552Z",
+      "lastAccessedAt": "2026-11-05T09:43:56.373Z",
       "revision": 1,
       "contentHash": "416c9a4ab511ef8726f59c2f2bd6ca66d7e337cfc007abc04492e3cf5504ad5e",
       "sizeBytes": 6545,
@@ -547,10 +547,36 @@
       ],
       "createdAt": "2026-11-05T08:31:53.542Z",
       "updatedAt": "2026-11-05T08:31:53.542Z",
-      "lastAccessedAt": "2026-11-05T08:31:53.542Z",
+      "lastAccessedAt": "2026-11-05T09:43:56.373Z",
       "revision": 1,
       "contentHash": "d87771cd070a72c28f0a0d082847097d1cf4a3163bc6d293be984f87ed40bf52",
       "sizeBytes": 6722,
+      "memoryBodyIds": []
+    },
+    {
+      "id": "2619fe5d-6e91-4d71-828e-6d5d8f661c8b",
+      "title": "InsertTrans Kafka 钩子修复与验证：ret=-2 根因、类型化序列化、LBM 测试模块加载（2026-11-05）",
+      "description": "修正既有 InsertTrans 钩子文档的序列化方式：ForwardRecordRaw+JstpGetTableFieldInfo(hDb) 返回 KF_ERR_FIELD(-2) 的根因与类型化 ForwardRecord 修复、钩子最终形态、验证结果、LBM 测试模块必须导出 GetTableVersion、真实进程内端到端未跑通的三处卡点与提交范围建议。",
+      "status": "active",
+      "filename": "inserttrans-kafka-ret-2-lbm-2026-11-05-2619fe5d.md",
+      "relativePath": "documents/active/inserttrans-kafka-ret-2-lbm-2026-11-05-2619fe5d.md",
+      "sourcePaths": [
+        "otcsrc/public/comm/kafka_insert_hook.h",
+        "otcsrc/public/include/jstp_head.h",
+        "otcsrc/kgbp_x64_linux/conf/kafka_forward.conf",
+        "otcsrc/public/include/jstp_table_versions.h",
+        "task/kafka/kafka_insert_hook_demo/test_insert_hook.cpp",
+        "study/knowledge_base_system/09_Kafka推送.md"
+      ],
+      "sessionIds": [
+        "3f5beb13-aaee-4d0b-89a0-f60dc8864b75"
+      ],
+      "createdAt": "2026-11-05T09:44:20.096Z",
+      "updatedAt": "2026-11-05T09:44:20.096Z",
+      "lastAccessedAt": "2026-11-05T09:44:20.096Z",
+      "revision": 1,
+      "contentHash": "36f770440cef14d1e255b2669d9e205c8e7a8e966b0b60a4f9c4dd3392424ea3",
+      "sizeBytes": 7680,
       "memoryBodyIds": []
     }
   ]
