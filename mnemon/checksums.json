@@ -1,10 +1,10 @@
 {
   "algorithm": "sha256",
   "files": {
-    "payload/runtime/memories.json": "2fc2fa6c823acc44220e03cf62831577ecfd86a8521dfc80e036185903ab9886",
+    "payload/runtime/memories.json": "4c78a3a8b46cda9637f35d7bd87ba53af9401ecbaa933913e7a886d49f1b869c",
     "payload/runtime/USER.md": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
-    "payload/runtime/MEMORY.md": "f583597a0d23e2e975583e2b5ce5d26f9c1243e504f24296d6bd796c04d0c232",
-    "payload/documents/index.json": "3ba370112207a0b4581a7aa3b7cbb89d41740d5dd2a0f2b0b6db36521f5a18c1",
+    "payload/runtime/MEMORY.md": "74d029e32b86b5e6aae8825a21d447d26636718c6b89fbdfc08f6a1830f4b2c8",
+    "payload/documents/index.json": "cf2550f40876e9f4c4021d2f2f66438e8dc8892a919b1e6cb405b9b193c0ea98",
     "payload/documents/active/otcsrc-svn-2026-11-27e439e6.md": "309afafc841c76ed07bd180a1ca0f4c457c344a8e3ea68402d64d88694559d32",
     "payload/documents/active/gt-svn-2026-11-03-ac5aee7f.md": "b75ce495900bde26a2d1ab7b265fbda815cab855491c02c5c5a013d6fcb2ca75",
     "payload/documents/active/gt-svn-etf-341-2026-11-03-9e861d20.md": "b6ae7bfe5b9aa0b1ae1a101e296335bfc74efbf7f79357c0047a58c0cf455a74",
@@ -37,6 +37,7 @@
     "payload/documents/active/kafka-kafka-xa-2026-11-06-47d2368e.md": "5215cfed4a0ada87250325548018782f3dcd45274e0e0cca266a9957200493dd",
     "payload/documents/active/kafka-json-2026-11-06-05135b88.md": "34fa520a08a92433776aa7bd28b779bcfc86740da9f26e90eb2ebb7911b5d363",
     "payload/documents/active/dse-fte-2026-11-06-c2a4915e.md": "25fb21de87bad5fadb729b2c9e52389b393bad1202de3407de76b677f4e15890",
+    "payload/documents/active/perparam-genparam-410233-411827-2026-11-06-c1fd60bd.md": "8c527df14e2ec23c2b526e489118b3cfa06c3483024656f5c83257e40d0d4a5a",
     "payload/data/.dsh-memory-bodies.json": "dc6020b75bab2ed6109193aea9c3427c22d9d2b6edd223c4c8c6cd87ad0c67dd"
   }
 }

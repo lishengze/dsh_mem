@@ -48,6 +48,30 @@
         "label": "lsz-nuc",
         "at": "2026-11-05T06:14:30.116Z"
       }
+    },
+    {
+      "content": "DSE/DomainServer 工作环境铁律（用户 2026-11-06）：所有组件（dse、domain_server、FTE 等）的编译、部署、运行、测试都必须在 docker 容器 otc 内进行；domain_server 是 AMI 预编译二进制，不需要编译，只需从 work_lib/AMI/bin 部署到统一运行目录。",
+      "target": "memory",
+      "importance": "critical",
+      "created_at": "2026-11-06T15:04:51.513Z",
+      "updated_at": "2026-11-06T15:04:51.513Z",
+      "origin": {
+        "machine": "f7b9a25f-f408-4252-8631-7dd633082547",
+        "label": "lsz-utu",
+        "at": "2026-11-06T15:04:51.513Z"
+      }
+    },
+    {
+      "content": "环境铁律：dse、domain_server 等所有组件的编译、部署、运行、测试一律在 docker 容器（otc）内进行；domain_server 是 AMI 预编译二进制，不需要编译。",
+      "target": "memory",
+      "importance": "critical",
+      "created_at": "2026-11-06T15:34:42.347Z",
+      "updated_at": "2026-11-06T15:34:42.347Z",
+      "origin": {
+        "machine": "f7b9a25f-f408-4252-8631-7dd633082547",
+        "label": "lsz-utu",
+        "at": "2026-11-06T15:34:42.347Z"
+      }
     }
   ]
 }

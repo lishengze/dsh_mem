@@ -2,7 +2,7 @@
   "format": "mnemonpack",
   "version": 1,
   "scope": "full",
-  "exportedAt": "2026-11-06T13:41:35.539Z",
+  "exportedAt": "2026-11-06T15:42:02.427Z",
   "source": {
     "plugin": "dsh-mnemon",
     "pluginVersion": "0.5.39"
@@ -16,14 +16,14 @@
     {
       "component": "runtime",
       "files": 3,
-      "bytes": 4541,
-      "items": 4
+      "bytes": 6225,
+      "items": 6
     },
     {
       "component": "documents",
-      "files": 33,
-      "bytes": 243657,
-      "items": 32
+      "files": 34,
+      "bytes": 253694,
+      "items": 33
     },
     {
       "component": "memory-spaces",
@@ -36,7 +36,7 @@
     "channel": "git",
     "branch": "mnemon-sync",
     "subdir": "mnemon/",
-    "pushedAt": "2026-11-06T13:41:35.539Z",
+    "pushedAt": "2026-11-06T15:42:02.427Z",
     "machine": {
       "id": "f7b9a25f-f408-4252-8631-7dd633082547",
       "label": "lsz-utu",

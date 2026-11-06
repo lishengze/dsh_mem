@@ -5,3 +5,7 @@
 同步规范（用户 2026-11-05）：与远程仓库同步时，也要三个目录按顺序从远程 git 拉取——gt_trunk(trunk) → gt_svn(svn_remote) → gt_sit(svn_sit)，逐个 fetch+rebase（或 ff-only）并核对 0 0。与「提交三仓」规则配对，构成双向同步纪律。
 §
 grc_trunk 强化规则（用户 2026-11-05 要求，权威条款在 task/task_rule.md 第 3 章）：所有产出（代码/SQL/测试代码/文档）须多轮全量复查，直到某轮零修改；判据为六项（逻辑正确性、边界与异常、命名一致性、格式与结构、引用与路径、架构一致性）；每轮按分类核查清单过一遍；工作日志必须写"复查记录"（轮次|对象|发现|改动|是否零修改），无记录视为未复查；连续 3 轮仍有修改则停止细节打磨、回阶段 2 规划重审方案。
+§
+DSE/DomainServer 工作环境铁律（用户 2026-11-06）：所有组件（dse、domain_server、FTE 等）的编译、部署、运行、测试都必须在 docker 容器 otc 内进行；domain_server 是 AMI 预编译二进制，不需要编译，只需从 work_lib/AMI/bin 部署到统一运行目录。
+§
+环境铁律：dse、domain_server 等所有组件的编译、部署、运行、测试一律在 docker 容器（otc）内进行；domain_server 是 AMI 预编译二进制，不需要编译。
