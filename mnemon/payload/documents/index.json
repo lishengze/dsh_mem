@@ -384,7 +384,7 @@
       ],
       "createdAt": "2026-11-04T23:53:58.910Z",
       "updatedAt": "2026-11-04T23:53:58.910Z",
-      "lastAccessedAt": "2026-11-06T03:38:55.056Z",
+      "lastAccessedAt": "2026-11-06T12:45:37.167Z",
       "revision": 1,
       "contentHash": "96fc95cee8e6dd0451ab2bc5d5d0a1c4991894d40c91aa83232de61f9795cacc",
       "sizeBytes": 7452,
@@ -523,7 +523,7 @@
       ],
       "createdAt": "2026-11-05T07:30:53.506Z",
       "updatedAt": "2026-11-05T07:30:53.506Z",
-      "lastAccessedAt": "2026-11-06T07:10:01.910Z",
+      "lastAccessedAt": "2026-11-06T12:45:37.167Z",
       "revision": 1,
       "contentHash": "8af17cb587908e4f07ed324671f2f73faa4314ce9b188cd3090992c53423012d",
       "sizeBytes": 6130,
@@ -626,7 +626,7 @@
       ],
       "createdAt": "2026-11-06T03:39:15.798Z",
       "updatedAt": "2026-11-06T03:39:15.798Z",
-      "lastAccessedAt": "2026-11-06T06:17:56.970Z",
+      "lastAccessedAt": "2026-11-06T12:45:37.167Z",
       "revision": 1,
       "contentHash": "43a8399f4a7bdda7899e6db430c143acb02bb59d6a0aa914a8fbcbd1a038304f",
       "sizeBytes": 5547,
@@ -661,7 +661,7 @@
       ],
       "createdAt": "2026-11-06T04:45:54.186Z",
       "updatedAt": "2026-11-06T04:45:54.186Z",
-      "lastAccessedAt": "2026-11-06T06:17:56.970Z",
+      "lastAccessedAt": "2026-11-06T12:45:37.167Z",
       "revision": 1,
       "contentHash": "c1bd69d447d9473c5d27ca2d546d9cdd1622e19d403d6ac4224cc926b2b53adf",
       "sizeBytes": 8583,
@@ -795,6 +795,31 @@
       "revision": 1,
       "contentHash": "62e94eab9eada606edefbc1951357c9149f88acdc24d629174541cf0c5ad4cde",
       "sizeBytes": 6129,
+      "memoryBodyIds": []
+    },
+    {
+      "id": "c2a4915e-4e7b-44f8-afc7-84be6b4b5fec",
+      "title": "DSE 启动依赖与 FTE 共享内存交互机制（2026-11-06）",
+      "description": "DSE 启动数据依赖分级（现金节点仅 dse.xml，信用节点另需 biz_param/credit_biz_param/stop_stk_code_ute 三份 XML 及缺失后果）、与 FTE 的 ute_dse/dse_ute SPSC 双队列协议与消息类型、四个交互作用、credit_biz_param 未判空崩溃缺陷。",
+      "status": "active",
+      "filename": "dse-fte-2026-11-06-c2a4915e.md",
+      "relativePath": "documents/active/dse-fte-2026-11-06-c2a4915e.md",
+      "sourcePaths": [
+        "DYS-FRAMEWORK/fte/include/business/external_data_handler.h",
+        "DYS-FRAMEWORK/fte/fte/src/main.cpp",
+        "DYS-FRAMEWORK/fte/cfg/dse.xml",
+        "DYS-FRAMEWORK/fte/dse/doc/dse_启动依赖与FTE交互_20261106.md",
+        "DYS-FRAMEWORK/fte/dse/doc/dse_业务流程.md"
+      ],
+      "sessionIds": [
+        "c8e5a0f1-81c8-4dcb-b62c-bec680ba6090"
+      ],
+      "createdAt": "2026-11-06T12:45:52.485Z",
+      "updatedAt": "2026-11-06T12:45:52.485Z",
+      "lastAccessedAt": "2026-11-06T12:45:52.485Z",
+      "revision": 1,
+      "contentHash": "e44c08b0ee05cf575a370bce93f1f243dd7c7acd96c9182783e418b2cc05068c",
+      "sizeBytes": 6781,
       "memoryBodyIds": []
     }
   ]
