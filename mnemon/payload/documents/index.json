@@ -355,7 +355,7 @@
       ],
       "createdAt": "2026-11-04T23:06:46.948Z",
       "updatedAt": "2026-11-04T23:06:46.948Z",
-      "lastAccessedAt": "2026-11-07T03:07:36.517Z",
+      "lastAccessedAt": "2026-11-07T14:02:49.206Z",
       "revision": 1,
       "contentHash": "54cb729faa5b3d8eaf2c901ab42fbe1eb6e04f7f85dc35808fc8f97eb029c115",
       "sizeBytes": 5239,
@@ -411,7 +411,7 @@
       ],
       "createdAt": "2026-11-05T00:54:42.583Z",
       "updatedAt": "2026-11-05T00:54:42.583Z",
-      "lastAccessedAt": "2026-11-06T15:34:35.571Z",
+      "lastAccessedAt": "2026-11-07T14:02:49.206Z",
       "revision": 1,
       "contentHash": "bd8d39fba52772335835cad83d0936d44202c3decc6e5dd26ee40f7bea273d22",
       "sizeBytes": 7171,
@@ -865,7 +865,7 @@
       ],
       "createdAt": "2026-11-07T00:56:20.966Z",
       "updatedAt": "2026-11-07T00:56:20.966Z",
-      "lastAccessedAt": "2026-11-07T03:07:36.517Z",
+      "lastAccessedAt": "2026-11-07T14:02:49.206Z",
       "revision": 1,
       "contentHash": "1d3100426d6242f3e1ba3b7318b79857868f55ca7e243292708876a56c2cd605",
       "sizeBytes": 6180,
@@ -890,10 +890,33 @@
       ],
       "createdAt": "2026-11-07T03:08:36.982Z",
       "updatedAt": "2026-11-07T03:08:36.982Z",
-      "lastAccessedAt": "2026-11-07T03:08:36.982Z",
+      "lastAccessedAt": "2026-11-07T14:02:49.206Z",
       "revision": 1,
       "contentHash": "7a86c793e33ac42fd61b88f21470ffd766a562a54c941e6f0f6a9becde73ec42",
       "sizeBytes": 5785,
+      "memoryBodyIds": []
+    },
+    {
+      "id": "a8dbc49f-635b-4755-8136-5c257da8841d",
+      "title": "gt_sit dse 残留 10 处 TER 字段编译错误的更正根因：include 路径移除了 ATP common/include（未验证）",
+      "description": "gt_sit dse 最后 10 处 PktCashAuctionTER has no member named 'skip_cal'/'stk_effect_type*' 的更正根因：本地 CMake 适配把 ATP 资源包 common/include 整目录移出 include 路径，连带丢失新版 biz_msg 报文头；ATP 根层无 biz_param.h，故只加回 common/include 即可同时解决遮蔽；含证据链与待实测修复步骤。",
+      "status": "active",
+      "filename": "gt-sit-dse-10-ter-include-atp-common-include-a8dbc49f.md",
+      "relativePath": "documents/active/gt-sit-dse-10-ter-include-atp-common-include-a8dbc49f.md",
+      "sourcePaths": [
+        "DYS-FRAMEWORK/fte/dse/CMakeLists.txt",
+        "svn_work/57_gt_sit_DSE联调与测试总结_20261107.md",
+        "svn_work/58_DSE与DomainServer联调总总结_20261107.md"
+      ],
+      "sessionIds": [
+        "b17ccc11-cb24-4041-ba39-a4d1e92c217a"
+      ],
+      "createdAt": "2026-11-07T14:03:17.678Z",
+      "updatedAt": "2026-11-07T14:03:17.678Z",
+      "lastAccessedAt": "2026-11-07T14:03:17.678Z",
+      "revision": 1,
+      "contentHash": "931bec5d04e5f4905a86134f166a02907fadb348de4f34dc81f2382540ac8e0a",
+      "sizeBytes": 4739,
       "memoryBodyIds": []
     }
   ]
