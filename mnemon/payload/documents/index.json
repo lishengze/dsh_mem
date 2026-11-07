@@ -148,7 +148,7 @@
       ],
       "createdAt": "2026-11-04T02:23:55.552Z",
       "updatedAt": "2026-11-04T02:23:55.552Z",
-      "lastAccessedAt": "2026-11-07T00:55:51.336Z",
+      "lastAccessedAt": "2026-11-07T03:07:36.517Z",
       "revision": 1,
       "contentHash": "9657351e13f13e5fcb89daddc1607c7f05f3163070ed084f4452c9fd59e455ea",
       "sizeBytes": 7354,
@@ -355,7 +355,7 @@
       ],
       "createdAt": "2026-11-04T23:06:46.948Z",
       "updatedAt": "2026-11-04T23:06:46.948Z",
-      "lastAccessedAt": "2026-11-06T15:34:35.571Z",
+      "lastAccessedAt": "2026-11-07T03:07:36.517Z",
       "revision": 1,
       "contentHash": "54cb729faa5b3d8eaf2c901ab42fbe1eb6e04f7f85dc35808fc8f97eb029c115",
       "sizeBytes": 5239,
@@ -384,7 +384,7 @@
       ],
       "createdAt": "2026-11-04T23:53:58.910Z",
       "updatedAt": "2026-11-04T23:53:58.910Z",
-      "lastAccessedAt": "2026-11-06T15:34:35.571Z",
+      "lastAccessedAt": "2026-11-07T03:07:36.517Z",
       "revision": 1,
       "contentHash": "96fc95cee8e6dd0451ab2bc5d5d0a1c4991894d40c91aa83232de61f9795cacc",
       "sizeBytes": 7452,
@@ -865,10 +865,35 @@
       ],
       "createdAt": "2026-11-07T00:56:20.966Z",
       "updatedAt": "2026-11-07T00:56:20.966Z",
-      "lastAccessedAt": "2026-11-07T00:56:20.966Z",
+      "lastAccessedAt": "2026-11-07T03:07:36.517Z",
       "revision": 1,
       "contentHash": "1d3100426d6242f3e1ba3b7318b79857868f55ca7e243292708876a56c2cd605",
       "sizeBytes": 6180,
+      "memoryBodyIds": []
+    },
+    {
+      "id": "5ae98d7d-73b9-4432-b1d8-1f1a28b52256",
+      "title": "gt_sit dse 编译阻塞：分支内 codec/ATP 生成物陈旧与 msg_proto 的 GLIBC 约束（2026-11-07）",
+      "description": "gt_sit 分支 dse 编译 345→10 处错误的根因链：agw_external.xml 已含 FPGA 报文但生成物陈旧、msg_proto 需 GLIBC 2.34 无法重生成、dse_deps 精确头覆盖做法与三条踩坑教训、优先向分支维护者索取配套生成物。",
+      "status": "active",
+      "filename": "gt-sit-dse-codec-atp-msg-proto-glibc-2026-11-07-5ae98d7d.md",
+      "relativePath": "documents/active/gt-sit-dse-codec-atp-msg-proto-glibc-2026-11-07-5ae98d7d.md",
+      "sourcePaths": [
+        "svn_work/57_gt_sit_DSE联调与测试总结_20261107.md",
+        "DYS-FRAMEWORK/fte/dse/CMakeLists.txt",
+        "DYS-FRAMEWORK/gw_external_msg/V2/buildmsg/agw_external.xml",
+        "DYS-FRAMEWORK/gw_external_msg/V2/external/include/gw/external/codec/types_agw_external.h",
+        "DYS-FRAMEWORK/fte/dse/dse_client/include/dse_client.h"
+      ],
+      "sessionIds": [
+        "99f38c26-e508-42c8-bcad-a93002578143"
+      ],
+      "createdAt": "2026-11-07T03:08:36.982Z",
+      "updatedAt": "2026-11-07T03:08:36.982Z",
+      "lastAccessedAt": "2026-11-07T03:08:36.982Z",
+      "revision": 1,
+      "contentHash": "7a86c793e33ac42fd61b88f21470ffd766a562a54c941e6f0f6a9becde73ec42",
+      "sizeBytes": 5785,
       "memoryBodyIds": []
     }
   ]
