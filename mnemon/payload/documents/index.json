@@ -148,7 +148,7 @@
       ],
       "createdAt": "2026-11-04T02:23:55.552Z",
       "updatedAt": "2026-11-04T02:23:55.552Z",
-      "lastAccessedAt": "2026-11-06T05:35:41.502Z",
+      "lastAccessedAt": "2026-11-07T00:55:51.336Z",
       "revision": 1,
       "contentHash": "9657351e13f13e5fcb89daddc1607c7f05f3163070ed084f4452c9fd59e455ea",
       "sizeBytes": 7354,
@@ -523,7 +523,7 @@
       ],
       "createdAt": "2026-11-05T07:30:53.506Z",
       "updatedAt": "2026-11-05T07:30:53.506Z",
-      "lastAccessedAt": "2026-11-06T12:45:37.167Z",
+      "lastAccessedAt": "2026-11-07T00:55:51.336Z",
       "revision": 1,
       "contentHash": "8af17cb587908e4f07ed324671f2f73faa4314ce9b188cd3090992c53423012d",
       "sizeBytes": 6130,
@@ -547,7 +547,7 @@
       ],
       "createdAt": "2026-11-05T08:31:53.542Z",
       "updatedAt": "2026-11-05T08:31:53.542Z",
-      "lastAccessedAt": "2026-11-06T08:16:25.655Z",
+      "lastAccessedAt": "2026-11-07T00:55:51.336Z",
       "revision": 1,
       "contentHash": "d87771cd070a72c28f0a0d082847097d1cf4a3163bc6d293be984f87ed40bf52",
       "sizeBytes": 6722,
@@ -816,7 +816,7 @@
       ],
       "createdAt": "2026-11-06T12:45:52.485Z",
       "updatedAt": "2026-11-06T12:45:52.485Z",
-      "lastAccessedAt": "2026-11-06T12:45:52.485Z",
+      "lastAccessedAt": "2026-11-07T00:55:51.336Z",
       "revision": 1,
       "contentHash": "e44c08b0ee05cf575a370bce93f1f243dd7c7acd96c9182783e418b2cc05068c",
       "sizeBytes": 6781,
@@ -844,6 +844,31 @@
       "revision": 1,
       "contentHash": "bce7041797ac6cfabdfc6652478ab2ee8b96922af0989e084b1dcd5cfeb7c45a",
       "sizeBytes": 8487,
+      "memoryBodyIds": []
+    },
+    {
+      "id": "db5c633e-d03f-4e9f-bca9-f0a0dbac21a4",
+      "title": "DSE × DomainServer × FTE 全链路联调打通（2026-11-07）",
+      "description": "SIOF 崩溃根因（跨 TU 静态初始化顺序，Meyers singleton 修复）、dse_deps 空归档 + -DNDEBUG 编译打通、四步启动顺序契约与 FTE 三必须项、沪/深端口 33001/33002 差异、关键踩坑速查，以及双市场功能 28PASS/4PASS 与性能 997/1000 TPS 零丢单证据。",
+      "status": "active",
+      "filename": "dse-domainserver-fte-2026-11-07-db5c633e.md",
+      "relativePath": "documents/active/dse-domainserver-fte-2026-11-07-db5c633e.md",
+      "sourcePaths": [
+        "DYS-FRAMEWORK/fte/test_all/dse_stack/start_dse_stack.sh",
+        "DYS-FRAMEWORK/fte/test_all/dse_stack/README.md",
+        "DYS-FRAMEWORK/fte/dse/doc/dse_启动依赖与FTE交互_20261106.md",
+        "svn_work/56_DSE与DomainServer接入进展_20261106.md",
+        "DYS-FRAMEWORK/fte/include/business/external_data_handler.h"
+      ],
+      "sessionIds": [
+        "2c0e90dd-eda7-449c-a1f8-cdac3b2ff5a0"
+      ],
+      "createdAt": "2026-11-07T00:56:20.966Z",
+      "updatedAt": "2026-11-07T00:56:20.966Z",
+      "lastAccessedAt": "2026-11-07T00:56:20.966Z",
+      "revision": 1,
+      "contentHash": "1d3100426d6242f3e1ba3b7318b79857868f55ca7e243292708876a56c2cd605",
+      "sizeBytes": 6180,
       "memoryBodyIds": []
     }
   ]
