@@ -70,7 +70,7 @@
       ],
       "createdAt": "2026-11-03T16:00:55.390Z",
       "updatedAt": "2026-11-03T16:00:55.390Z",
-      "lastAccessedAt": "2026-11-04T23:06:25.381Z",
+      "lastAccessedAt": "2026-11-08T07:58:02.492Z",
       "revision": 1,
       "contentHash": "88fcb943ac08dd0dbf8f6fc49e6ef389c06fecfffc6a7ba2d117e10e650b5462",
       "sizeBytes": 5982,
@@ -411,7 +411,7 @@
       ],
       "createdAt": "2026-11-05T00:54:42.583Z",
       "updatedAt": "2026-11-05T00:54:42.583Z",
-      "lastAccessedAt": "2026-11-08T06:08:42.733Z",
+      "lastAccessedAt": "2026-11-08T07:58:02.492Z",
       "revision": 1,
       "contentHash": "bd8d39fba52772335835cad83d0936d44202c3decc6e5dd26ee40f7bea273d22",
       "sizeBytes": 7171,
@@ -943,7 +943,7 @@
       ],
       "createdAt": "2026-11-08T02:58:31.042Z",
       "updatedAt": "2026-11-08T02:58:31.042Z",
-      "lastAccessedAt": "2026-11-08T06:08:42.733Z",
+      "lastAccessedAt": "2026-11-08T07:58:02.492Z",
       "revision": 1,
       "contentHash": "5e1b14633acf2762234b4fc0cb7267930950147d49655c1ab87c5d3c51c95ad6",
       "sizeBytes": 8502,
@@ -966,10 +966,37 @@
       ],
       "createdAt": "2026-11-08T06:09:14.473Z",
       "updatedAt": "2026-11-08T06:09:14.473Z",
-      "lastAccessedAt": "2026-11-08T06:09:14.473Z",
+      "lastAccessedAt": "2026-11-08T07:58:02.492Z",
       "revision": 1,
       "contentHash": "ea94bf6258b09263992c2fa840951dfbec233b793c6022dfab1dc0783ea5df12",
       "sizeBytes": 6979,
+      "memoryBodyIds": []
+    },
+    {
+      "id": "02a840ef-2915-41f6-959d-af75dd1972ee",
+      "title": "svn_work 主题整合：三仓复测总记录与交互控制系统全过程（62–65 号）",
+      "description": "把同主题散落文档整合成「每仓一篇复测总记录 + 控制台全过程」的结构；含三仓角色/时间线/DSE 差异、抓包时延与内部打点两套口径、控制台五阶段与规模量化、11 条踩坑、整合复查发现的 4 项既有文档错误与三仓提交。",
+      "status": "active",
+      "filename": "svn-work-62-65-02a840ef.md",
+      "relativePath": "documents/active/svn-work-62-65-02a840ef.md",
+      "sourcePaths": [
+        "svn_work/62_gt_trunk本地复测总记录_20261108.md",
+        "svn_work/63_gt_svn本地复测总记录_20261108.md",
+        "svn_work/64_gt_sit本地复测总记录_20261108.md",
+        "svn_work/65_交互控制系统全过程记录_20261108.md",
+        "svn_work/README.md",
+        "web_ui/DESIGN.md",
+        "DYS-FRAMEWORK/fte/test_all/webui/MANUAL.md"
+      ],
+      "sessionIds": [
+        "35c9d49b-a927-498a-a239-2c3f58116bd8"
+      ],
+      "createdAt": "2026-11-08T07:58:23.416Z",
+      "updatedAt": "2026-11-08T07:58:23.416Z",
+      "lastAccessedAt": "2026-11-08T07:58:23.416Z",
+      "revision": 1,
+      "contentHash": "fc2da4ac3ab1530542b6be1d2acccbdeda09b7ee276eacac5c928b0c7489afe9",
+      "sizeBytes": 6120,
       "memoryBodyIds": []
     }
   ]
