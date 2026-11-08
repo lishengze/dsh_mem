@@ -4,7 +4,7 @@
     "payload/runtime/memories.json": "1d0048c78d68ebd7ab757c6ec8e134b3069c14162f669ecbc87c8ee162682707",
     "payload/runtime/USER.md": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
     "payload/runtime/MEMORY.md": "ce6114cc891da1ad1a993cebf8917fd2849e9e33d92cae1990d74693989fe878",
-    "payload/documents/index.json": "fc7d4061e68b05ae67aaa0e1c6347f764e4bbd83382ade15dff767f9be45a3a0",
+    "payload/documents/index.json": "484e59241aab473aa77326a572a29e46ded5183737ebd3231743b26dba3ed5e6",
     "payload/documents/active/otcsrc-svn-2026-11-27e439e6.md": "309afafc841c76ed07bd180a1ca0f4c457c344a8e3ea68402d64d88694559d32",
     "payload/documents/active/gt-svn-2026-11-03-ac5aee7f.md": "b75ce495900bde26a2d1ab7b265fbda815cab855491c02c5c5a013d6fcb2ca75",
     "payload/documents/active/gt-svn-etf-341-2026-11-03-9e861d20.md": "b6ae7bfe5b9aa0b1ae1a101e296335bfc74efbf7f79357c0047a58c0cf455a74",
@@ -44,6 +44,7 @@
     "payload/documents/active/gt-trunk-gt-svn-gt-sit-2026-11-08-6eb8dfb8.md": "401919f86cc40c9bd1c56b03a691beb9fdc7774cf0949796b17558bf9cf7b0a5",
     "payload/documents/active/gt-svn-gt-sit-32-svn-work-9729b9db.md": "4244c10724e3a75ba138d37414eef923718171437762b43854d54de2714fb2c5",
     "payload/documents/active/svn-work-62-65-02a840ef.md": "a8881a9761f158a81a609a0de3af8ae7247c3b061cf72b6d44719c235b5a93a3",
+    "payload/documents/active/run-2026-11-08-e3defbad.md": "69ed73799481f0f6f26b0f034503012298557c622c1fc5ab09ae6e6824179d15",
     "payload/data/.dsh-memory-bodies.json": "dc6020b75bab2ed6109193aea9c3427c22d9d2b6edd223c4c8c6cd87ad0c67dd"
   }
 }
