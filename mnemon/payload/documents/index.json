@@ -384,7 +384,7 @@
       ],
       "createdAt": "2026-11-04T23:53:58.910Z",
       "updatedAt": "2026-11-04T23:53:58.910Z",
-      "lastAccessedAt": "2026-11-07T03:07:36.517Z",
+      "lastAccessedAt": "2026-11-08T02:58:07.601Z",
       "revision": 1,
       "contentHash": "96fc95cee8e6dd0451ab2bc5d5d0a1c4991894d40c91aa83232de61f9795cacc",
       "sizeBytes": 7452,
@@ -626,7 +626,7 @@
       ],
       "createdAt": "2026-11-06T03:39:15.798Z",
       "updatedAt": "2026-11-06T03:39:15.798Z",
-      "lastAccessedAt": "2026-11-06T12:45:37.167Z",
+      "lastAccessedAt": "2026-11-08T02:58:07.601Z",
       "revision": 1,
       "contentHash": "43a8399f4a7bdda7899e6db430c143acb02bb59d6a0aa914a8fbcbd1a038304f",
       "sizeBytes": 5547,
@@ -661,7 +661,7 @@
       ],
       "createdAt": "2026-11-06T04:45:54.186Z",
       "updatedAt": "2026-11-06T04:45:54.186Z",
-      "lastAccessedAt": "2026-11-06T15:17:58.531Z",
+      "lastAccessedAt": "2026-11-08T02:58:07.601Z",
       "revision": 1,
       "contentHash": "c1bd69d447d9473c5d27ca2d546d9cdd1622e19d403d6ac4224cc926b2b53adf",
       "sizeBytes": 8583,
@@ -890,7 +890,7 @@
       ],
       "createdAt": "2026-11-07T03:08:36.982Z",
       "updatedAt": "2026-11-07T03:08:36.982Z",
-      "lastAccessedAt": "2026-11-07T14:02:49.206Z",
+      "lastAccessedAt": "2026-11-08T02:58:07.601Z",
       "revision": 1,
       "contentHash": "7a86c793e33ac42fd61b88f21470ffd766a562a54c941e6f0f6a9becde73ec42",
       "sizeBytes": 5785,
@@ -917,6 +917,36 @@
       "revision": 1,
       "contentHash": "931bec5d04e5f4905a86134f166a02907fadb348de4f34dc81f2382540ac8e0a",
       "sizeBytes": 4739,
+      "memoryBodyIds": []
+    },
+    {
+      "id": "6eb8dfb8-9fb2-4eb2-84af-99641ec7da22",
+      "title": "gt_trunk/gt_svn/gt_sit 三仓的测试资产与上场数据管理方案（2026-11-08）",
+      "description": "三仓 schema 与测试资产盘点（atp_te.xml、agw_external.xml、mock_client/mock_exch_server、上场数据、用例、Row struct）；baseline+overlay 分层存储建议；结构变化 vs 语义变化（行宽校验挡不住 NUL/空格填充差异）与五级防护、8/7 环节影响矩阵；libutedatainit.so 单变量定位法；bin 格式与 bin_tool.py。",
+      "status": "active",
+      "filename": "gt-trunk-gt-svn-gt-sit-2026-11-08-6eb8dfb8.md",
+      "relativePath": "documents/active/gt-trunk-gt-svn-gt-sit-2026-11-08-6eb8dfb8.md",
+      "sourcePaths": [
+        "svn_work/59_多分支代码与测试案例管理方案_20261108.md",
+        "DYS-FRAMEWORK/Common/dev_resource/atp_te.xml",
+        "DYS-FRAMEWORK/gw_external_msg/V2/buildmsg/agw_external.xml",
+        "DYS-FRAMEWORK/fte/ftedatainit/src/ftedata_init.cpp",
+        "DYS-FRAMEWORK/fte/ftedatainit/include/ftedatainit.h",
+        "DYS-FRAMEWORK/fte/include/common/uteloaddata.h",
+        "DYS-FRAMEWORK/tech/include/load_data.h",
+        "DYS-FRAMEWORK/fte/test_all/bin_tool/bin_tool.py",
+        "DYS-FRAMEWORK/api/gw_api_boost/ute_mock_client",
+        "test/mock_exch_server"
+      ],
+      "sessionIds": [
+        "37e4ffb9-9455-445d-85de-2a41e6a3d4d4"
+      ],
+      "createdAt": "2026-11-08T02:58:31.042Z",
+      "updatedAt": "2026-11-08T02:58:31.042Z",
+      "lastAccessedAt": "2026-11-08T02:58:31.042Z",
+      "revision": 1,
+      "contentHash": "5e1b14633acf2762234b4fc0cb7267930950147d49655c1ab87c5d3c51c95ad6",
+      "sizeBytes": 8502,
       "memoryBodyIds": []
     }
   ]

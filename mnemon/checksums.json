@@ -4,7 +4,7 @@
     "payload/runtime/memories.json": "4c78a3a8b46cda9637f35d7bd87ba53af9401ecbaa933913e7a886d49f1b869c",
     "payload/runtime/USER.md": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
     "payload/runtime/MEMORY.md": "74d029e32b86b5e6aae8825a21d447d26636718c6b89fbdfc08f6a1830f4b2c8",
-    "payload/documents/index.json": "2d9f9b982ad5b31d3dcaa9e26c0e203663c0f3cd2d2bf751f0d0d6eac2f31c11",
+    "payload/documents/index.json": "5d7b9af2106706ff42f59d8253905d5c75900806a6931bb4c532c7aebb21f6bc",
     "payload/documents/active/otcsrc-svn-2026-11-27e439e6.md": "309afafc841c76ed07bd180a1ca0f4c457c344a8e3ea68402d64d88694559d32",
     "payload/documents/active/gt-svn-2026-11-03-ac5aee7f.md": "b75ce495900bde26a2d1ab7b265fbda815cab855491c02c5c5a013d6fcb2ca75",
     "payload/documents/active/gt-svn-etf-341-2026-11-03-9e861d20.md": "b6ae7bfe5b9aa0b1ae1a101e296335bfc74efbf7f79357c0047a58c0cf455a74",
@@ -41,6 +41,7 @@
     "payload/documents/active/dse-domainserver-fte-2026-11-07-db5c633e.md": "6725a27b2b36dc186a96c89c2b4c2a7dee42a58c32c31b063085bafd11d745f0",
     "payload/documents/active/gt-sit-dse-codec-atp-msg-proto-glibc-2026-11-07-5ae98d7d.md": "f7cea874c9e763cfca0f02dbe8526417b08e9cf89e46103a13027f193ecd610e",
     "payload/documents/active/gt-sit-dse-10-ter-include-atp-common-include-a8dbc49f.md": "d28df8bcc6a3f28af16b7a522354e2f09b041dbb4798d4bafb843773d7132baf",
+    "payload/documents/active/gt-trunk-gt-svn-gt-sit-2026-11-08-6eb8dfb8.md": "401919f86cc40c9bd1c56b03a691beb9fdc7774cf0949796b17558bf9cf7b0a5",
     "payload/data/.dsh-memory-bodies.json": "dc6020b75bab2ed6109193aea9c3427c22d9d2b6edd223c4c8c6cd87ad0c67dd"
   }
 }
