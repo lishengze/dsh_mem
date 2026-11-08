@@ -411,7 +411,7 @@
       ],
       "createdAt": "2026-11-05T00:54:42.583Z",
       "updatedAt": "2026-11-05T00:54:42.583Z",
-      "lastAccessedAt": "2026-11-08T10:06:36.014Z",
+      "lastAccessedAt": "2026-11-08T16:02:43.774Z",
       "revision": 1,
       "contentHash": "bd8d39fba52772335835cad83d0936d44202c3decc6e5dd26ee40f7bea273d22",
       "sizeBytes": 7171,
@@ -890,7 +890,7 @@
       ],
       "createdAt": "2026-11-07T03:08:36.982Z",
       "updatedAt": "2026-11-07T03:08:36.982Z",
-      "lastAccessedAt": "2026-11-08T10:06:36.014Z",
+      "lastAccessedAt": "2026-11-08T16:02:43.774Z",
       "revision": 1,
       "contentHash": "7a86c793e33ac42fd61b88f21470ffd766a562a54c941e6f0f6a9becde73ec42",
       "sizeBytes": 5785,
@@ -943,7 +943,7 @@
       ],
       "createdAt": "2026-11-08T02:58:31.042Z",
       "updatedAt": "2026-11-08T02:58:31.042Z",
-      "lastAccessedAt": "2026-11-08T07:58:02.492Z",
+      "lastAccessedAt": "2026-11-08T16:02:43.774Z",
       "revision": 1,
       "contentHash": "5e1b14633acf2762234b4fc0cb7267930950147d49655c1ab87c5d3c51c95ad6",
       "sizeBytes": 8502,
@@ -1018,10 +1018,35 @@
       ],
       "createdAt": "2026-11-08T10:07:02.755Z",
       "updatedAt": "2026-11-08T10:07:02.755Z",
-      "lastAccessedAt": "2026-11-08T10:07:02.755Z",
+      "lastAccessedAt": "2026-11-08T16:02:43.774Z",
       "revision": 1,
       "contentHash": "ebd546cf71ca1897ac95f05b58de6770ae7965e5291617ade361fb3d373e5c85",
       "sizeBytes": 6609,
+      "memoryBodyIds": []
+    },
+    {
+      "id": "f3324711-b8f7-477e-94c5-3d06a1ee3d6d",
+      "title": "gt_sit mock_client double free 根因复核：boost 1.68/1.62 混链（2026-11-08）",
+      "description": "复核三仓独立改造收尾结论，用 ldd 证据推翻「agw 库 ABI 不配套」判断，定位 double free 真因为 build_mock_client.sh 的 boost 路径写错导致 1.68/1.62 混链；含修正后重编验证、文档/脚本不一致清单。",
+      "status": "active",
+      "filename": "gt-sit-mock-client-double-free-boost-1-68-1-62-2-f3324711.md",
+      "relativePath": "documents/active/gt-sit-mock-client-double-free-boost-1-68-1-62-2-f3324711.md",
+      "sourcePaths": [
+        "DYS-FRAMEWORK/fte/test_all/build_mock_client.sh",
+        "DYS-FRAMEWORK/fte/test_all/verify_branch_isolation.sh",
+        "DYS-FRAMEWORK/fte_all/compile_fte_only.sh",
+        "DYS-FRAMEWORK/fte/test_all/env.sh",
+        "svn_work/66_三仓完全独立改造记录_20261108.md"
+      ],
+      "sessionIds": [
+        "25fc27ac-693f-4731-9768-8351ef6fd5f8"
+      ],
+      "createdAt": "2026-11-08T16:05:48.818Z",
+      "updatedAt": "2026-11-08T16:05:48.818Z",
+      "lastAccessedAt": "2026-11-08T16:05:48.818Z",
+      "revision": 1,
+      "contentHash": "0304b9f88d9252b335fa3b6d50145e92d856435934c3c684996759682f1a8ac2",
+      "sizeBytes": 7196,
       "memoryBodyIds": []
     }
   ]
