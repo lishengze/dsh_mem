@@ -44,7 +44,7 @@
       ],
       "createdAt": "2026-11-03T14:50:49.670Z",
       "updatedAt": "2026-11-03T14:50:49.670Z",
-      "lastAccessedAt": "2026-11-06T05:19:38.744Z",
+      "lastAccessedAt": "2026-11-08T06:08:42.733Z",
       "revision": 1,
       "contentHash": "b5919f75832af65af73d7edfb307f2b83807fc5e63b5b6a842712201576ff77c",
       "sizeBytes": 6623,
@@ -384,7 +384,7 @@
       ],
       "createdAt": "2026-11-04T23:53:58.910Z",
       "updatedAt": "2026-11-04T23:53:58.910Z",
-      "lastAccessedAt": "2026-11-08T02:58:07.601Z",
+      "lastAccessedAt": "2026-11-08T06:08:42.733Z",
       "revision": 1,
       "contentHash": "96fc95cee8e6dd0451ab2bc5d5d0a1c4991894d40c91aa83232de61f9795cacc",
       "sizeBytes": 7452,
@@ -411,7 +411,7 @@
       ],
       "createdAt": "2026-11-05T00:54:42.583Z",
       "updatedAt": "2026-11-05T00:54:42.583Z",
-      "lastAccessedAt": "2026-11-07T14:02:49.206Z",
+      "lastAccessedAt": "2026-11-08T06:08:42.733Z",
       "revision": 1,
       "contentHash": "bd8d39fba52772335835cad83d0936d44202c3decc6e5dd26ee40f7bea273d22",
       "sizeBytes": 7171,
@@ -943,10 +943,33 @@
       ],
       "createdAt": "2026-11-08T02:58:31.042Z",
       "updatedAt": "2026-11-08T02:58:31.042Z",
-      "lastAccessedAt": "2026-11-08T02:58:31.042Z",
+      "lastAccessedAt": "2026-11-08T06:08:42.733Z",
       "revision": 1,
       "contentHash": "5e1b14633acf2762234b4fc0cb7267930950147d49655c1ab87c5d3c51c95ad6",
       "sizeBytes": 8502,
+      "memoryBodyIds": []
+    },
+    {
+      "id": "9729b9db-ece3-415f-8167-845c22407e2a",
+      "title": "gt_svn/gt_sit 复测代码问题复盘（32 条）与 svn_work 文档去伪存真方法",
+      "description": "按组件归类的 32 个复测代码问题（构建/FTE/DSE/DomainServer/mock/脚本），核心结论是修复未跨分支同步导致 gt_sit 重复排查 2 天；以及用状态块而非改写来消解 13 条被推翻结论的文档校正手法、测量口径与三仓数据源指纹。",
+      "status": "active",
+      "filename": "gt-svn-gt-sit-32-svn-work-9729b9db.md",
+      "relativePath": "documents/active/gt-svn-gt-sit-32-svn-work-9729b9db.md",
+      "sourcePaths": [
+        "svn_work/60_gt_svn与gt_sit复测代码问题复盘_20261108.md",
+        "svn_work/61_svn_work文档校正与整合_20261108.md",
+        "svn_work/README.md"
+      ],
+      "sessionIds": [
+        "81947e1d-41a9-4522-9c39-23a32b8a7f77"
+      ],
+      "createdAt": "2026-11-08T06:09:14.473Z",
+      "updatedAt": "2026-11-08T06:09:14.473Z",
+      "lastAccessedAt": "2026-11-08T06:09:14.473Z",
+      "revision": 1,
+      "contentHash": "ea94bf6258b09263992c2fa840951dfbec233b793c6022dfab1dc0783ea5df12",
+      "sizeBytes": 6979,
       "memoryBodyIds": []
     }
   ]
