@@ -9,3 +9,5 @@ grc_trunk 强化规则（用户 2026-11-05 要求，权威条款在 task/task_ru
 DSE/DomainServer 工作环境铁律（用户 2026-11-06）：所有组件（dse、domain_server、FTE 等）的编译、部署、运行、测试都必须在 docker 容器 otc 内进行；domain_server 是 AMI 预编译二进制，不需要编译，只需从 work_lib/AMI/bin 部署到统一运行目录。
 §
 环境铁律：dse、domain_server 等所有组件的编译、部署、运行、测试一律在 docker 容器（otc）内进行；domain_server 是 AMI 预编译二进制，不需要编译。
+§
+跨仓同步规则（用户 2026-11-08，权威条款在 task/task_rule.md 第 14 章）：任一仓库对「源代码之外的部分」（上场数据、测试客户端 mock_client、模拟交易所、运维脚本、配置、文档规则、构建适配）升级后，必须考察另外两仓是否需要同步升级，并在工作日志写明「同步/不同步及依据」；禁止默认不同步。三仓测试部署已改为分支独立目录 ${WORK_ROOT}/run_<trunk|svn|sit>。
