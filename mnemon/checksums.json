@@ -4,7 +4,7 @@
     "payload/runtime/memories.json": "d6d9a3e7b195f7ae7707aff446933e1be3ab11364788d8edfa921fab990adfff",
     "payload/runtime/USER.md": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
     "payload/runtime/MEMORY.md": "a3d3c08bb98f8a01c5e447a20a9f3bf988ac6e8805458b31a5dc9d5ded046ac2",
-    "payload/documents/index.json": "998a36b7753a3ec7b8926469968a3b0c5ddd6221667b022fe70272816a3409b3",
+    "payload/documents/index.json": "ee9f332215dc409c15a4f126f0304cb14ef89a12461bbae840f6310938ff2e35",
     "payload/documents/active/otcsrc-svn-2026-11-27e439e6.md": "309afafc841c76ed07bd180a1ca0f4c457c344a8e3ea68402d64d88694559d32",
     "payload/documents/active/gt-svn-2026-11-03-ac5aee7f.md": "b75ce495900bde26a2d1ab7b265fbda815cab855491c02c5c5a013d6fcb2ca75",
     "payload/documents/active/gt-svn-etf-341-2026-11-03-9e861d20.md": "b6ae7bfe5b9aa0b1ae1a101e296335bfc74efbf7f79357c0047a58c0cf455a74",
@@ -54,6 +54,7 @@
     "payload/documents/active/410497-otc-2026-11-09-54c9f566.md": "1428dce72805c8faf869a8cd5c8f6578a5db27a18f7fb7b2f8110b034b60f230",
     "payload/documents/active/params-stats-2026-11-09-commit-0b7d6303-21-21-afbfbc10.md": "884bde4e0c6b4de7789bcdb0a43c72cc6a7a6aaabba8aa5d443b0f7bd7c71da9",
     "payload/documents/active/otcsrc-trygetvalue-2026-11-09-12f5d1df.md": "6045c8e2775da16fa7f225c8808a79808817b2bc45b80f91580f9fd25d44bab1",
+    "payload/documents/active/otcsrc-m-noffset-2026-11-09-f41a3eb1.md": "73c7b22208ae1b14ec44be1ec2f8d7a4f7288f78bf3d9e6aa2a4ff3dc0c651a9",
     "payload/data/.dsh-memory-bodies.json": "dc6020b75bab2ed6109193aea9c3427c22d9d2b6edd223c4c8c6cd87ad0c67dd"
   }
 }

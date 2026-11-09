@@ -18,7 +18,7 @@
       ],
       "createdAt": "2026-11-03T06:02:34.881Z",
       "updatedAt": "2026-11-03T06:02:34.881Z",
-      "lastAccessedAt": "2026-11-09T07:45:33.454Z",
+      "lastAccessedAt": "2026-11-09T09:16:39.778Z",
       "revision": 1,
       "contentHash": "416c9a4ab511ef8726f59c2f2bd6ca66d7e337cfc007abc04492e3cf5504ad5e",
       "sizeBytes": 6545,
@@ -661,7 +661,7 @@
       ],
       "createdAt": "2026-11-06T04:45:54.186Z",
       "updatedAt": "2026-11-06T04:45:54.186Z",
-      "lastAccessedAt": "2026-11-09T07:45:33.454Z",
+      "lastAccessedAt": "2026-11-09T09:16:39.778Z",
       "revision": 1,
       "contentHash": "c1bd69d447d9473c5d27ca2d546d9cdd1622e19d403d6ac4224cc926b2b53adf",
       "sizeBytes": 8583,
@@ -971,7 +971,7 @@
       ],
       "createdAt": "2026-11-08T02:58:31.042Z",
       "updatedAt": "2026-11-08T02:58:31.042Z",
-      "lastAccessedAt": "2026-11-08T23:16:20.790Z",
+      "lastAccessedAt": "2026-11-09T09:06:37.924Z",
       "revision": 1,
       "contentHash": "5e1b14633acf2762234b4fc0cb7267930950147d49655c1ab87c5d3c51c95ad6",
       "sizeBytes": 8502,
@@ -1247,10 +1247,38 @@
       ],
       "createdAt": "2026-11-09T07:45:48.869Z",
       "updatedAt": "2026-11-09T07:45:48.869Z",
-      "lastAccessedAt": "2026-11-09T07:45:48.869Z",
+      "lastAccessedAt": "2026-11-09T09:16:39.778Z",
       "revision": 1,
       "contentHash": "12152f20992189d8a80e973e63c32d70e46233fcc0a836a46d8e61ddbac5799f",
       "sizeBytes": 5043,
+      "memoryBodyIds": []
+    },
+    {
+      "id": "f41a3eb1-d933-4ad7-b510-2fe0fc326c98",
+      "title": "otcsrc 入参默认值保持第二轮：结构体字符默认值守卫与 m_nOffset 语义复核（2026-11-09）",
+      "description": "otcsrc 默认值整改第二轮的可复用结论：框架对空字段写空格导致 Clear() 里字符型默认值（m_cPassflag/m_cAction/m_cSwitchFlag/m_cContractType/m_cDealflag）被 TryGetValue 覆盖的 15 处修复与统一守卫写法、扫描脚本误判教训、编译部署与回归结果、无 mock 用例的盲区；以及 16 个查询业务 m_nOffset 消费语义分类与「默认 0 不丢首条、勿改 1」的反证用例。",
+      "status": "active",
+      "filename": "otcsrc-m-noffset-2026-11-09-f41a3eb1.md",
+      "relativePath": "documents/active/otcsrc-m-noffset-2026-11-09-f41a3eb1.md",
+      "sourcePaths": [
+        "otcsrc/lbm/lbm_otc_counter/src/processors/trading/trdright_processor.cpp",
+        "otcsrc/lbm/lbm_otc_counter/src/processors/trading/cust_of_delay_fund_set_processor.cpp",
+        "otcsrc/lbm/lbm_otc_query/src/query_of_order_business.cpp",
+        "otcsrc/lbm/lbm_otc_trade/src/processors/trading/per_open_fund_trade_processor.cpp",
+        "otcsrc/lbm/lbm_otc_query/src/query_otc_get_bjhq_business.cpp",
+        "otcsrc/mock/mock_client/conf/req_offset_default_20261109.xml",
+        "task/params_stats/默认值保持整改说明_20261109.md",
+        "task/params_stats/m_nOffset默认值考察_20261109.md"
+      ],
+      "sessionIds": [
+        "44aa9078-b7a9-4ce5-9fac-56a574f6553b"
+      ],
+      "createdAt": "2026-11-09T08:50:28.715Z",
+      "updatedAt": "2026-11-09T08:50:28.715Z",
+      "lastAccessedAt": "2026-11-09T09:16:39.778Z",
+      "revision": 1,
+      "contentHash": "c707e85edc384ca583fc58f08b2165e5a1c7eb6f4b24e830f6a506bfdeba3263",
+      "sizeBytes": 8786,
       "memoryBodyIds": []
     }
   ]
