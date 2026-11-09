@@ -198,7 +198,7 @@
       ],
       "createdAt": "2026-11-04T04:08:46.173Z",
       "updatedAt": "2026-11-04T04:08:46.173Z",
-      "lastAccessedAt": "2026-11-05T06:03:41.149Z",
+      "lastAccessedAt": "2026-11-08T23:52:17.473Z",
       "revision": 1,
       "contentHash": "15ad6674620accbd4d82d05c09440ca9b272e4e52ca76bfadd4b292aa229db40",
       "sizeBytes": 5899,
@@ -225,7 +225,7 @@
       ],
       "createdAt": "2026-11-04T05:38:22.469Z",
       "updatedAt": "2026-11-04T05:38:22.469Z",
-      "lastAccessedAt": "2026-11-05T07:30:35.115Z",
+      "lastAccessedAt": "2026-11-08T23:52:17.473Z",
       "revision": 1,
       "contentHash": "7d5a98675aa89dca415d2edeb03771564a8890d98036e5d7f1b17886cf75e771",
       "sizeBytes": 6648,
@@ -293,7 +293,7 @@
       ],
       "createdAt": "2026-11-04T12:38:01.628Z",
       "updatedAt": "2026-11-04T12:38:01.628Z",
-      "lastAccessedAt": "2026-11-06T02:45:36.218Z",
+      "lastAccessedAt": "2026-11-08T23:16:20.790Z",
       "revision": 1,
       "contentHash": "70070a09ca95095f56d68368b1c431c60f404ebdaa66f4558f2a2487fc1a4345",
       "sizeBytes": 5772,
@@ -384,7 +384,7 @@
       ],
       "createdAt": "2026-11-04T23:53:58.910Z",
       "updatedAt": "2026-11-04T23:53:58.910Z",
-      "lastAccessedAt": "2026-11-08T06:08:42.733Z",
+      "lastAccessedAt": "2026-11-08T23:52:17.473Z",
       "revision": 1,
       "contentHash": "96fc95cee8e6dd0451ab2bc5d5d0a1c4991894d40c91aa83232de61f9795cacc",
       "sizeBytes": 7452,
@@ -626,7 +626,7 @@
       ],
       "createdAt": "2026-11-06T03:39:15.798Z",
       "updatedAt": "2026-11-06T03:39:15.798Z",
-      "lastAccessedAt": "2026-11-08T02:58:07.601Z",
+      "lastAccessedAt": "2026-11-08T23:16:20.790Z",
       "revision": 1,
       "contentHash": "43a8399f4a7bdda7899e6db430c143acb02bb59d6a0aa914a8fbcbd1a038304f",
       "sizeBytes": 5547,
@@ -661,7 +661,7 @@
       ],
       "createdAt": "2026-11-06T04:45:54.186Z",
       "updatedAt": "2026-11-06T04:45:54.186Z",
-      "lastAccessedAt": "2026-11-08T02:58:07.601Z",
+      "lastAccessedAt": "2026-11-08T23:16:20.790Z",
       "revision": 1,
       "contentHash": "c1bd69d447d9473c5d27ca2d546d9cdd1622e19d403d6ac4224cc926b2b53adf",
       "sizeBytes": 8583,
@@ -943,7 +943,7 @@
       ],
       "createdAt": "2026-11-08T02:58:31.042Z",
       "updatedAt": "2026-11-08T02:58:31.042Z",
-      "lastAccessedAt": "2026-11-08T16:02:43.774Z",
+      "lastAccessedAt": "2026-11-08T23:16:20.790Z",
       "revision": 1,
       "contentHash": "5e1b14633acf2762234b4fc0cb7267930950147d49655c1ab87c5d3c51c95ad6",
       "sizeBytes": 8502,
@@ -1047,6 +1047,53 @@
       "revision": 1,
       "contentHash": "0304b9f88d9252b335fa3b6d50145e92d856435934c3c684996759682f1a8ac2",
       "sizeBytes": 7196,
+      "memoryBodyIds": []
+    },
+    {
+      "id": "0d85368b-f55c-4ebc-991f-d79e413a2c52",
+      "title": "FTE mock_client 测试框架实施记录：codegen、单案例目录、回报侧车与 DataTrans（2026-11-09）",
+      "description": "31 个 codegen 文件清单与执行要点（python2.7 UCS4、-d 必给、-I 不能是目录）；config/test_cases/<market>/cases 单案例布局与 cases/ 前缀坑；actual_fields 侧车与展示；撤单案例解耦；datatrans.py 往返与 pad 填充；构建/内存/链接经验；三仓提交。",
+      "status": "active",
+      "filename": "fte-mock-client-codegen-datatrans-2026-11-09-0d85368b.md",
+      "relativePath": "documents/active/fte-mock-client-codegen-datatrans-2026-11-09-0d85368b.md",
+      "sourcePaths": [
+        "svn_work/67_codec生成作业单_20261109.md",
+        "svn_work/68_DataTrans工具说明_20261109.md"
+      ],
+      "sessionIds": [
+        "98a45ca2-1697-40c0-b34d-250d0bd2b154"
+      ],
+      "createdAt": "2026-11-08T23:17:00.686Z",
+      "updatedAt": "2026-11-08T23:17:00.686Z",
+      "lastAccessedAt": "2026-11-08T23:52:17.473Z",
+      "revision": 1,
+      "contentHash": "eb8ccfcd9dbdc9298afdea3fe505a7fc30cf123086ca72371b2322479c071656",
+      "sizeBytes": 5780,
+      "memoryBodyIds": []
+    },
+    {
+      "id": "2c2b5ebe-117e-4de3-8a17-52f60834a5fe",
+      "title": "FTE 测试控制台：单案例运行、日志页与数据页（2026-11-09）",
+      "description": "控制台任务4 的三项交互能力与入口（右键单案例运行 / /logs / /data）、单案例配置生成与链路检查流程、8 个踩坑（docker exec 吞参、MOCK_DIR 拼绝对路径、root 属主 run 目录、LD_LIBRARY_PATH、SIGBUS 噪声等）及验证数据与三仓提交。",
+      "status": "active",
+      "filename": "fte-2026-11-09-2c2b5ebe.md",
+      "relativePath": "documents/active/fte-2026-11-09-2c2b5ebe.md",
+      "sourcePaths": [
+        "DYS-FRAMEWORK/fte/test_all/webui/server.py",
+        "DYS-FRAMEWORK/fte/test_all/webui/viewers.py",
+        "DYS-FRAMEWORK/fte/test_all/webui/viewer.js",
+        "DYS-FRAMEWORK/fte/test_all/run_test.sh",
+        "svn_work/70_任务4交互控制优化记录_20261109.md"
+      ],
+      "sessionIds": [
+        "0d8b9213-c037-47da-a304-d96ba6d3fa64"
+      ],
+      "createdAt": "2026-11-08T23:52:53.632Z",
+      "updatedAt": "2026-11-08T23:52:53.632Z",
+      "lastAccessedAt": "2026-11-08T23:52:53.632Z",
+      "revision": 1,
+      "contentHash": "fa79e062607944cbf5d02386e85aa7f5cb41fdb84202a818ce242019fd062fc2",
+      "sizeBytes": 5104,
       "memoryBodyIds": []
     }
   ]
