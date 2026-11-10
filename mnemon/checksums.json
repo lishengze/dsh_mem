@@ -4,7 +4,7 @@
     "payload/runtime/memories.json": "c37ce16fb8ab32ce3ad77ff356b28c47d37625ca72dc9fdb1f8c501e738d8e37",
     "payload/runtime/USER.md": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
     "payload/runtime/MEMORY.md": "e3293e5b88b806b62d9140090e6b623814566da25ae43261386688fe614508ac",
-    "payload/documents/index.json": "2b3f4603823ad1c457f689620153314ec2fe34a82b1a5214bfd57c0db9967fff",
+    "payload/documents/index.json": "b798ba334dc4c282c189e3bbd5ddf5c6d18d1fa865aee03cc01aed4f08a0e20c",
     "payload/documents/active/otcsrc-svn-2026-11-27e439e6.md": "309afafc841c76ed07bd180a1ca0f4c457c344a8e3ea68402d64d88694559d32",
     "payload/documents/active/gt-svn-2026-11-03-ac5aee7f.md": "b75ce495900bde26a2d1ab7b265fbda815cab855491c02c5c5a013d6fcb2ca75",
     "payload/documents/active/gt-svn-etf-341-2026-11-03-9e861d20.md": "b6ae7bfe5b9aa0b1ae1a101e296335bfc74efbf7f79357c0047a58c0cf455a74",
@@ -59,6 +59,9 @@
     "payload/documents/active/4-14-2026-11-10-5d13fd14.md": "0b8714b277a525ca0abad5b4320ac9dfcc61f99d2bec922cede783453d1d654d",
     "payload/documents/active/411833-bos-g-2026-11-10-param-counter-758ce688.md": "a09820fcaf4b1860dcd4c0ec37089cd7d24342ea706356f694d03876ff3ae992",
     "payload/documents/active/411833-estimated-0-13-2026-11-10-cbf42fed.md": "c928cb829f9b914df3efc616da03827da569e52712b50a4c33970817116f5242",
+    "payload/documents/active/410553-yhzx-2026-11-10-30a47de8.md": "875c62338f407cce828e493a6c083b5c57e76fe1131ac3b4f711a1362c0b849a",
+    "payload/documents/active/excel-2026-11-10-a09a0e67.md": "9e6486b811aa5f4ae868b9544fb48c9cae6a4f4db2de85907668135613d29c0d",
+    "payload/documents/active/excel-sheet-svn-2026-11-10-4-bc5440de.md": "e9ce1b33d95f55c8aa6f15c45433e566bca3d393c701e7850011a1672c215e27",
     "payload/data/.dsh-memory-bodies.json": "dc6020b75bab2ed6109193aea9c3427c22d9d2b6edd223c4c8c6cd87ad0c67dd"
   }
 }
