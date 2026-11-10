@@ -714,7 +714,7 @@
       ],
       "createdAt": "2026-11-06T06:13:09.468Z",
       "updatedAt": "2026-11-06T06:13:09.468Z",
-      "lastAccessedAt": "2026-11-10T01:21:27.431Z",
+      "lastAccessedAt": "2026-11-10T02:39:01.221Z",
       "revision": 1,
       "contentHash": "a6eff09129a4e62f69eca8f04635b2d0a7ceb176b395d3fff4c4cd8702d48d0d",
       "sizeBytes": 4892,
@@ -868,7 +868,7 @@
       ],
       "createdAt": "2026-11-06T15:18:23.300Z",
       "updatedAt": "2026-11-06T15:18:23.300Z",
-      "lastAccessedAt": "2026-11-10T01:21:27.431Z",
+      "lastAccessedAt": "2026-11-10T02:13:14.128Z",
       "revision": 1,
       "contentHash": "bce7041797ac6cfabdfc6652478ab2ee8b96922af0989e084b1dcd5cfeb7c45a",
       "sizeBytes": 8487,
@@ -1196,7 +1196,7 @@
       ],
       "createdAt": "2026-11-09T06:05:25.849Z",
       "updatedAt": "2026-11-09T06:05:25.849Z",
-      "lastAccessedAt": "2026-11-10T01:21:27.431Z",
+      "lastAccessedAt": "2026-11-10T02:39:01.221Z",
       "revision": 1,
       "contentHash": "12c693d6440d1fccf37d97165bb4637f6400fdae15b40c98896dd83f391408a4",
       "sizeBytes": 5775,
@@ -1303,10 +1303,63 @@
       ],
       "createdAt": "2026-11-10T01:21:44.961Z",
       "updatedAt": "2026-11-10T01:21:44.961Z",
-      "lastAccessedAt": "2026-11-10T01:21:44.961Z",
+      "lastAccessedAt": "2026-11-10T02:39:01.221Z",
       "revision": 1,
       "contentHash": "a24c1d167b39142db900be67ee8151ac7929e2a61a741f50949e149574cd1880",
       "sizeBytes": 6834,
+      "memoryBodyIds": []
+    },
+    {
+      "id": "5d13fd14-8697-419b-8332-de3bebc6094a",
+      "title": "4 开头 14 业务公共入参复用改造落地（2026-11-10）：成员遮蔽坑、验证结果与待提交清单",
+      "description": "把 13 个 4 开头业务的 21 处公共入参重复解析按「公共优先+为空回退」改造完成：统一写法规约、业务成员遮蔽基类字段导致回归大面积失败的根因与修法、专项 6/6 与既有 78 条 77 通过的结果、md5 一致的部署校验、SVN 组3 13 文件待提交命令、以及 410553 TC-12 数据缺失等遗留项。",
+      "status": "active",
+      "filename": "4-14-2026-11-10-5d13fd14.md",
+      "relativePath": "documents/active/4-14-2026-11-10-5d13fd14.md",
+      "sourcePaths": [
+        "task/params_stats/公共入参与独立入参重复分析_20261110.md",
+        "task/svn_conflict/task_svn.txt",
+        "study/knowledge_base_system/02_业务开发模式.md",
+        "work_log/20261110.md",
+        "otcsrc/mock/mock_client/conf/req_pub_reuse_20261110.xml",
+        "otcsrc/lbm/lbm_otc_counter/src/processors/risk/strategy_sign_processor_412230.cpp"
+      ],
+      "sessionIds": [
+        "b626a156-32c2-4eba-b0be-061624a0e7b1"
+      ],
+      "createdAt": "2026-11-10T02:13:37.531Z",
+      "updatedAt": "2026-11-10T02:13:37.531Z",
+      "lastAccessedAt": "2026-11-10T02:39:01.221Z",
+      "revision": 1,
+      "contentHash": "0fa19c6bd6c932eaa472e5c4bdaec9de68145248f4dcc2fc93debbdfa976def0",
+      "sizeBytes": 5763,
+      "memoryBodyIds": []
+    },
+    {
+      "id": "758ce688-d28f-4c86-971d-b78b192cfb1a",
+      "title": "411833 BOS 通用入参 g_* 去重复解析（2026-11-10）：框架兜底 + 业务纯拷贝、坑与 param/counter 残留清单",
+      "description": "411833 去除 6 个 BOS 通用入参 g_* 重复解析的落地记录：g_* 与老系统公共入参映射、为何不能直接删除（operid 日志 / estimated 连通性语义）、GetGeneralParam 空值兜底 + tagParamParam 新增字段的框架改法、业务纯拷贝片段、15/15 复测与无关失败、以及 param 31 / counter 5 个待改处理器的自查命令。",
+      "status": "active",
+      "filename": "411833-bos-g-2026-11-10-param-counter-758ce688.md",
+      "relativePath": "documents/active/411833-bos-g-2026-11-10-param-counter-758ce688.md",
+      "sourcePaths": [
+        "otcsrc/lbm/lbm_otc_param/include/base_processor.h",
+        "otcsrc/lbm/lbm_otc_param/include/param_param.h",
+        "otcsrc/lbm/lbm_otc_param/src/processors/per_cust_risk_ctrl_set_processor_411833.cpp",
+        "otcsrc/mock/mock_client/conf/req_70411833_pubparam_20261110.xml",
+        "task/params_stats/公共入参与独立入参重复分析_20261110.md",
+        "study/knowledge_base_system/02_业务开发模式.md",
+        "work_log/20261110.md"
+      ],
+      "sessionIds": [
+        "3cc4c430-296e-4a96-a81d-48e47e4bae79"
+      ],
+      "createdAt": "2026-11-10T02:39:22.951Z",
+      "updatedAt": "2026-11-10T02:39:22.951Z",
+      "lastAccessedAt": "2026-11-10T02:39:22.951Z",
+      "revision": 1,
+      "contentHash": "a707bf60a94efca18d1350f2101de93cb10b4b2fc700835904b7b8e1479ab3aa",
+      "sizeBytes": 7245,
       "memoryBodyIds": []
     }
   ]
