@@ -4,7 +4,7 @@
     "payload/runtime/memories.json": "f5e5462e403364d5b25e20212b80729674d31bb3c69a269fe7fcf22f92be35aa",
     "payload/runtime/USER.md": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
     "payload/runtime/MEMORY.md": "7be6b9fac2564141157d7952004a101e82eb194cd6f2741de6bc6f1b5cfec254",
-    "payload/documents/index.json": "4feaa2b49381ba19cdfd88fbb1e7231f38d01eb0d259cc964753013e875e6fac",
+    "payload/documents/index.json": "189b000b90fa9cdd68593488cf2388e37f50ae81ad3cdbc6d014e4519c5d976e",
     "payload/documents/active/otcsrc-svn-2026-11-27e439e6.md": "309afafc841c76ed07bd180a1ca0f4c457c344a8e3ea68402d64d88694559d32",
     "payload/documents/active/gt-svn-2026-11-03-ac5aee7f.md": "b75ce495900bde26a2d1ab7b265fbda815cab855491c02c5c5a013d6fcb2ca75",
     "payload/documents/active/gt-svn-etf-341-2026-11-03-9e861d20.md": "b6ae7bfe5b9aa0b1ae1a101e296335bfc74efbf7f79357c0047a58c0cf455a74",
@@ -65,6 +65,7 @@
     "payload/documents/active/4-7-g-2026-11-10-getgeneralparamoper-jstp-lbm-tr-55159cea.md": "2293e47b2a49cb482e6fb5f7b61a40d09ab523ffcbf2f12ef872ee4f8a7e827f",
     "payload/documents/active/api-id-2026-11-05-973d3b47.md": "c76378487c4db89dba1df51c03bda4cffd94391563c8fddb4252e34e6fba34c1",
     "payload/documents/active/home-lsz-code-2026-11-10-93f81a1e.md": "eb1687997c87eeb3f9dadf1c582f483a6265fcd74d3c53720c3f1d30fa671a29",
+    "payload/documents/active/api-fte-kpasswderr-2026-11-10-b14c2071.md": "371997498e6a0761faa29d594373f5c53b43f7160408fd04d99691a71aa9c514",
     "payload/data/.dsh-memory-bodies.json": "dc6020b75bab2ed6109193aea9c3427c22d9d2b6edd223c4c8c6cd87ad0c67dd"
   }
 }

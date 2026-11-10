@@ -44,7 +44,7 @@
       ],
       "createdAt": "2026-11-03T14:50:49.670Z",
       "updatedAt": "2026-11-03T14:50:49.670Z",
-      "lastAccessedAt": "2026-11-10T10:14:19.419Z",
+      "lastAccessedAt": "2026-11-10T11:25:38.739Z",
       "revision": 1,
       "contentHash": "b5919f75832af65af73d7edfb307f2b83807fc5e63b5b6a842712201576ff77c",
       "sizeBytes": 6623,
@@ -971,7 +971,7 @@
       ],
       "createdAt": "2026-11-08T02:58:31.042Z",
       "updatedAt": "2026-11-08T02:58:31.042Z",
-      "lastAccessedAt": "2026-11-10T04:02:55.868Z",
+      "lastAccessedAt": "2026-11-10T11:25:38.739Z",
       "revision": 1,
       "contentHash": "5e1b14633acf2762234b4fc0cb7267930950147d49655c1ab87c5d3c51c95ad6",
       "sizeBytes": 8502,
@@ -1093,7 +1093,7 @@
       ],
       "createdAt": "2026-11-08T23:17:00.686Z",
       "updatedAt": "2026-11-08T23:17:00.686Z",
-      "lastAccessedAt": "2026-11-10T10:36:52.443Z",
+      "lastAccessedAt": "2026-11-10T11:25:38.739Z",
       "revision": 1,
       "contentHash": "eb8ccfcd9dbdc9298afdea3fe505a7fc30cf123086ca72371b2322479c071656",
       "sizeBytes": 5780,
@@ -1168,7 +1168,7 @@
       ],
       "createdAt": "2026-11-09T03:00:56.935Z",
       "updatedAt": "2026-11-09T03:00:56.935Z",
-      "lastAccessedAt": "2026-11-10T10:14:19.419Z",
+      "lastAccessedAt": "2026-11-10T11:25:38.739Z",
       "revision": 1,
       "contentHash": "e6b03dc27d5dc8ededcbcc09b6df682cb31498ce3521153ce7c4e2f5f7299d43",
       "sizeBytes": 5052,
@@ -1548,6 +1548,33 @@
       "revision": 1,
       "contentHash": "abbc85134ac7bc2ee603e6c806994b79253e06a2a6a388c042bb447313dd1219",
       "sizeBytes": 4519,
+      "memoryBodyIds": []
+    },
+    {
+      "id": "b14c2071-d3d5-458d-80fb-1733405e5af3",
+      "title": "网关 API 用例/配置合规改造与 FTE 登录 kPasswdErr 复现（2026-11-10）",
+      "description": "网关配置与用例对齐 FTE 的改造项（market_type=101、need_multi_cust、order_qty=10000 口径）、用例 JSON 顶层 _待确认 约定与校验器 _ 前缀跳过规则、测试环境端口与 start_all.sh 日志级别约束、实测错误码判读（kPasswdErr=4 / -35 NOT_LOG_CUST 连锁）、登录失败的 4 项已排除项与剩余疑点（LogOnReq 报文偏移/填充）。",
+      "status": "active",
+      "filename": "api-fte-kpasswderr-2026-11-10-b14c2071.md",
+      "relativePath": "documents/active/api-fte-kpasswderr-2026-11-10-b14c2071.md",
+      "sourcePaths": [
+        "task/api_dev/todo_review_20261110.md",
+        "work_log/20261110.md",
+        "trunk/NewAPI/gone/api/mock/client/src/test_case_runner.cpp",
+        "trunk/NewAPI/gone/api/mock/client/config/connection_config_gw_single.json",
+        "trunk/NewAPI/gone/api/src/gw_counter_direct.cpp",
+        "DYS-FRAMEWORK/fte/ftedatainit/src/ftedata_init.cpp",
+        "DYS-FRAMEWORK/fte/src/business/uplink_biz_processor.cpp"
+      ],
+      "sessionIds": [
+        "ac88ec76-9092-47cb-9799-197e725db419"
+      ],
+      "createdAt": "2026-11-10T11:25:59.436Z",
+      "updatedAt": "2026-11-10T11:25:59.436Z",
+      "lastAccessedAt": "2026-11-10T11:25:59.436Z",
+      "revision": 1,
+      "contentHash": "ee62b6ea56475d26df5531bbeff2fbedcd56a5d207f123f20ec0aee22e54fb49",
+      "sizeBytes": 6727,
       "memoryBodyIds": []
     }
   ]
