@@ -1196,7 +1196,7 @@
       ],
       "createdAt": "2026-11-09T06:05:25.849Z",
       "updatedAt": "2026-11-09T06:05:25.849Z",
-      "lastAccessedAt": "2026-11-10T02:39:01.221Z",
+      "lastAccessedAt": "2026-11-10T03:19:30.906Z",
       "revision": 1,
       "contentHash": "12c693d6440d1fccf37d97165bb4637f6400fdae15b40c98896dd83f391408a4",
       "sizeBytes": 5775,
@@ -1303,7 +1303,7 @@
       ],
       "createdAt": "2026-11-10T01:21:44.961Z",
       "updatedAt": "2026-11-10T01:21:44.961Z",
-      "lastAccessedAt": "2026-11-10T02:39:01.221Z",
+      "lastAccessedAt": "2026-11-10T03:19:30.906Z",
       "revision": 1,
       "contentHash": "a24c1d167b39142db900be67ee8151ac7929e2a61a741f50949e149574cd1880",
       "sizeBytes": 6834,
@@ -1329,7 +1329,7 @@
       ],
       "createdAt": "2026-11-10T02:13:37.531Z",
       "updatedAt": "2026-11-10T02:13:37.531Z",
-      "lastAccessedAt": "2026-11-10T02:39:01.221Z",
+      "lastAccessedAt": "2026-11-10T03:19:30.906Z",
       "revision": 1,
       "contentHash": "0fa19c6bd6c932eaa472e5c4bdaec9de68145248f4dcc2fc93debbdfa976def0",
       "sizeBytes": 5763,
@@ -1356,10 +1356,38 @@
       ],
       "createdAt": "2026-11-10T02:39:22.951Z",
       "updatedAt": "2026-11-10T02:39:22.951Z",
-      "lastAccessedAt": "2026-11-10T02:39:22.951Z",
+      "lastAccessedAt": "2026-11-10T03:19:30.906Z",
       "revision": 1,
       "contentHash": "a707bf60a94efca18d1350f2101de93cb10b4b2fc700835904b7b8e1479ab3aa",
       "sizeBytes": 7245,
+      "memoryBodyIds": []
+    },
+    {
+      "id": "cbf42fed-1b09-42e4-8aab-82f1ebebca73",
+      "title": "411833 \"设置校验位\"老系统语义恢复（estimated='0' 只检查不落库）+ 13 业务全量复测收口（2026-11-10）",
+      "description": "411833 恢复 estimated/g_estimated 的\"检查位\"语义（'0'=连通性检查、不校验必填不落库直接成功；其它/缺省=运行并落库）的落地与坑，附 17 个用例文件 125 条 124 通过的复测矩阵、13 份参数对比文档 §2.5、两个 xlsx 用仓库生成器重建的校验结论，与既有公共入参复用文档的关系。",
+      "status": "active",
+      "filename": "411833-estimated-0-13-2026-11-10-cbf42fed.md",
+      "relativePath": "documents/active/411833-estimated-0-13-2026-11-10-cbf42fed.md",
+      "sourcePaths": [
+        "otcsrc/lbm/lbm_otc_param/src/processors/per_cust_risk_ctrl_set_processor_411833.cpp",
+        "otcsrc/mock/mock_client/conf/req_70411833_pubparam_20261110.xml",
+        "otcsrc/mock/mock_client/conf/req_param_reuse_negative_20261110.xml",
+        "study/excel/templata.xlsx",
+        "task/params_stats/template_1.xlsx",
+        "study/knowledge_base_system/02_业务开发模式.md",
+        "task/params_stats/公共入参与独立入参重复分析_20261110.md",
+        "work_log/20261110.md"
+      ],
+      "sessionIds": [
+        "7361d595-ab36-47c7-ac6e-ba9d3d5f9829"
+      ],
+      "createdAt": "2026-11-10T03:19:48.420Z",
+      "updatedAt": "2026-11-10T03:19:48.420Z",
+      "lastAccessedAt": "2026-11-10T03:19:48.420Z",
+      "revision": 1,
+      "contentHash": "77c5ad41f37798df205d9cedd1069876b029e4684282f51051e8cbe260ca88eb",
+      "sizeBytes": 6616,
       "memoryBodyIds": []
     }
   ]
