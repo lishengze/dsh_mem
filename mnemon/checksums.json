@@ -4,7 +4,7 @@
     "payload/runtime/memories.json": "cf63fb27ece5ac49a96290e578ce42c78c11264f85572f53eb466e492a6ed6bf",
     "payload/runtime/USER.md": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
     "payload/runtime/MEMORY.md": "8f8c47ca2533bc7d0d0944eae6b5369098e9bcfcf2cf6f450576c0ca3031f87e",
-    "payload/documents/index.json": "7f371077c9495b74db9eb431838fc0a6032f18fb3690a6c5f9555c82175da3ba",
+    "payload/documents/index.json": "6e836b7f9e2c3d12cb7d02744a9d35265af276da3d34db6ebfbaf9bf227816a9",
     "payload/documents/active/otcsrc-svn-2026-11-27e439e6.md": "309afafc841c76ed07bd180a1ca0f4c457c344a8e3ea68402d64d88694559d32",
     "payload/documents/active/gt-svn-2026-11-03-ac5aee7f.md": "b75ce495900bde26a2d1ab7b265fbda815cab855491c02c5c5a013d6fcb2ca75",
     "payload/documents/active/gt-svn-etf-341-2026-11-03-9e861d20.md": "b6ae7bfe5b9aa0b1ae1a101e296335bfc74efbf7f79357c0047a58c0cf455a74",
@@ -72,6 +72,8 @@
     "payload/documents/active/177067-177068-6-otc-src-2026-11-11-71ddcc0c.md": "237a2bec60f2ded616f138074107fecc12912693c042dfa0f5b27804d3f3671d",
     "payload/documents/active/hk-connect-kgbp-2026-11-11-716ceaf1.md": "392fa7e63ab66a1b103f9a266ad3885f60c6a12f8c6e16b8a3156491f3eae4b6",
     "payload/documents/active/177067-177068-218-218-switch-flag-otc-src-2026-1-56deda75.md": "1fcd7ea543dd9ecd17d6dbf28b35d1c433936173776de7f3b5147a9e83a77245",
+    "payload/documents/active/study-mermaid-trade-trunk-2026-11-11-c15254a7.md": "05f27e5aabb438b3e41cc033776a9195844f5170e0eedec3182236d60a8c3249",
+    "payload/documents/active/mermaid-init-no-diagram-type-detected-trade-trun-f7e5426f.md": "dc125b8689d98ecae010fa9b5133da27869a50a936cbe2ce5cf752a4d829eb18",
     "payload/data/.dsh-memory-bodies.json": "dc6020b75bab2ed6109193aea9c3427c22d9d2b6edd223c4c8c6cd87ad0c67dd"
   }
 }
