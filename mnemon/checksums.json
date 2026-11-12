@@ -1,9 +1,9 @@
 {
   "algorithm": "sha256",
   "files": {
-    "payload/runtime/memories.json": "cf63fb27ece5ac49a96290e578ce42c78c11264f85572f53eb466e492a6ed6bf",
+    "payload/runtime/memories.json": "6ddd8d118b97c28e4d621dbeabd8eb4f9d015c1443750fec3c3c9827521addf8",
     "payload/runtime/USER.md": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
-    "payload/runtime/MEMORY.md": "8f8c47ca2533bc7d0d0944eae6b5369098e9bcfcf2cf6f450576c0ca3031f87e",
+    "payload/runtime/MEMORY.md": "00b3703d2575fa17248e0ab7ee4c0251f02d5957e20c546ce71be65e2a6e7cbd",
     "payload/documents/index.json": "60f8a5db57b3b1339fd2bde226a9778f00366c73fcb4ebc2d6be12435eb121e6",
     "payload/documents/active/otcsrc-svn-2026-11-27e439e6.md": "309afafc841c76ed07bd180a1ca0f4c457c344a8e3ea68402d64d88694559d32",
     "payload/documents/active/gt-svn-2026-11-03-ac5aee7f.md": "b75ce495900bde26a2d1ab7b265fbda815cab855491c02c5c5a013d6fcb2ca75",

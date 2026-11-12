@@ -132,6 +132,18 @@
         "label": "lsz-nuc",
         "at": "2026-11-11T01:35:05.180Z"
       }
+    },
+    {
+      "content": "DSE 联调关键事实（2026-11-12 实测，gt_trunk/trunk）：① dse \"exit=157/170\" 根因是 fte/dse/CMakeLists.txt 的 GLOB_RECURSE 把残留 dse/build/ 下 CMake 自检 CompilerIdCXX.cpp 的假 main 链进 exe，顶掉 libaaf.so 的框架 main（自检：nm -D dse | grep -w main 应为 U）；已改为 EXCLUDE REGEX \"/build(_cmake)?/\"。② dse 必须设 ATP_CFG=<dse.xml 目录>（放 cwd 无效）；ute 必须设 RUN_DIR/UTE_LIB_PATH 指分支目录（run_trunk，env.sh 默认是 ${WORK_ROOT}/run）+ ATP_CFG=$RUN_DIR/etf_test_sh/cfg + ATP_DATA=$RUN_DIR/etf_test_sh。③ 委托被 FTE 拒绝 \"order req length 106 too short\" 的根因：API gw_head.h 的 TradeOrderReq 缺 policy_id，FTE TradeOrderReqLayout=108 而 API 组包 106；补 uint16 policy_id 后体长 108。已补法后 GW 用例 5/5 PASS。④ dse_deps 需用 ATP 现构建的 libabf_util/biz_msg/tech/msg_proto（旧库缺 26 个 Pkt* vtable），干净重链后 ldd -r 未定义符号=0。",
+      "target": "memory",
+      "importance": "critical",
+      "created_at": "2026-11-12T03:20:58.065Z",
+      "updated_at": "2026-11-12T03:20:58.065Z",
+      "origin": {
+        "machine": "fcb257ea-7a82-4288-9ff7-e9c49baf4584",
+        "label": "lsz-nuc",
+        "at": "2026-11-12T03:20:58.065Z"
+      }
     }
   ]
 }
