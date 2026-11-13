@@ -21,3 +21,7 @@ trade_trunk 仓库纪律（用户 2026-11-11 决定）：① 超过 80 MB 的第
 rm_kmdb.sh（内存库清理，4 份副本：x64 业务/全局、arm 业务/全局）2026-11-11 起默认直接强制清理、不再交互确认；-c 才人工确认（无终端拒绝 exit 1），-n 预览、-p 保护模式、-y/-f 兼容别名。SVN 只跟踪 arm 两份，x64 两份随 git。
 §
 DSE 联调关键事实（2026-11-12 实测，gt_trunk/trunk）：① dse "exit=157/170" 根因是 fte/dse/CMakeLists.txt 的 GLOB_RECURSE 把残留 dse/build/ 下 CMake 自检 CompilerIdCXX.cpp 的假 main 链进 exe，顶掉 libaaf.so 的框架 main（自检：nm -D dse | grep -w main 应为 U）；已改为 EXCLUDE REGEX "/build(_cmake)?/"。② dse 必须设 ATP_CFG=<dse.xml 目录>（放 cwd 无效）；ute 必须设 RUN_DIR/UTE_LIB_PATH 指分支目录（run_trunk，env.sh 默认是 ${WORK_ROOT}/run）+ ATP_CFG=$RUN_DIR/etf_test_sh/cfg + ATP_DATA=$RUN_DIR/etf_test_sh。③ 委托被 FTE 拒绝 "order req length 106 too short" 的根因：API gw_head.h 的 TradeOrderReq 缺 policy_id，FTE TradeOrderReqLayout=108 而 API 组包 106；补 uint16 policy_id 后体长 108。已补法后 GW 用例 5/5 PASS。④ dse_deps 需用 ATP 现构建的 libabf_util/biz_msg/tech/msg_proto（旧库缺 26 个 Pkt* vtable），干净重链后 ldd -r 未定义符号=0。
+§
+DYS-FRAMEWORK 的 fte/fte/include/share_communication/share_comm_external_message.h 在 SVN 里是 CRLF，而 git（.gitattributes eol=lf）把它变 LF → 直接 svn commit 会成整文件重写（+383/-377）。提交前必须先归一：perl -i -pe 's/\r?\n/\r\n/' <file>（幂等，实测 diff 收敛到 +71/-9、CR=439）。
+§
+共享内存委托布局最终结论（2026-11-13，policy_id 叠加远程方案Q）：share_common::TradeOrderReq=124B，ulStrategyKey@0、trade_order_user@8、trade_order_info@78、reserved[8]，业务体 116B；policy_id 业务体内偏移 106（本对象 114，差 8=key 前缀）。svn_work/108 中「policy_id@106、ulStrategyKey@108」的旧结论已被方案Q（key 前置）取代。

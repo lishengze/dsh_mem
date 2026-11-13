@@ -144,6 +144,30 @@
         "label": "lsz-nuc",
         "at": "2026-11-12T03:20:58.065Z"
       }
+    },
+    {
+      "content": "DYS-FRAMEWORK 的 fte/fte/include/share_communication/share_comm_external_message.h 在 SVN 里是 CRLF，而 git（.gitattributes eol=lf）把它变 LF → 直接 svn commit 会成整文件重写（+383/-377）。提交前必须先归一：perl -i -pe 's/\\r?\\n/\\r\\n/' <file>（幂等，实测 diff 收敛到 +71/-9、CR=439）。",
+      "target": "memory",
+      "importance": "normal",
+      "created_at": "2026-11-13T06:47:08.089Z",
+      "updated_at": "2026-11-13T06:47:08.089Z",
+      "origin": {
+        "machine": "fcb257ea-7a82-4288-9ff7-e9c49baf4584",
+        "label": "lsz-nuc",
+        "at": "2026-11-13T06:47:08.089Z"
+      }
+    },
+    {
+      "content": "共享内存委托布局最终结论（2026-11-13，policy_id 叠加远程方案Q）：share_common::TradeOrderReq=124B，ulStrategyKey@0、trade_order_user@8、trade_order_info@78、reserved[8]，业务体 116B；policy_id 业务体内偏移 106（本对象 114，差 8=key 前缀）。svn_work/108 中「policy_id@106、ulStrategyKey@108」的旧结论已被方案Q（key 前置）取代。",
+      "target": "memory",
+      "importance": "normal",
+      "created_at": "2026-11-13T06:47:10.566Z",
+      "updated_at": "2026-11-13T06:47:10.566Z",
+      "origin": {
+        "machine": "fcb257ea-7a82-4288-9ff7-e9c49baf4584",
+        "label": "lsz-nuc",
+        "at": "2026-11-13T06:47:10.566Z"
+      }
     }
   ]
 }

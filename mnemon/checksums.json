@@ -1,10 +1,10 @@
 {
   "algorithm": "sha256",
   "files": {
-    "payload/runtime/memories.json": "6ddd8d118b97c28e4d621dbeabd8eb4f9d015c1443750fec3c3c9827521addf8",
+    "payload/runtime/memories.json": "3f8d8b9fd2f8124dfced58e5de5feeb65523c43fb58e93e6dded8fb91434dfdc",
     "payload/runtime/USER.md": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
-    "payload/runtime/MEMORY.md": "00b3703d2575fa17248e0ab7ee4c0251f02d5957e20c546ce71be65e2a6e7cbd",
-    "payload/documents/index.json": "0eac3145466f32d65804aee70eb83729ee0bd36b691e75bde1f278731a59c0be",
+    "payload/runtime/MEMORY.md": "2c2a183ffb1070ba224b28a2b449683ceb8a0da3ee6a9c16b09903f23a237707",
+    "payload/documents/index.json": "4ea4ffd0546c3b461252ff9d356443d75365c6e0ede746fc0d38bdc4b485ed85",
     "payload/documents/active/otcsrc-svn-2026-11-27e439e6.md": "309afafc841c76ed07bd180a1ca0f4c457c344a8e3ea68402d64d88694559d32",
     "payload/documents/active/gt-svn-2026-11-03-ac5aee7f.md": "b75ce495900bde26a2d1ab7b265fbda815cab855491c02c5c5a013d6fcb2ca75",
     "payload/documents/active/gt-svn-etf-341-2026-11-03-9e861d20.md": "b6ae7bfe5b9aa0b1ae1a101e296335bfc74efbf7f79357c0047a58c0cf455a74",

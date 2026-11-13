@@ -2,7 +2,7 @@
   "format": "mnemonpack",
   "version": 1,
   "scope": "full",
-  "exportedAt": "2026-11-13T06:07:49.406Z",
+  "exportedAt": "2026-11-13T07:08:04.544Z",
   "source": {
     "plugin": "dsh-mnemon",
     "pluginVersion": "0.5.39"
@@ -16,8 +16,8 @@
     {
       "component": "runtime",
       "files": 3,
-      "bytes": 15353,
-      "items": 12
+      "bytes": 17489,
+      "items": 14
     },
     {
       "component": "documents",
@@ -36,7 +36,7 @@
     "channel": "git",
     "branch": "mnemon-sync",
     "subdir": "mnemon/",
-    "pushedAt": "2026-11-13T06:07:49.406Z",
+    "pushedAt": "2026-11-13T07:08:04.544Z",
     "machine": {
       "id": "fcb257ea-7a82-4288-9ff7-e9c49baf4584",
       "label": "lsz-nuc",
