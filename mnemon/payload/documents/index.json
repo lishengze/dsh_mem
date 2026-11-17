@@ -599,7 +599,7 @@
       ],
       "createdAt": "2026-11-06T03:06:59.154Z",
       "updatedAt": "2026-11-06T03:06:59.154Z",
-      "lastAccessedAt": "2026-11-11T10:39:07.676Z",
+      "lastAccessedAt": "2026-11-17T05:26:44.646Z",
       "revision": 1,
       "contentHash": "076e057934cf5c042f40f2ef3bdc88153cd8626a8f614cf6c1b855baee96f2b6",
       "sizeBytes": 5715,
@@ -1223,7 +1223,7 @@
       ],
       "createdAt": "2026-11-09T07:03:17.635Z",
       "updatedAt": "2026-11-09T07:03:17.635Z",
-      "lastAccessedAt": "2026-11-11T04:05:21.317Z",
+      "lastAccessedAt": "2026-11-17T05:26:44.646Z",
       "revision": 1,
       "contentHash": "baa3619748e3551a9d8c995d00a504f429d3b5feff54d1aeaa6bae85aa60e2bd",
       "sizeBytes": 6079,
@@ -1918,7 +1918,7 @@
       ],
       "createdAt": "2026-11-12T10:24:33.708Z",
       "updatedAt": "2026-11-12T10:24:33.708Z",
-      "lastAccessedAt": "2026-11-17T03:28:22.328Z",
+      "lastAccessedAt": "2026-11-17T05:26:44.646Z",
       "revision": 1,
       "contentHash": "ca6874369ce92975b56a16b73b7c7d379a6edbbb16bdc59a3602b6941369c7c2",
       "sizeBytes": 10886,
@@ -2007,10 +2007,35 @@
       ],
       "createdAt": "2026-11-17T03:28:48.070Z",
       "updatedAt": "2026-11-17T03:28:48.070Z",
-      "lastAccessedAt": "2026-11-17T03:28:48.070Z",
+      "lastAccessedAt": "2026-11-17T05:26:44.646Z",
       "revision": 1,
       "contentHash": "39991a4c1bcdb0a492019f970bfb0b37c8fcbd1eb9dca99cc06b11356698cc2f",
       "sizeBytes": 9699,
+      "memoryBodyIds": []
+    },
+    {
+      "id": "27412262-3b0e-4cc0-9cee-98c11555b960",
+      "title": "OrdERInfo 解析/输出完整性补全（share_util/json_struct.h）与 json helper 缺省值约定（2026-11-17）",
+      "description": "gt_trunk test/share_test 中 OrdERInfo 的字段覆盖契约（34 字段中除 constituent_stock 需全覆盖，且解析顺序与结构体顺序一致）、本次补的 business_type/no_security/available_t1、重复 market_id 解析修复、GetJsonUnsignedCharField 缺字段取 '-'=45 的既有约定、test_data.json 按 cwd 相对路径读取需同步到 build_20261117/，含提交号与复测方法。",
+      "status": "active",
+      "filename": "orderinfo-share-util-json-struct-h-json-helper-2-27412262.md",
+      "relativePath": "documents/active/orderinfo-share-util-json-struct-h-json-helper-2-27412262.md",
+      "sourcePaths": [
+        "test/share_test/share_util/json_struct.h",
+        "test/share_test/test_data.json",
+        "test/share_test/share_util/json_util.hpp",
+        "svn_work/132_共享内存测试客户端升级_20261117.md",
+        "work_log/20261117.md"
+      ],
+      "sessionIds": [
+        "d1777508-1ea6-4acf-a34c-a22e2048f880"
+      ],
+      "createdAt": "2026-11-17T05:27:02.330Z",
+      "updatedAt": "2026-11-17T05:27:02.330Z",
+      "lastAccessedAt": "2026-11-17T05:27:02.330Z",
+      "revision": 1,
+      "contentHash": "c98db6f67426ef87e8ef0fe52bf83a9514794f6f9ed9e8e4bd127a05167c64e9",
+      "sizeBytes": 4931,
       "memoryBodyIds": []
     }
   ]

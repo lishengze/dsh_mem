@@ -4,7 +4,7 @@
     "payload/runtime/memories.json": "3f8d8b9fd2f8124dfced58e5de5feeb65523c43fb58e93e6dded8fb91434dfdc",
     "payload/runtime/USER.md": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
     "payload/runtime/MEMORY.md": "2c2a183ffb1070ba224b28a2b449683ceb8a0da3ee6a9c16b09903f23a237707",
-    "payload/documents/index.json": "7a06209974b1b7dbded984c0f36b21550d8a625c02cae8bc8a04ed42ba82201a",
+    "payload/documents/index.json": "51e45a4cff64b709c99de6b7c164a604895f13fee9f4fd89569bf849271abcdd",
     "payload/documents/active/otcsrc-svn-2026-11-27e439e6.md": "309afafc841c76ed07bd180a1ca0f4c457c344a8e3ea68402d64d88694559d32",
     "payload/documents/active/gt-svn-2026-11-03-ac5aee7f.md": "b75ce495900bde26a2d1ab7b265fbda815cab855491c02c5c5a013d6fcb2ca75",
     "payload/documents/active/gt-svn-etf-341-2026-11-03-9e861d20.md": "b6ae7bfe5b9aa0b1ae1a101e296335bfc74efbf7f79357c0047a58c0cf455a74",
@@ -82,6 +82,7 @@
     "payload/documents/active/start-sh-rm-memhq-shared-file-dev-shm-2026-11-13-ad9f0f1f.md": "8bd5557733d0f27f2e88a06596a6725dc69a9bf058e7d1457f46fdbbf4c0c0a5",
     "payload/documents/active/fte-q-8-crlf-main-cpp-2026-11-13-85c276bd.md": "6b48e42eb639608d868c9654f29b8236c49a3c4448d4e9c5eb00a6a90c583407",
     "payload/documents/active/test-share-test-policy-id-q-2026-11-17-98683cb9.md": "1e763721a97d0f1ec9cadabdb553d7cb2b1267649c9c73014892e872a34021e9",
+    "payload/documents/active/orderinfo-share-util-json-struct-h-json-helper-2-27412262.md": "8999a606d5ce7ca5c0f2d8f8e10eebf39321beac9891c353753b973f198bfb4f",
     "payload/data/.dsh-memory-bodies.json": "dc6020b75bab2ed6109193aea9c3427c22d9d2b6edd223c4c8c6cd87ad0c67dd"
   }
 }
