@@ -844,7 +844,7 @@
       ],
       "createdAt": "2026-11-06T12:45:52.485Z",
       "updatedAt": "2026-11-06T12:45:52.485Z",
-      "lastAccessedAt": "2026-11-17T03:28:22.328Z",
+      "lastAccessedAt": "2026-11-18T02:48:13.699Z",
       "revision": 1,
       "contentHash": "e44c08b0ee05cf575a370bce93f1f243dd7c7acd96c9182783e418b2cc05068c",
       "sizeBytes": 6781,
@@ -893,7 +893,7 @@
       ],
       "createdAt": "2026-11-07T00:56:20.966Z",
       "updatedAt": "2026-11-07T00:56:20.966Z",
-      "lastAccessedAt": "2026-11-16T13:53:12.698Z",
+      "lastAccessedAt": "2026-11-18T02:48:13.699Z",
       "revision": 1,
       "contentHash": "1d3100426d6242f3e1ba3b7318b79857868f55ca7e243292708876a56c2cd605",
       "sizeBytes": 6180,
@@ -1918,7 +1918,7 @@
       ],
       "createdAt": "2026-11-12T10:24:33.708Z",
       "updatedAt": "2026-11-12T10:24:33.708Z",
-      "lastAccessedAt": "2026-11-17T05:26:44.646Z",
+      "lastAccessedAt": "2026-11-18T02:48:13.699Z",
       "revision": 1,
       "contentHash": "ca6874369ce92975b56a16b73b7c7d379a6edbbb16bdc59a3602b6941369c7c2",
       "sizeBytes": 10886,
@@ -1976,7 +1976,7 @@
       ],
       "createdAt": "2026-11-13T08:55:46.617Z",
       "updatedAt": "2026-11-13T08:55:46.617Z",
-      "lastAccessedAt": "2026-11-17T03:28:22.328Z",
+      "lastAccessedAt": "2026-11-18T02:48:13.699Z",
       "revision": 1,
       "contentHash": "6e829a51cc64c26c3b3caa6ad1e647bbe455fd785719831bc73388b82ef874c2",
       "sizeBytes": 8627,
@@ -2036,6 +2036,36 @@
       "revision": 1,
       "contentHash": "c98db6f67426ef87e8ef0fe52bf83a9514794f6f9ed9e8e4bd127a05167c64e9",
       "sizeBytes": 4931,
+      "memoryBodyIds": []
+    },
+    {
+      "id": "008c711d-2f32-4853-ad4d-729bf5339feb",
+      "title": "FTE / DSE 本地测试端口全链路对照（ute.xml ServerPort、dse.xml 32001、共享内存 N/A）2026-11-18",
+      "description": "本地 dse_stack 测试栈六段链路的端口与来源逐项对照：测试客户端→FTE 的 SHM 无端口与 TCP 33001/33002、FTE→仿真交易所端口、domain_server 5221/5222、DSE→AMI mempipe 32001，并澄清 ServerPortMin/Max 与 UnifiedServerPort 的非客户端语义。",
+      "status": "active",
+      "filename": "fte-dse-ute-xml-serverport-dse-xml-32001-n-a-202-008c711d.md",
+      "relativePath": "documents/active/fte-dse-ute-xml-serverport-dse-xml-32001-n-a-202-008c711d.md",
+      "sourcePaths": [
+        "DYS-FRAMEWORK/fte/test_all/etf_test_sh/cfg/ute.xml",
+        "DYS-FRAMEWORK/fte/test_all/etf_test_sz/cfg/ute.xml",
+        "DYS-FRAMEWORK/fte/test_all/etf_test_sh/cfg/dse.xml",
+        "DYS-FRAMEWORK/fte/test_all/etf_test_sz/cfg/dse.xml",
+        "DYS-FRAMEWORK/fte/test_all/dse_stack/start_dse_stack.sh",
+        "DYS-FRAMEWORK/fte/dse/src/dse_config.cpp",
+        "DYS-FRAMEWORK/fte/dse/dse_client/src/dse_client.cpp",
+        "DYS-FRAMEWORK/fte/ftedatainit/src/ftedata_init.cpp",
+        "DYS-FRAMEWORK/fte/fte/src/data_manager/config_manager.cpp",
+        "test/api_client/agw_api_demo/etf_demon/main.cpp"
+      ],
+      "sessionIds": [
+        "ecc5c6f9-078c-4e94-8e60-391aa4535a23"
+      ],
+      "createdAt": "2026-11-18T02:48:36.392Z",
+      "updatedAt": "2026-11-18T02:48:36.392Z",
+      "lastAccessedAt": "2026-11-18T02:48:36.392Z",
+      "revision": 1,
+      "contentHash": "e226861705d3e663bf235bb3554022e0c5d5f00b1c73afac4ac56bc8be6e2922",
+      "sizeBytes": 6888,
       "memoryBodyIds": []
     }
   ]
