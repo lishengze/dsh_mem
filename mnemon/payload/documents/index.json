@@ -844,7 +844,7 @@
       ],
       "createdAt": "2026-11-06T12:45:52.485Z",
       "updatedAt": "2026-11-06T12:45:52.485Z",
-      "lastAccessedAt": "2026-11-18T02:48:13.699Z",
+      "lastAccessedAt": "2026-11-19T08:44:50.738Z",
       "revision": 1,
       "contentHash": "e44c08b0ee05cf575a370bce93f1f243dd7c7acd96c9182783e418b2cc05068c",
       "sizeBytes": 6781,
@@ -1976,7 +1976,7 @@
       ],
       "createdAt": "2026-11-13T08:55:46.617Z",
       "updatedAt": "2026-11-13T08:55:46.617Z",
-      "lastAccessedAt": "2026-11-19T01:35:58.335Z",
+      "lastAccessedAt": "2026-11-19T08:44:50.738Z",
       "revision": 1,
       "contentHash": "6e829a51cc64c26c3b3caa6ad1e647bbe455fd785719831bc73388b82ef874c2",
       "sizeBytes": 8627,
@@ -2062,7 +2062,7 @@
       ],
       "createdAt": "2026-11-18T02:48:36.392Z",
       "updatedAt": "2026-11-18T02:48:36.392Z",
-      "lastAccessedAt": "2026-11-19T01:35:58.335Z",
+      "lastAccessedAt": "2026-11-19T08:44:50.738Z",
       "revision": 1,
       "contentHash": "e226861705d3e663bf235bb3554022e0c5d5f00b1c73afac4ac56bc8be6e2922",
       "sizeBytes": 6888,
@@ -2089,7 +2089,7 @@
       ],
       "createdAt": "2026-11-19T01:36:18.395Z",
       "updatedAt": "2026-11-19T01:36:18.395Z",
-      "lastAccessedAt": "2026-11-19T01:36:18.395Z",
+      "lastAccessedAt": "2026-11-19T08:44:50.738Z",
       "revision": 1,
       "contentHash": "b4fe541fa59e013ba5f5f64e0d9cbac189509831e74ebd6ee05c0a13d5b0136c",
       "sizeBytes": 6366,
@@ -2154,6 +2154,29 @@
       "revision": 1,
       "contentHash": "ab62e522816fbba81c73f92e2c8c86f96906ce823628a67e872a2b119372d046",
       "sizeBytes": 7731,
+      "memoryBodyIds": []
+    },
+    {
+      "id": "859ea118-22d3-4a54-bd0e-944131326bbc",
+      "title": "FTE 共享内存委托(1003)静默丢失排查结论：on_message 日志只覆盖 NonReqOrder 队列，ReqOrder 队列走 TryPopReqOrder（2026-11-19）",
+      "description": "线上 FTE 收不到策略委托但两侧日志无异常的分层定界方法与结论：登录/登出(1001/1002)走 NonReqOrder 队列并打 strategy_trade_busi on_message，委托(1003)走独立 Strategy_UTE_ReqOrder 队列经 TryPopReqOrder 直投 DealTradeOrderReq 而无通用日志，故 on_message 记录不能证明委托通道通；含 SendReqOrder/push_share 静默失败点、排查步骤与后续验证建议。",
+      "status": "active",
+      "filename": "fte-1003-on-message-nonreqorder-reqorder-trypopr-859ea118.md",
+      "relativePath": "documents/active/fte-1003-on-message-nonreqorder-reqorder-trypopr-859ea118.md",
+      "sourcePaths": [
+        "DYS-FRAMEWORK/fte/src/business/strategy_trade_busi.cpp",
+        "DYS-FRAMEWORK/fte/src/business/tcpserver_handler.cpp",
+        "DYS-FRAMEWORK/fte/fte/include/share_communication/share_comm_external_message.h"
+      ],
+      "sessionIds": [
+        "8878f1b0-39d3-4bd8-9cad-349adbcf0298"
+      ],
+      "createdAt": "2026-11-19T08:45:13.281Z",
+      "updatedAt": "2026-11-19T08:45:13.281Z",
+      "lastAccessedAt": "2026-11-19T08:45:13.281Z",
+      "revision": 1,
+      "contentHash": "e907f5ca2277ee986e32d0917564269bc1b511fd9f8007ba358150229756f600",
+      "sizeBytes": 5610,
       "memoryBodyIds": []
     }
   ]
