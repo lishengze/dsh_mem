@@ -44,7 +44,7 @@
       ],
       "createdAt": "2026-11-03T14:50:49.670Z",
       "updatedAt": "2026-11-03T14:50:49.670Z",
-      "lastAccessedAt": "2026-11-12T04:33:44.924Z",
+      "lastAccessedAt": "2026-11-20T04:42:09.350Z",
       "revision": 1,
       "contentHash": "b5919f75832af65af73d7edfb307f2b83807fc5e63b5b6a842712201576ff77c",
       "sizeBytes": 6623,
@@ -94,7 +94,7 @@
       ],
       "createdAt": "2026-11-03T23:15:50.558Z",
       "updatedAt": "2026-11-03T23:15:50.558Z",
-      "lastAccessedAt": "2026-11-12T06:47:05.800Z",
+      "lastAccessedAt": "2026-11-20T04:42:09.350Z",
       "revision": 1,
       "contentHash": "25e2d7e5c9f1a651cdaf3c9d1d7f75013fd53025e9ae290e15f549943a1a9439",
       "sizeBytes": 6754,
@@ -893,7 +893,7 @@
       ],
       "createdAt": "2026-11-07T00:56:20.966Z",
       "updatedAt": "2026-11-07T00:56:20.966Z",
-      "lastAccessedAt": "2026-11-18T02:48:13.699Z",
+      "lastAccessedAt": "2026-11-20T04:42:09.350Z",
       "revision": 1,
       "contentHash": "1d3100426d6242f3e1ba3b7318b79857868f55ca7e243292708876a56c2cd605",
       "sizeBytes": 6180,
@@ -1571,7 +1571,7 @@
       ],
       "createdAt": "2026-11-10T11:25:59.436Z",
       "updatedAt": "2026-11-10T11:25:59.436Z",
-      "lastAccessedAt": "2026-11-12T10:24:07.444Z",
+      "lastAccessedAt": "2026-11-20T04:42:09.350Z",
       "revision": 1,
       "contentHash": "ee62b6ea56475d26df5531bbeff2fbedcd56a5d207f123f20ec0aee22e54fb49",
       "sizeBytes": 6727,
@@ -2205,6 +2205,32 @@
       "revision": 1,
       "contentHash": "763f5c4cd3bc2ff68d20e3d0f713e68787d337f158f1d64f3d2e07a4affbc804",
       "sizeBytes": 8760,
+      "memoryBodyIds": []
+    },
+    {
+      "id": "89894ee1-259f-418b-bd0d-6d834b65f78e",
+      "title": "API 热路径优化（日志门控 + 心跳定时器自续期）与两个联通性缺陷（2026-11-20）",
+      "description": "gt_trunk FTE 客户端 API 两项热路径优化（-43% 中位时延）的机制与实测数据、去掉每笔重装心跳定时器后必须补的自续期改动与实施顺序、UTE 直连建立段/sendlogin 两个联通性 bug 的因果链与修复要点。",
+      "status": "active",
+      "filename": "api-2026-11-20-89894ee1.md",
+      "relativePath": "documents/active/api-2026-11-20-89894ee1.md",
+      "sourcePaths": [
+        "svn_work/133_API优化与联通性缺陷分析_20261120.md",
+        "svn_work/125_no_boost时延逐段分析_20261113.md",
+        "DYS-FRAMEWORK/fte/include/tech/network/tcp_endpoint.h",
+        "DYS-FRAMEWORK/fte/gw_ute_api/gw_api_boost/api/agw_client_impl.cpp",
+        "DYS-FRAMEWORK/fte/gw_ute_api/gw_api_boost/api/ute_client_handler_impl.cpp",
+        "work_log/20261119.md"
+      ],
+      "sessionIds": [
+        "905ad411-061e-4fda-bc33-07ea18c68e0b"
+      ],
+      "createdAt": "2026-11-20T04:42:50.064Z",
+      "updatedAt": "2026-11-20T04:42:50.064Z",
+      "lastAccessedAt": "2026-11-20T04:42:50.064Z",
+      "revision": 1,
+      "contentHash": "2792e2098a80282b00184d666e899c8390dba69ce12c823cb925f9735b71e0be",
+      "sizeBytes": 7280,
       "memoryBodyIds": []
     }
   ]
