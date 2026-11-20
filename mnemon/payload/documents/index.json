@@ -18,7 +18,7 @@
       ],
       "createdAt": "2026-11-03T06:02:34.881Z",
       "updatedAt": "2026-11-03T06:02:34.881Z",
-      "lastAccessedAt": "2026-11-12T07:00:14.976Z",
+      "lastAccessedAt": "2026-11-20T05:53:55.971Z",
       "revision": 1,
       "contentHash": "416c9a4ab511ef8726f59c2f2bd6ca66d7e337cfc007abc04492e3cf5504ad5e",
       "sizeBytes": 6545,
@@ -819,7 +819,7 @@
       ],
       "createdAt": "2026-11-06T09:29:12.584Z",
       "updatedAt": "2026-11-06T09:29:12.584Z",
-      "lastAccessedAt": "2026-11-12T09:52:03.184Z",
+      "lastAccessedAt": "2026-11-20T05:53:55.971Z",
       "revision": 1,
       "contentHash": "521f7f06c46dbd2ff5ddbc6dfd6a046e7e5ee324b65e98c0790ee566a005af3e",
       "sizeBytes": 6769,
@@ -1813,7 +1813,7 @@
       ],
       "createdAt": "2026-11-12T04:34:03.643Z",
       "updatedAt": "2026-11-12T04:34:03.643Z",
-      "lastAccessedAt": "2026-11-16T06:36:06.031Z",
+      "lastAccessedAt": "2026-11-20T05:53:55.971Z",
       "revision": 1,
       "contentHash": "01b8f4fb0fbf0d89fc1762824539cab94382dcd0c3313a7f45172ceb0b78857c",
       "sizeBytes": 5586,
@@ -2227,10 +2227,36 @@
       ],
       "createdAt": "2026-11-20T04:42:50.064Z",
       "updatedAt": "2026-11-20T04:42:50.064Z",
-      "lastAccessedAt": "2026-11-20T04:42:50.064Z",
+      "lastAccessedAt": "2026-11-20T05:53:55.971Z",
       "revision": 1,
       "contentHash": "2792e2098a80282b00184d666e899c8390dba69ce12c823cb925f9735b71e0be",
       "sizeBytes": 7280,
+      "memoryBodyIds": []
+    },
+    {
+      "id": "d2ca6007-c97e-49be-8225-ca2d451a7c8c",
+      "title": "API 性能优化三文件的 SVN 提交执行手册与命令实测校验（2026-11-20）",
+      "description": "gt_trunk DYS-FRAMEWORK 下把「热路径日志关闭 + 心跳定时器不再重装」提交进 SVN 的可执行手册：提交范围、显式文件列表命令、①~⑤ 核对项的实测坑（$'\\r'、E000022、按行号 sed）、HB_LEGACY_RESET 已按用户决定废弃的决策记录。",
+      "status": "active",
+      "filename": "api-svn-2026-11-20-d2ca6007.md",
+      "relativePath": "documents/active/api-svn-2026-11-20-d2ca6007.md",
+      "sourcePaths": [
+        "svn_work/133_API优化与联通性缺陷分析_20261120.md",
+        "task/task_svn/task_svn.txt",
+        "DYS-FRAMEWORK/fte/include/tech/network/tcp_endpoint.h",
+        "DYS-FRAMEWORK/api/gw_api_boost/api/src/agw_client_impl.cpp",
+        "DYS-FRAMEWORK/api/gw_api_no_boost/api/src/agw_client_impl.cpp",
+        "work_log/20261119.md"
+      ],
+      "sessionIds": [
+        "97ac29ca-7a01-469d-8d97-c2d315c49732"
+      ],
+      "createdAt": "2026-11-20T05:54:19.278Z",
+      "updatedAt": "2026-11-20T05:54:19.278Z",
+      "lastAccessedAt": "2026-11-20T05:54:19.278Z",
+      "revision": 1,
+      "contentHash": "5f5d6cd105c3abdb0d271723e40fe0acb175a89c05b0bc46977e2b5601586d16",
+      "sizeBytes": 7107,
       "memoryBodyIds": []
     }
   ]
