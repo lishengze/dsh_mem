@@ -1918,7 +1918,7 @@
       ],
       "createdAt": "2026-11-12T10:24:33.708Z",
       "updatedAt": "2026-11-12T10:24:33.708Z",
-      "lastAccessedAt": "2026-11-19T01:35:58.335Z",
+      "lastAccessedAt": "2026-11-20T08:26:41.654Z",
       "revision": 1,
       "contentHash": "ca6874369ce92975b56a16b73b7c7d379a6edbbb16bdc59a3602b6941369c7c2",
       "sizeBytes": 10886,
@@ -1976,7 +1976,7 @@
       ],
       "createdAt": "2026-11-13T08:55:46.617Z",
       "updatedAt": "2026-11-13T08:55:46.617Z",
-      "lastAccessedAt": "2026-11-20T03:13:07.528Z",
+      "lastAccessedAt": "2026-11-20T08:26:41.654Z",
       "revision": 1,
       "contentHash": "6e829a51cc64c26c3b3caa6ad1e647bbe455fd785719831bc73388b82ef874c2",
       "sizeBytes": 8627,
@@ -2007,7 +2007,7 @@
       ],
       "createdAt": "2026-11-17T03:28:48.070Z",
       "updatedAt": "2026-11-17T03:28:48.070Z",
-      "lastAccessedAt": "2026-11-20T04:26:14.783Z",
+      "lastAccessedAt": "2026-11-20T08:26:41.654Z",
       "revision": 1,
       "contentHash": "39991a4c1bcdb0a492019f970bfb0b37c8fcbd1eb9dca99cc06b11356698cc2f",
       "sizeBytes": 9699,
@@ -2062,7 +2062,7 @@
       ],
       "createdAt": "2026-11-18T02:48:36.392Z",
       "updatedAt": "2026-11-18T02:48:36.392Z",
-      "lastAccessedAt": "2026-11-19T08:44:50.738Z",
+      "lastAccessedAt": "2026-11-20T08:26:41.654Z",
       "revision": 1,
       "contentHash": "e226861705d3e663bf235bb3554022e0c5d5f00b1c73afac4ac56bc8be6e2922",
       "sizeBytes": 6888,
@@ -2257,6 +2257,31 @@
       "revision": 1,
       "contentHash": "5f5d6cd105c3abdb0d271723e40fe0acb175a89c05b0bc46977e2b5601586d16",
       "sizeBytes": 7107,
+      "memoryBodyIds": []
+    },
+    {
+      "id": "8c2e87c5-a86e-4234-8edc-0d0c551f6b64",
+      "title": "policy_id 由内部属性改为扩展字段：FTE 内部布局 108→106 与共享内存通道下限维持 108 的判定（2026-11-20）",
+      "description": "gt_trunk 工作区 svn_work/134 的知识摘要：FTE 侧 policy_id 从 TradeOrderInfo 内部属性抽为宏 BASE_TRADE_ORDER_SEC_INFO_FIELDS + 新增 TradeOrderInfoLayout(36)，TradeOrderReqLayout 108→106 而 SHM 业务体仍 116；为何通道结构可不动、下限绝不能对齐 106（三条理由 + 编译期断言护栏）；check_wire_abi.sh 断言 25→28 的改动点；干净复测判据与两类环境误判（静默降级为 NO_DSE、logon_feature_code 被占用）；提交 376848f4b。",
+      "status": "active",
+      "filename": "policy-id-fte-108-106-108-2026-11-20-8c2e87c5.md",
+      "relativePath": "documents/active/policy-id-fte-108-106-108-2026-11-20-8c2e87c5.md",
+      "sourcePaths": [
+        "svn_work/134_policy_id位置变更对共享内存通道的影响_20261120.md",
+        "DYS-FRAMEWORK/fte/fte/include/share_communication/share_comm_external_message.h",
+        "DYS-FRAMEWORK/fte/test_all/check_wire_abi.sh",
+        "test/share_test/test_data.json",
+        "work_log/20261119.md"
+      ],
+      "sessionIds": [
+        "0c78641b-c085-4ae2-a07a-f8b2d17cc53b"
+      ],
+      "createdAt": "2026-11-20T08:27:14.662Z",
+      "updatedAt": "2026-11-20T08:27:14.662Z",
+      "lastAccessedAt": "2026-11-20T08:27:14.662Z",
+      "revision": 1,
+      "contentHash": "635f00e3aa98b7c8d8cf4fbf82c1aff6a110439216ef6b20eccdbcd7e59682af",
+      "sizeBytes": 7576,
       "memoryBodyIds": []
     }
   ]
