@@ -573,7 +573,7 @@
       ],
       "createdAt": "2026-11-05T09:44:20.096Z",
       "updatedAt": "2026-11-05T09:44:20.096Z",
-      "lastAccessedAt": "2026-11-16T06:36:06.031Z",
+      "lastAccessedAt": "2026-11-20T04:26:14.783Z",
       "revision": 1,
       "contentHash": "36f770440cef14d1e255b2669d9e205c8e7a8e966b0b60a4f9c4dd3392424ea3",
       "sizeBytes": 7680,
@@ -1071,7 +1071,7 @@
       ],
       "createdAt": "2026-11-08T16:05:48.818Z",
       "updatedAt": "2026-11-08T16:05:48.818Z",
-      "lastAccessedAt": "2026-11-08T16:05:48.818Z",
+      "lastAccessedAt": "2026-11-20T04:26:14.783Z",
       "revision": 1,
       "contentHash": "0304b9f88d9252b335fa3b6d50145e92d856435934c3c684996759682f1a8ac2",
       "sizeBytes": 7196,
@@ -1093,7 +1093,7 @@
       ],
       "createdAt": "2026-11-08T23:17:00.686Z",
       "updatedAt": "2026-11-08T23:17:00.686Z",
-      "lastAccessedAt": "2026-11-20T03:13:07.528Z",
+      "lastAccessedAt": "2026-11-20T04:26:14.783Z",
       "revision": 1,
       "contentHash": "eb8ccfcd9dbdc9298afdea3fe505a7fc30cf123086ca72371b2322479c071656",
       "sizeBytes": 5780,
@@ -2007,7 +2007,7 @@
       ],
       "createdAt": "2026-11-17T03:28:48.070Z",
       "updatedAt": "2026-11-17T03:28:48.070Z",
-      "lastAccessedAt": "2026-11-20T03:13:07.528Z",
+      "lastAccessedAt": "2026-11-20T04:26:14.783Z",
       "revision": 1,
       "contentHash": "39991a4c1bcdb0a492019f970bfb0b37c8fcbd1eb9dca99cc06b11356698cc2f",
       "sizeBytes": 9699,
@@ -2177,6 +2177,34 @@
       "revision": 1,
       "contentHash": "e907f5ca2277ee986e32d0917564269bc1b511fd9f8007ba358150229756f600",
       "sizeBytes": 5610,
+      "memoryBodyIds": []
+    },
+    {
+      "id": "a4d51da0-5efc-41af-8a0f-2e44f521b13f",
+      "title": "容器内重建 mock_client（GLIBCXX 3.4.19 上限 + boost 抢占 + sendlogin P0-1）与 ETF policy_id 端到端实测（2026-11-20）",
+      "description": "gt_trunk 在容器 otc 内把 libmsg_proto/libagw_ute_api/mock_client 降到容器 GLIBCXX 3.4.19 以内可用的完整路径：ABI 自检、BOOST_ROOT 抢占坑、sendlogin() 注释态 P0、三组件联调栈起停、policy_id 观测口径（需 Debug 级），以及 build_in_container.sh 脚本固化与 15/15 回归结论。",
+      "status": "active",
+      "filename": "mock-client-glibcxx-3-4-19-boost-sendlogin-p0-1--a4d51da0.md",
+      "relativePath": "documents/active/mock-client-glibcxx-3-4-19-boost-sendlogin-p0-1--a4d51da0.md",
+      "sourcePaths": [
+        "DYS-FRAMEWORK/api/gw_api_boost/ute_mock_client/build_in_container.sh",
+        "DYS-FRAMEWORK/api/gw_api_boost/api/src/ute_client_handler_impl.cpp",
+        "DYS-FRAMEWORK/api/gw_api_boost/ute_api",
+        "DYS-FRAMEWORK/msg_parser",
+        "run_trunk/build_mock_client.sh",
+        "run_trunk/start_dse_stack.sh",
+        "svn_work/129_policy_id功能测试文档_20261116.md",
+        "work_log/20261119.md"
+      ],
+      "sessionIds": [
+        "fe90c7b1-76db-46c2-b826-d8ac383f59de"
+      ],
+      "createdAt": "2026-11-20T04:26:55.933Z",
+      "updatedAt": "2026-11-20T04:26:55.933Z",
+      "lastAccessedAt": "2026-11-20T04:26:55.933Z",
+      "revision": 1,
+      "contentHash": "763f5c4cd3bc2ff68d20e3d0f713e68787d337f158f1d64f3d2e07a4affbc804",
+      "sizeBytes": 8760,
       "memoryBodyIds": []
     }
   ]

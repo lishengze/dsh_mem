@@ -4,7 +4,7 @@
     "payload/runtime/memories.json": "3f8d8b9fd2f8124dfced58e5de5feeb65523c43fb58e93e6dded8fb91434dfdc",
     "payload/runtime/USER.md": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
     "payload/runtime/MEMORY.md": "2c2a183ffb1070ba224b28a2b449683ceb8a0da3ee6a9c16b09903f23a237707",
-    "payload/documents/index.json": "f7aef771641a8cb723861fa8f65aaed2b7b4efcdc478b48a8b7bd5e75bd38bf2",
+    "payload/documents/index.json": "c7456e0d5b5837645b209bfca22edf2f5efd1dcb1f39f4c729a61027874393f5",
     "payload/documents/active/otcsrc-svn-2026-11-27e439e6.md": "309afafc841c76ed07bd180a1ca0f4c457c344a8e3ea68402d64d88694559d32",
     "payload/documents/active/gt-svn-2026-11-03-ac5aee7f.md": "b75ce495900bde26a2d1ab7b265fbda815cab855491c02c5c5a013d6fcb2ca75",
     "payload/documents/active/gt-svn-etf-341-2026-11-03-9e861d20.md": "b6ae7bfe5b9aa0b1ae1a101e296335bfc74efbf7f79357c0047a58c0cf455a74",
@@ -88,6 +88,7 @@
     "payload/documents/active/utexntool-2026-11-18-c678d97e.md": "978beb4df556f9c7604195f83cd5cd44c5cdbb39457aa9dbf2fc5044ee07538a",
     "payload/documents/active/80300101-80300100-80300102-2026-11-19-f7ca75eb.md": "ab611956ac232bef58153f02f79029317dd9bed5c13d5ae388b1d8e013fa5f7e",
     "payload/documents/active/fte-1003-on-message-nonreqorder-reqorder-trypopr-859ea118.md": "346a361cfb68e965254c068b55275811a0baf7570571c7b832b000495936d091",
+    "payload/documents/active/mock-client-glibcxx-3-4-19-boost-sendlogin-p0-1--a4d51da0.md": "e2a6af94430dc2255a4c71ec4fa28b745e1eef7b4ee9163dc29f82a2e4efb07a",
     "payload/data/.dsh-memory-bodies.json": "dc6020b75bab2ed6109193aea9c3427c22d9d2b6edd223c4c8c6cd87ad0c67dd"
   }
 }
