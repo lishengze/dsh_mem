@@ -4,7 +4,7 @@
     "payload/runtime/memories.json": "3f8d8b9fd2f8124dfced58e5de5feeb65523c43fb58e93e6dded8fb91434dfdc",
     "payload/runtime/USER.md": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
     "payload/runtime/MEMORY.md": "2c2a183ffb1070ba224b28a2b449683ceb8a0da3ee6a9c16b09903f23a237707",
-    "payload/documents/index.json": "55bb8318a46ed5e2bce0d568f4e08167620d54cccff27e40cc902179c4724f06",
+    "payload/documents/index.json": "45e4a69aa10c27eb98621c9cc5dc19f22bb7bba28e291469657cd0eb85a65502",
     "payload/documents/active/otcsrc-svn-2026-11-27e439e6.md": "309afafc841c76ed07bd180a1ca0f4c457c344a8e3ea68402d64d88694559d32",
     "payload/documents/active/gt-svn-2026-11-03-ac5aee7f.md": "b75ce495900bde26a2d1ab7b265fbda815cab855491c02c5c5a013d6fcb2ca75",
     "payload/documents/active/gt-svn-etf-341-2026-11-03-9e861d20.md": "b6ae7bfe5b9aa0b1ae1a101e296335bfc74efbf7f79357c0047a58c0cf455a74",
@@ -93,6 +93,7 @@
     "payload/documents/active/api-svn-2026-11-20-d2ca6007.md": "d79fd6f7dac1a0e1e197959d037076cefde8d811b57443d18c42124bae98b236",
     "payload/documents/active/policy-id-fte-108-106-108-2026-11-20-8c2e87c5.md": "e494b1f5e23782308c8d4e9172d0aafb6858fd40867fc652ec92121c8f41ce95",
     "payload/documents/active/fte-strategy-key-shm-krepeatlogin-3-2026-11-23-7a2e993c.md": "6053d4cba27a16e7d8916c4b19d6c02f422fc599f49c9f82563959b3371f321f",
+    "payload/documents/active/gw-api-svn-p0-1-2026-11-24-807216fd.md": "778db8a0f2c3288ecea24a42f13c3457ca2323fe2c853dda50096acd21f74736",
     "payload/data/.dsh-memory-bodies.json": "dc6020b75bab2ed6109193aea9c3427c22d9d2b6edd223c4c8c6cd87ad0c67dd"
   }
 }

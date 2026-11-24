@@ -819,7 +819,7 @@
       ],
       "createdAt": "2026-11-06T09:29:12.584Z",
       "updatedAt": "2026-11-06T09:29:12.584Z",
-      "lastAccessedAt": "2026-11-20T05:53:55.971Z",
+      "lastAccessedAt": "2026-11-24T02:35:57.382Z",
       "revision": 1,
       "contentHash": "521f7f06c46dbd2ff5ddbc6dfd6a046e7e5ee324b65e98c0790ee566a005af3e",
       "sizeBytes": 6769,
@@ -1837,7 +1837,7 @@
       ],
       "createdAt": "2026-11-12T06:47:28.793Z",
       "updatedAt": "2026-11-12T06:47:28.793Z",
-      "lastAccessedAt": "2026-11-13T08:55:23.821Z",
+      "lastAccessedAt": "2026-11-24T02:35:57.382Z",
       "revision": 1,
       "contentHash": "6689f0abf2c40e6fa4405145a33d6d83f13e92d7a4a20ab7c41397619af4cd01",
       "sizeBytes": 7101,
@@ -1862,7 +1862,7 @@
       ],
       "createdAt": "2026-11-12T07:00:49.552Z",
       "updatedAt": "2026-11-12T07:00:49.552Z",
-      "lastAccessedAt": "2026-11-13T08:55:23.821Z",
+      "lastAccessedAt": "2026-11-24T02:35:57.382Z",
       "revision": 1,
       "contentHash": "27524b7f06222cde308fdc83570c2ef6d6705c154e8026f0116c1857be769f06",
       "sizeBytes": 6625,
@@ -2253,7 +2253,7 @@
       ],
       "createdAt": "2026-11-20T05:54:19.278Z",
       "updatedAt": "2026-11-20T05:54:19.278Z",
-      "lastAccessedAt": "2026-11-20T05:54:19.278Z",
+      "lastAccessedAt": "2026-11-24T02:35:57.382Z",
       "revision": 1,
       "contentHash": "5f5d6cd105c3abdb0d271723e40fe0acb175a89c05b0bc46977e2b5601586d16",
       "sizeBytes": 7107,
@@ -2309,6 +2309,32 @@
       "revision": 1,
       "contentHash": "b39a0af9e0b079df33402f453479df31807c45ba2d329d565981d41540f15ace",
       "sizeBytes": 8771,
+      "memoryBodyIds": []
+    },
+    {
+      "id": "807216fd-8810-4b4e-8201-06318e73736a",
+      "title": "gw_api 两树 SVN 冲突的「融合 + P0-1 补丁化」口径（2026-11-24 用户定案）",
+      "description": "用户 2026-11-24 就 gw_api boost/no_boost 两树 agw_client_impl.cpp 的 3+7 块 SVN 冲突给出的三条裁决逻辑、逐块处置、P0-1 补丁化与提交前剥离/提交后恢复流程、验证清单，含日志注释成本与注释粒度要求；对「全部取远端」旧口径的细化。",
+      "status": "active",
+      "filename": "gw-api-svn-p0-1-2026-11-24-807216fd.md",
+      "relativePath": "documents/active/gw-api-svn-p0-1-2026-11-24-807216fd.md",
+      "sourcePaths": [
+        "svn_work/05-代码同步与工程/184_gw_api两树SVN冲突分析与解决方案_20261124.md",
+        "svn_work/05-代码同步与工程/sendlogin_README.md",
+        "svn_work/05-代码同步与工程/sendlogin_restore_apply_20261122.patch",
+        "api/gw_api_boost/api/src/agw_client_impl.cpp",
+        "api/gw_api_no_boost/api/src/agw_client_impl.cpp",
+        "task/task_svn/task_svn.txt"
+      ],
+      "sessionIds": [
+        "70c6d43b-ac8f-4331-919e-e9d32805b80f"
+      ],
+      "createdAt": "2026-11-24T02:36:20.646Z",
+      "updatedAt": "2026-11-24T02:36:20.646Z",
+      "lastAccessedAt": "2026-11-24T02:36:20.646Z",
+      "revision": 1,
+      "contentHash": "f7347b296bcb3bfc06515451b1ddfa8f95a33a2746e853dd8f342f3ff8198c40",
+      "sizeBytes": 5301,
       "memoryBodyIds": []
     }
   ]
