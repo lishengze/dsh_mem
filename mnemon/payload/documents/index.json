@@ -1862,7 +1862,7 @@
       ],
       "createdAt": "2026-11-12T07:00:49.552Z",
       "updatedAt": "2026-11-12T07:00:49.552Z",
-      "lastAccessedAt": "2026-11-24T02:35:57.382Z",
+      "lastAccessedAt": "2026-11-24T03:06:13.183Z",
       "revision": 1,
       "contentHash": "27524b7f06222cde308fdc83570c2ef6d6705c154e8026f0116c1857be769f06",
       "sizeBytes": 6625,
@@ -2227,7 +2227,7 @@
       ],
       "createdAt": "2026-11-20T04:42:50.064Z",
       "updatedAt": "2026-11-20T04:42:50.064Z",
-      "lastAccessedAt": "2026-11-20T05:53:55.971Z",
+      "lastAccessedAt": "2026-11-24T03:06:13.183Z",
       "revision": 1,
       "contentHash": "2792e2098a80282b00184d666e899c8390dba69ce12c823cb925f9735b71e0be",
       "sizeBytes": 7280,
@@ -2253,7 +2253,7 @@
       ],
       "createdAt": "2026-11-20T05:54:19.278Z",
       "updatedAt": "2026-11-20T05:54:19.278Z",
-      "lastAccessedAt": "2026-11-24T02:35:57.382Z",
+      "lastAccessedAt": "2026-11-24T03:06:13.183Z",
       "revision": 1,
       "contentHash": "5f5d6cd105c3abdb0d271723e40fe0acb175a89c05b0bc46977e2b5601586d16",
       "sizeBytes": 7107,
@@ -2331,10 +2331,36 @@
       ],
       "createdAt": "2026-11-24T02:36:20.646Z",
       "updatedAt": "2026-11-24T02:36:20.646Z",
-      "lastAccessedAt": "2026-11-24T02:36:20.646Z",
+      "lastAccessedAt": "2026-11-24T03:06:13.183Z",
       "revision": 1,
       "contentHash": "f7347b296bcb3bfc06515451b1ddfa8f95a33a2746e853dd8f342f3ff8198c40",
       "sizeBytes": 5301,
+      "memoryBodyIds": []
+    },
+    {
+      "id": "e369978f-13ee-4f26-b2de-567d0b71be47",
+      "title": "gw_api 两树冲突落地执行：全采上游 + 单点热路径日志注释 + P0-1 补丁化（2026-11-24 执行结果）",
+      "description": "2026-11-24 gw_api boost/no_boost 两树 agw_client_impl.cpp 冲突按「全采上游 → 只注释性能分析确定的那一处热路径日志 → P0-1 补丁化」执行完毕的结果与证据：注释粒度被用户收窄为一处（推翻此前批量注释 40+28 行的做法）、与上游差异 42 行、84 行 P0-1 补丁与提交前剥离/提交后恢复判据、编译前守卫拦住纯上游版本的实测证据、容器内 work_lib 软链必须用相对路径的环境结论、因缺 AMI 依赖改用结构自检。",
+      "status": "active",
+      "filename": "gw-api-p0-1-2026-11-24-e369978f.md",
+      "relativePath": "documents/active/gw-api-p0-1-2026-11-24-e369978f.md",
+      "sourcePaths": [
+        "svn_work/05-代码同步与工程/184_gw_api两树SVN冲突分析与解决方案_20261124.md",
+        "svn_work/05-代码同步与工程/184_p0_1_direct_connect_restore_apply_20261124.patch",
+        "api/gw_api_boost/api/src/agw_client_impl.cpp",
+        "api/gw_api_no_boost/api/src/agw_client_impl.cpp",
+        "task/task_svn/task_svn.txt",
+        "work_log/20261124.md"
+      ],
+      "sessionIds": [
+        "1fc57de6-f2a0-4190-87e1-a4e11c56533b"
+      ],
+      "createdAt": "2026-11-24T03:06:35.671Z",
+      "updatedAt": "2026-11-24T03:06:35.671Z",
+      "lastAccessedAt": "2026-11-24T03:06:35.671Z",
+      "revision": 1,
+      "contentHash": "649434f3ec0c354b17aa26bc0ef46e80d46fcf4d90c93556029c0d8258681f98",
+      "sizeBytes": 6914,
       "memoryBodyIds": []
     }
   ]
