@@ -1384,7 +1384,7 @@
       ],
       "createdAt": "2026-11-10T03:19:48.420Z",
       "updatedAt": "2026-11-10T03:19:48.420Z",
-      "lastAccessedAt": "2026-11-16T10:51:50.711Z",
+      "lastAccessedAt": "2026-11-26T05:28:31.752Z",
       "revision": 1,
       "contentHash": "77c5ad41f37798df205d9cedd1069876b029e4684282f51051e8cbe260ca88eb",
       "sizeBytes": 6616,
@@ -1945,7 +1945,7 @@
       ],
       "createdAt": "2026-11-13T01:59:28.341Z",
       "updatedAt": "2026-11-13T01:59:28.341Z",
-      "lastAccessedAt": "2026-11-16T13:53:12.698Z",
+      "lastAccessedAt": "2026-11-26T05:28:31.752Z",
       "revision": 1,
       "contentHash": "05fd3e288f0661b83d4472afcf6d10272e94f6986292004ded4a7c98c5bd089a",
       "sizeBytes": 6965,
@@ -2201,7 +2201,7 @@
       ],
       "createdAt": "2026-11-20T04:26:55.933Z",
       "updatedAt": "2026-11-20T04:26:55.933Z",
-      "lastAccessedAt": "2026-11-20T04:26:55.933Z",
+      "lastAccessedAt": "2026-11-26T05:28:31.752Z",
       "revision": 1,
       "contentHash": "763f5c4cd3bc2ff68d20e3d0f713e68787d337f158f1d64f3d2e07a4affbc804",
       "sizeBytes": 8760,
@@ -2357,10 +2357,31 @@
       ],
       "createdAt": "2026-11-24T03:06:35.671Z",
       "updatedAt": "2026-11-24T03:06:35.671Z",
-      "lastAccessedAt": "2026-11-24T03:06:35.671Z",
+      "lastAccessedAt": "2026-11-26T05:28:31.752Z",
       "revision": 1,
       "contentHash": "649434f3ec0c354b17aa26bc0ef46e80d46fcf4d90c93556029c0d8258681f98",
       "sizeBytes": 6914,
+      "memoryBodyIds": []
+    },
+    {
+      "id": "eced3297-383c-468a-9065-c918368b3c8f",
+      "title": "sys_table_sync_cfg.sql（r78465）脚本体检：结论、残留风险与可复用的 SQL 脚本检查清单",
+      "description": "对 OTC_BOS/SQL/sql-bos/2026/S1/sys_table_sync_cfg.sql r78465 的结构体检结论（无语法错、358 行/80 表的数据事实）、r78453→r78465 那个致命中分号的历史教训，以及仍未修的四类风险（COLLATE 不一致、缺 DEFAULT CHARSET、DROP TABLE 清线上运维行、注释条数与实际不符）和可复用的离线检查方法。",
+      "status": "active",
+      "filename": "sys-table-sync-cfg-sql-r78465-sql-eced3297.md",
+      "relativePath": "documents/active/sys-table-sync-cfg-sql-r78465-sql-eced3297.md",
+      "sourcePaths": [
+        "OTC_BOS/SQL/sql-bos/2026/S1/sys_table_sync_cfg.sql"
+      ],
+      "sessionIds": [
+        "3dfb5539-ae68-44c3-a806-11c8367e4094"
+      ],
+      "createdAt": "2026-11-26T05:29:12.355Z",
+      "updatedAt": "2026-11-26T05:29:12.355Z",
+      "lastAccessedAt": "2026-11-26T05:29:12.355Z",
+      "revision": 1,
+      "contentHash": "6dad87c93aa3ad98f2ca54bbdd9247fe5fd784827408e9b085816a039135267a",
+      "sizeBytes": 5322,
       "memoryBodyIds": []
     }
   ]
