@@ -971,7 +971,7 @@
       ],
       "createdAt": "2026-11-08T02:58:31.042Z",
       "updatedAt": "2026-11-08T02:58:31.042Z",
-      "lastAccessedAt": "2026-11-26T10:29:09.271Z",
+      "lastAccessedAt": "2026-11-26T12:12:53.812Z",
       "revision": 1,
       "contentHash": "5e1b14633acf2762234b4fc0cb7267930950147d49655c1ab87c5d3c51c95ad6",
       "sizeBytes": 8502,
@@ -1571,7 +1571,7 @@
       ],
       "createdAt": "2026-11-10T11:25:59.436Z",
       "updatedAt": "2026-11-10T11:25:59.436Z",
-      "lastAccessedAt": "2026-11-20T04:42:09.350Z",
+      "lastAccessedAt": "2026-11-26T12:12:53.812Z",
       "revision": 1,
       "contentHash": "ee62b6ea56475d26df5531bbeff2fbedcd56a5d207f123f20ec0aee22e54fb49",
       "sizeBytes": 6727,
@@ -2201,7 +2201,7 @@
       ],
       "createdAt": "2026-11-20T04:26:55.933Z",
       "updatedAt": "2026-11-20T04:26:55.933Z",
-      "lastAccessedAt": "2026-11-26T05:28:31.752Z",
+      "lastAccessedAt": "2026-11-26T12:12:53.812Z",
       "revision": 1,
       "contentHash": "763f5c4cd3bc2ff68d20e3d0f713e68787d337f158f1d64f3d2e07a4affbc804",
       "sizeBytes": 8760,
@@ -2331,7 +2331,7 @@
       ],
       "createdAt": "2026-11-24T02:36:20.646Z",
       "updatedAt": "2026-11-24T02:36:20.646Z",
-      "lastAccessedAt": "2026-11-24T03:06:13.183Z",
+      "lastAccessedAt": "2026-11-26T12:12:53.812Z",
       "revision": 1,
       "contentHash": "f7347b296bcb3bfc06515451b1ddfa8f95a33a2746e853dd8f342f3ff8198c40",
       "sizeBytes": 5301,
@@ -2401,6 +2401,31 @@
       "revision": 1,
       "contentHash": "b9147d125da942eff2d789c396e9ee2e2437a6f04730033f21d75cda71b7e692",
       "sizeBytes": 7130,
+      "memoryBodyIds": []
+    },
+    {
+      "id": "1d7d0b1e-87fc-4436-b00e-0ed51b5e5b1f",
+      "title": "800006 登入应答无顶层 branch_id：根因、修法与 gw_api 双树同步（2026-11-26）",
+      "description": "AgwMsgCustLoginResp(800006 ver=2) 顶层无 branch_id 导致编译失败/账号错发的根因、fund_account_array 遍历修法、成员变量同步补丁，以及 gw_api_boost 与 gw_api_no_boost 逐字同源必须同改、两变体编译验证口径。",
+      "status": "active",
+      "filename": "800006-branch-id-gw-api-2026-11-26-1d7d0b1e.md",
+      "relativePath": "documents/active/800006-branch-id-gw-api-2026-11-26-1d7d0b1e.md",
+      "sourcePaths": [
+        "DYS-FRAMEWORK/api/gw_api_no_boost/api/src/ute_client_handler_impl.cpp",
+        "DYS-FRAMEWORK/api/gw_api_no_boost/api/src/agw_client_impl.cpp",
+        "DYS-FRAMEWORK/api/gw_api_boost/api/src/ute_client_handler_impl.cpp",
+        "DYS-FRAMEWORK/api/gw_api_boost/api/src/agw_client_impl.cpp",
+        "DYS-FRAMEWORK/gw_external_msg/V2/buildmsg/agw_external.xml"
+      ],
+      "sessionIds": [
+        "45c2f591-d86d-49a5-949f-ca676f1611f3"
+      ],
+      "createdAt": "2026-11-26T12:13:50.041Z",
+      "updatedAt": "2026-11-26T12:13:50.041Z",
+      "lastAccessedAt": "2026-11-26T12:13:50.041Z",
+      "revision": 1,
+      "contentHash": "7298d9572dc2ec1a0e85f4a8a79472d31af627f52059087a08e491a82ef98236",
+      "sizeBytes": 6405,
       "memoryBodyIds": []
     }
   ]
