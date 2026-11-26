@@ -971,7 +971,7 @@
       ],
       "createdAt": "2026-11-08T02:58:31.042Z",
       "updatedAt": "2026-11-08T02:58:31.042Z",
-      "lastAccessedAt": "2026-11-12T10:24:07.444Z",
+      "lastAccessedAt": "2026-11-26T10:29:09.271Z",
       "revision": 1,
       "contentHash": "5e1b14633acf2762234b4fc0cb7267930950147d49655c1ab87c5d3c51c95ad6",
       "sizeBytes": 8502,
@@ -1142,7 +1142,7 @@
       ],
       "createdAt": "2026-11-09T01:12:48.864Z",
       "updatedAt": "2026-11-09T01:12:48.864Z",
-      "lastAccessedAt": "2026-11-09T01:12:48.864Z",
+      "lastAccessedAt": "2026-11-26T10:29:09.271Z",
       "revision": 1,
       "contentHash": "e36e8baa8c12b7ad3842a8427454be21115eca9e7ff0c639031785162d4cda26",
       "sizeBytes": 6307,
@@ -1605,7 +1605,7 @@
       ],
       "createdAt": "2026-11-11T01:35:43.571Z",
       "updatedAt": "2026-11-11T01:35:43.571Z",
-      "lastAccessedAt": "2026-11-12T01:24:33.131Z",
+      "lastAccessedAt": "2026-11-26T10:29:09.271Z",
       "revision": 1,
       "contentHash": "030a19505e8494dbceeb767711e574258fb58a043c0f5718d2e4f527646de7ee",
       "sizeBytes": 7132,
@@ -1813,7 +1813,7 @@
       ],
       "createdAt": "2026-11-12T04:34:03.643Z",
       "updatedAt": "2026-11-12T04:34:03.643Z",
-      "lastAccessedAt": "2026-11-20T05:53:55.971Z",
+      "lastAccessedAt": "2026-11-26T10:29:09.271Z",
       "revision": 1,
       "contentHash": "01b8f4fb0fbf0d89fc1762824539cab94382dcd0c3313a7f45172ceb0b78857c",
       "sizeBytes": 5586,
@@ -2382,6 +2382,25 @@
       "revision": 1,
       "contentHash": "6dad87c93aa3ad98f2ca54bbdd9247fe5fd784827408e9b085816a039135267a",
       "sizeBytes": 5322,
+      "memoryBodyIds": []
+    },
+    {
+      "id": "a3bf6283-27f2-42fa-9b31-06fa259a84cb",
+      "title": "本机（lsz 开发机）git / git-lfs 走 172.16.0.11:3128 代理访问 GitHub 的完整方案与排障证据（2026-11-26）",
+      "description": "受限网络下 git SSH 传输与 git-lfs HTTPS 请求如何各自走代理：~/.ssh/config（SSH over 443 + corkscrew）与 git config --global http.proxy 的分工、验证命令与反证实验，含 HTTP_PROXY=127.16.0.11 笔误根因。",
+      "status": "active",
+      "filename": "lsz-git-git-lfs-172-16-0-11-3128-github-2026-11--a3bf6283.md",
+      "relativePath": "documents/active/lsz-git-git-lfs-172-16-0-11-3128-github-2026-11--a3bf6283.md",
+      "sourcePaths": [],
+      "sessionIds": [
+        "484d6120-a69f-4df5-9421-1b29e2df87d7"
+      ],
+      "createdAt": "2026-11-26T10:29:30.175Z",
+      "updatedAt": "2026-11-26T10:29:30.175Z",
+      "lastAccessedAt": "2026-11-26T10:29:30.175Z",
+      "revision": 1,
+      "contentHash": "b9147d125da942eff2d789c396e9ee2e2437a6f04730033f21d75cda71b7e692",
+      "sizeBytes": 7130,
       "memoryBodyIds": []
     }
   ]

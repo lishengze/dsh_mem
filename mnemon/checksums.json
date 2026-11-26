@@ -1,10 +1,10 @@
 {
   "algorithm": "sha256",
   "files": {
-    "payload/runtime/memories.json": "8d01b393fe693923aa1fcd26dfed9bf4368408a92611acbf9dd01836d71db507",
+    "payload/runtime/memories.json": "a3c40e2ef40dff4e5df8f224d6cb514f625b7caa4739e3091e66a4681f5c144c",
     "payload/runtime/USER.md": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
-    "payload/runtime/MEMORY.md": "1a48748301d35b4de48c75ef058fabedd995dbebeddd9aa86c463a072df0bc9a",
-    "payload/documents/index.json": "2cd3f36dbcb75932c1407dfc32ded726989b840703b792e132ea1fefc7ff23fa",
+    "payload/runtime/MEMORY.md": "1d6104cfe12600b14a4b0888b6e4af4c36d906d2a8e695ce765529ad0d74d9b9",
+    "payload/documents/index.json": "6f9240ab59976078e44a57db78b27b077e3a08511e8f8cce559a7068237cde46",
     "payload/documents/active/otcsrc-svn-2026-11-27e439e6.md": "309afafc841c76ed07bd180a1ca0f4c457c344a8e3ea68402d64d88694559d32",
     "payload/documents/active/gt-svn-2026-11-03-ac5aee7f.md": "b75ce495900bde26a2d1ab7b265fbda815cab855491c02c5c5a013d6fcb2ca75",
     "payload/documents/active/gt-svn-etf-341-2026-11-03-9e861d20.md": "b6ae7bfe5b9aa0b1ae1a101e296335bfc74efbf7f79357c0047a58c0cf455a74",
@@ -96,6 +96,7 @@
     "payload/documents/active/gw-api-svn-p0-1-2026-11-24-807216fd.md": "778db8a0f2c3288ecea24a42f13c3457ca2323fe2c853dda50096acd21f74736",
     "payload/documents/active/gw-api-p0-1-2026-11-24-e369978f.md": "ab63e17ceb10aa21eb3b948337f76c683802fdb92234bd08694cf61161fb66aa",
     "payload/documents/active/sys-table-sync-cfg-sql-r78465-sql-eced3297.md": "535c270b661fbc99a5d50e8d24dd3d5518abfdf7b55ecae5886f598f98c2d316",
+    "payload/documents/active/lsz-git-git-lfs-172-16-0-11-3128-github-2026-11--a3bf6283.md": "29ce077b14b7e34d317e877698057b3961f0769a83c6f0c381d7e201a30c4e89",
     "payload/data/.dsh-memory-bodies.json": "dc6020b75bab2ed6109193aea9c3427c22d9d2b6edd223c4c8c6cd87ad0c67dd"
   }
 }
