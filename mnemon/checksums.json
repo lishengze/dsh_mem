@@ -1,10 +1,10 @@
 {
   "algorithm": "sha256",
   "files": {
-    "payload/runtime/memories.json": "a3c40e2ef40dff4e5df8f224d6cb514f625b7caa4739e3091e66a4681f5c144c",
+    "payload/runtime/memories.json": "80a29b6ee0833bda6c7cb633d057e83462ac7465122aa66873628922f978e20f",
     "payload/runtime/USER.md": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
-    "payload/runtime/MEMORY.md": "1d6104cfe12600b14a4b0888b6e4af4c36d906d2a8e695ce765529ad0d74d9b9",
-    "payload/documents/index.json": "29106e3f22bf7161d64a879e7ad6f064a70d87871f53c45e8ed25683897c0dd6",
+    "payload/runtime/MEMORY.md": "d31d143efded87d9f88c42ced8c6789a796d2d36e6aeb8f6b466c0a1d5e86e5a",
+    "payload/documents/index.json": "828bd0b4fcd0c8377dd0d5ab3a8412936215e1c66674a7dd72381f5a971df73e",
     "payload/documents/active/otcsrc-svn-2026-11-27e439e6.md": "309afafc841c76ed07bd180a1ca0f4c457c344a8e3ea68402d64d88694559d32",
     "payload/documents/active/gt-svn-2026-11-03-ac5aee7f.md": "b75ce495900bde26a2d1ab7b265fbda815cab855491c02c5c5a013d6fcb2ca75",
     "payload/documents/active/gt-svn-etf-341-2026-11-03-9e861d20.md": "b6ae7bfe5b9aa0b1ae1a101e296335bfc74efbf7f79357c0047a58c0cf455a74",
@@ -100,6 +100,7 @@
     "payload/documents/active/800006-branch-id-gw-api-2026-11-26-1d7d0b1e.md": "f22915c184b0eb072e5d1e93841dbc6d5d723375fd9d2c8db79dac4455214b37",
     "payload/documents/active/gw-api-no-boost-svn-boost-std-api-inner-out-2026-17da2e49.md": "66409763bb46325fe166fcb50200f328d1e81066729df3dc0dfaac288347007b",
     "payload/documents/active/gt-trunk-urc-2026-11-27-be0acf9d.md": "123976da65058c4888093e3bf97d4151ea9b1f304e4ee0e0b8eb1f5a359b0717",
+    "payload/documents/active/urc-t2-1-t2-2-2026-11-27-be0acf9d-5ac48031.md": "3377b5e915f32d29c515ad20e79847f997c232a1f794aeccffe8cbc41c24bc14",
     "payload/data/.dsh-memory-bodies.json": "dc6020b75bab2ed6109193aea9c3427c22d9d2b6edd223c4c8c6cd87ad0c67dd"
   }
 }

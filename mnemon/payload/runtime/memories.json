@@ -192,6 +192,18 @@
         "label": "lsz-nuc",
         "at": "2026-11-26T10:27:57.616Z"
       }
+    },
+    {
+      "content": "gt_trunk 体系门禁（2026-11-27 落地，仅主仓；gt_svn/gt_sit 无 study/ 不同步 KB）：pre-commit 四道 = check_doc_placement / check_doc_guide / auto_review_gate / check_doc_refs（仅提示）；cron */20 1-6 跑 auto_review_daemon.sh --once 写 pending。一键 `bash task/review/install_gates_linux.sh --with-cron`，逃生 `SKIP_GATES=1 git commit` 或 `--no-verify`。工作日志标题必须用 `## 任务：`，否则 review_prepare.sh 抓取静默为 0（11-25 全丢、11-26 丢 3/4 实例）。",
+      "target": "memory",
+      "importance": "normal",
+      "created_at": "2026-11-27T10:24:28.388Z",
+      "updated_at": "2026-11-27T10:24:28.388Z",
+      "origin": {
+        "machine": "fcb257ea-7a82-4288-9ff7-e9c49baf4584",
+        "label": "lsz-nuc",
+        "at": "2026-11-27T10:24:28.388Z"
+      }
     }
   ]
 }
