@@ -4,7 +4,7 @@
     "payload/runtime/memories.json": "a3c40e2ef40dff4e5df8f224d6cb514f625b7caa4739e3091e66a4681f5c144c",
     "payload/runtime/USER.md": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
     "payload/runtime/MEMORY.md": "1d6104cfe12600b14a4b0888b6e4af4c36d906d2a8e695ce765529ad0d74d9b9",
-    "payload/documents/index.json": "cc1548f17f0a1d7671be5a3c7df2f38f0a1b0b411ad56de62bb3ab4d1c6793ed",
+    "payload/documents/index.json": "3fc57ed7ab9c95ae29e7d4d233ae0016fa744e995f302ccf4755f40bc9cb04ba",
     "payload/documents/active/otcsrc-svn-2026-11-27e439e6.md": "309afafc841c76ed07bd180a1ca0f4c457c344a8e3ea68402d64d88694559d32",
     "payload/documents/active/gt-svn-2026-11-03-ac5aee7f.md": "b75ce495900bde26a2d1ab7b265fbda815cab855491c02c5c5a013d6fcb2ca75",
     "payload/documents/active/gt-svn-etf-341-2026-11-03-9e861d20.md": "b6ae7bfe5b9aa0b1ae1a101e296335bfc74efbf7f79357c0047a58c0cf455a74",
@@ -98,6 +98,7 @@
     "payload/documents/active/sys-table-sync-cfg-sql-r78465-sql-eced3297.md": "535c270b661fbc99a5d50e8d24dd3d5518abfdf7b55ecae5886f598f98c2d316",
     "payload/documents/active/lsz-git-git-lfs-172-16-0-11-3128-github-2026-11--a3bf6283.md": "29ce077b14b7e34d317e877698057b3961f0769a83c6f0c381d7e201a30c4e89",
     "payload/documents/active/800006-branch-id-gw-api-2026-11-26-1d7d0b1e.md": "f22915c184b0eb072e5d1e93841dbc6d5d723375fd9d2c8db79dac4455214b37",
+    "payload/documents/active/gw-api-no-boost-svn-boost-std-api-inner-out-2026-17da2e49.md": "66409763bb46325fe166fcb50200f328d1e81066729df3dc0dfaac288347007b",
     "payload/data/.dsh-memory-bodies.json": "dc6020b75bab2ed6109193aea9c3427c22d9d2b6edd223c4c8c6cd87ad0c67dd"
   }
 }

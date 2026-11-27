@@ -1976,7 +1976,7 @@
       ],
       "createdAt": "2026-11-13T08:55:46.617Z",
       "updatedAt": "2026-11-13T08:55:46.617Z",
-      "lastAccessedAt": "2026-11-23T10:47:51.143Z",
+      "lastAccessedAt": "2026-11-27T06:31:56.281Z",
       "revision": 1,
       "contentHash": "6e829a51cc64c26c3b3caa6ad1e647bbe455fd785719831bc73388b82ef874c2",
       "sizeBytes": 8627,
@@ -2201,7 +2201,7 @@
       ],
       "createdAt": "2026-11-20T04:26:55.933Z",
       "updatedAt": "2026-11-20T04:26:55.933Z",
-      "lastAccessedAt": "2026-11-26T12:12:53.812Z",
+      "lastAccessedAt": "2026-11-27T06:31:56.281Z",
       "revision": 1,
       "contentHash": "763f5c4cd3bc2ff68d20e3d0f713e68787d337f158f1d64f3d2e07a4affbc804",
       "sizeBytes": 8760,
@@ -2253,7 +2253,7 @@
       ],
       "createdAt": "2026-11-20T05:54:19.278Z",
       "updatedAt": "2026-11-20T05:54:19.278Z",
-      "lastAccessedAt": "2026-11-24T03:06:13.183Z",
+      "lastAccessedAt": "2026-11-27T06:31:56.281Z",
       "revision": 1,
       "contentHash": "5f5d6cd105c3abdb0d271723e40fe0acb175a89c05b0bc46977e2b5601586d16",
       "sizeBytes": 7107,
@@ -2331,7 +2331,7 @@
       ],
       "createdAt": "2026-11-24T02:36:20.646Z",
       "updatedAt": "2026-11-24T02:36:20.646Z",
-      "lastAccessedAt": "2026-11-26T12:12:53.812Z",
+      "lastAccessedAt": "2026-11-27T06:31:56.281Z",
       "revision": 1,
       "contentHash": "f7347b296bcb3bfc06515451b1ddfa8f95a33a2746e853dd8f342f3ff8198c40",
       "sizeBytes": 5301,
@@ -2426,6 +2426,32 @@
       "revision": 1,
       "contentHash": "7298d9572dc2ec1a0e85f4a8a79472d31af627f52059087a08e491a82ef98236",
       "sizeBytes": 6405,
+      "memoryBodyIds": []
+    },
+    {
+      "id": "17da2e49-f417-4ac9-bd8f-c6c058eaf828",
+      "title": "gw_api_no_boost 三处 SVN 未提交改动的成因盘点：boost→std 智能指针迁移、生成器不同步隐患、API_INNER_OUT 性能探针（2026-11-27）",
+      "description": "gt_trunk 下 DYS-FRAMEWORK/api/gw_api_no_boost/api/src 三个 SVN 状态 M 文件（agw_event.cpp、agw_client_impl_auto_gen.cpp、ute_client_handler_impl.cpp）的改动点与原因：ExternalMessagePtr 为 std::shared_ptr 导致的 boost→std 替换、dump_agw_event.py 未同步会回退 178 处、SendMessage 三段打点探针，以及 branch_id 修复被回退的口径。",
+      "status": "active",
+      "filename": "gw-api-no-boost-svn-boost-std-api-inner-out-2026-17da2e49.md",
+      "relativePath": "documents/active/gw-api-no-boost-svn-boost-std-api-inner-out-2026-17da2e49.md",
+      "sourcePaths": [
+        "DYS-FRAMEWORK/api/gw_api_no_boost/api/src/agw_event.cpp",
+        "DYS-FRAMEWORK/api/gw_api_no_boost/api/src/agw_client_impl_auto_gen.cpp",
+        "DYS-FRAMEWORK/api/gw_api_no_boost/api/src/ute_client_handler_impl.cpp",
+        "DYS-FRAMEWORK/api/gw_api_no_boost/api/include/agw/types.h",
+        "DYS-FRAMEWORK/api/python/dump_agw_event.py",
+        "DYS-FRAMEWORK/api/python/dump_agw_client_file.py"
+      ],
+      "sessionIds": [
+        "02e547f5-5504-47e6-ac18-7927aef76faa"
+      ],
+      "createdAt": "2026-11-27T06:32:45.414Z",
+      "updatedAt": "2026-11-27T06:32:45.414Z",
+      "lastAccessedAt": "2026-11-27T06:32:45.414Z",
+      "revision": 1,
+      "contentHash": "715d4e4413aad15a039daac863209e357da73c8f9280d7b87355ff8c3241c634",
+      "sizeBytes": 6680,
       "memoryBodyIds": []
     }
   ]
