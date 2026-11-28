@@ -1,10 +1,10 @@
+grc_trunk 强化规则（用户 2026-11-05 要求，权威条款在 task/task_rule.md 第 3 章）：所有产出（代码/SQL/测试代码/文档）须多轮全量复查，直到某轮零修改；判据为六项（逻辑正确性、边界与异常、命名一致性、格式与结构、引用与路径、架构一致性）；每轮按分类核查清单过一遍；工作日志必须写"复查记录"（轮次|对象|发现|改动|是否零修改），无记录视为未复查；连续 3 轮仍有修改则停止细节打磨、回阶段 2 规划重审方案。
+§
 工作规范（用户 2026-11-05 强化）：所有产出（代码文件、SQL 脚本、测试代码、文档等）均须多轮复查——每轮审查该轮涉及内容并查漏补缺，直到某轮结束时零修改；只要某轮发现并修改了一处内容，就再开一轮全面审查。复查≠验证：验证答「能不能跑」，复查答「对不对、全不全」。
 §
 提交规范（用户 2026-11-05）：把本目录(gt_trunk)提交到远程 git 时，兄弟目录 gt_svn、gt_sit 的内容也要一并提交并同步到远程。三者是同一远程 server_5 的不同分支：gt_trunk=trunk、gt_svn=svn_remote、gt_sit=svn_sit；每次提交后三者都应为 0 0（与上游同步）。
 §
 同步规范（用户 2026-11-05）：与远程仓库同步时，也要三个目录按顺序从远程 git 拉取——gt_trunk(trunk) → gt_svn(svn_remote) → gt_sit(svn_sit)，逐个 fetch+rebase（或 ff-only）并核对 0 0。与「提交三仓」规则配对，构成双向同步纪律。
-§
-grc_trunk 强化规则（用户 2026-11-05 要求，权威条款在 task/task_rule.md 第 3 章）：所有产出（代码/SQL/测试代码/文档）须多轮全量复查，直到某轮零修改；判据为六项（逻辑正确性、边界与异常、命名一致性、格式与结构、引用与路径、架构一致性）；每轮按分类核查清单过一遍；工作日志必须写"复查记录"（轮次|对象|发现|改动|是否零修改），无记录视为未复查；连续 3 轮仍有修改则停止细节打磨、回阶段 2 规划重审方案。
 §
 DSE/DomainServer 工作环境铁律（用户 2026-11-06）：所有组件（dse、domain_server、FTE 等）的编译、部署、运行、测试都必须在 docker 容器 otc 内进行；domain_server 是 AMI 预编译二进制，不需要编译，只需从 work_lib/AMI/bin 部署到统一运行目录。
 §
@@ -31,3 +31,5 @@ DYS-FRAMEWORK 的 fte/fte/include/share_communication/share_comm_external_messag
 git-lfs 的代理坑（2026-11-26 在 gt_trunk 实测）：git-lfs **不读** `~/.ssh/config`，它自己发 HTTPS 到 lfs.githubusercontent 的 `https://lfs.github.com/<owner>/<repo>/locks/verify`（push 时必调，因 lfs.locksverify 默认 true），因此必须配 HTTP 代理。`~/.gitconfig` 全局 `http.proxy` 会被 git-lfs 继承（实测：清空所有 *_PROXY 环境变量后仍连通）。真正的元凶是环境变量 `HTTP_PROXY=http://127.16.0.11:3128`（把 172 误打成 127，`127.16.0.11` 是回环段 → connection refused）；`HTTPS_PROXY` 是对的。已执行 `git config --global http.proxy http://172.16.0.11:3128`（原 ~/.gitconfig 备份为 .gitconfig.bak.20261126），此后环境变量对错都不影响 git/lfs。备选兜底：`git config --global lfs.locksverify false`（本机全部仓库 lfs 跟踪文件数=0，关闭无副作用）；或 `git lfs install --skip` 不装 lfs filter。代理环境变量不在 ~/.bashrc/.profile 中，是 IDE/桌面会话注入的。
 §
 gt_trunk 体系门禁（2026-11-27 落地，仅主仓；gt_svn/gt_sit 无 study/ 不同步 KB）：pre-commit 四道 = check_doc_placement / check_doc_guide / auto_review_gate / check_doc_refs（仅提示）；cron */20 1-6 跑 auto_review_daemon.sh --once 写 pending。一键 `bash task/review/install_gates_linux.sh --with-cron`，逃生 `SKIP_GATES=1 git commit` 或 `--no-verify`。工作日志标题必须用 `## 任务：`，否则 review_prepare.sh 抓取静默为 0（11-25 全丢、11-26 丢 3/4 实例）。
+§
+四台测试机免密登录（2026-11-28 落地）：本机公钥 `~/.ssh/id_ed25519.pub`（备注 lsz-dev-20261128）已加入 **49(10.189.111.49)/121(10.189.65.121)/122(10.189.65.122)/42(10.189.111.42)** 的 root，统一 `ssh -p 2201 root@<ip>` 免密；authorized_keys 必须 600、.ssh 700、属主 root（StrictModes 过宽会静默拒绝）。42 原本 22 只对同网段开放、2201 缺 firewalld 端口，已 `--permanent --add-port=2201/tcp` 打通；本机到 42 仍只能用 2201。教训：`firewall-cmd --reload` 会用 permanent 覆盖 runtime，42 上 38140/38141/39143/39144 四个 runtime-only 端口曾被清掉（已补），reload 前先 diff permanent 与 runtime。
